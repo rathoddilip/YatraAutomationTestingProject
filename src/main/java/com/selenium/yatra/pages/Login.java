@@ -6,25 +6,30 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import java.awt.*;
+import java.awt.event.InputEvent;
 
 public class Login extends BaseClass {
-
+    Robot robot = new Robot();
     @FindBy(xpath = "//a[text()='My Account']")
     WebElement myAccountDropDownToggle;
-    @FindBy(xpath = "//a[@class='fl log-in pgLogIn logIn']")
+
+    @FindBy(id = "signInBtn")
     WebElement signInBtn;
-    @FindBy(xpath = "//input[@id='login-input']")
-    WebElement emailId;
+
     @FindBy(xpath = "//input[@class='yt-sme-mobile-input required_field email-login-box']")
-    WebElement enterEmailId;
+    WebElement emailId;
+
     @FindBy(xpath = "//button[@id='login-continue-btn']")
     WebElement continueButton;
+
     @FindBy(xpath = "//input[@id='login-password']")
     WebElement password;
+
     @FindBy(xpath = "//button[@class='main-btn']")
     WebElement loginButton;
 
-    public Login(WebDriver driver) {
+    public Login(WebDriver driver) throws AWTException {
         PageFactory.initElements(driver, this);
     }
 
@@ -33,31 +38,43 @@ public class Login extends BaseClass {
         Actions actions = new Actions(driver);
         //Hovering on my account menu
         actions.moveToElement(myAccountDropDownToggle);
-        //Thread.sleep(300);
+        Thread.sleep(300);
         //To mouseover on sub signin button menu and click
-        actions.moveToElement(signInBtn).click().perform();
+        actions.moveToElement(signInBtn).build().perform();
+        signInBtn.click();
         Thread.sleep(400);
     }
 
-    public void enterEmaiIid(String username) throws InterruptedException {
-        Thread.sleep(400);
-        enterEmailId.sendKeys(username);
-        Thread.sleep(400);
+    public void setEmailId(String username) throws InterruptedException {
+        Thread.sleep(300);
+        emailId.sendKeys(username);
+        Thread.sleep(300);
     }
 
-    public void setContinueButton() throws InterruptedException {
+    public void continueButton() throws InterruptedException {
         continueButton.click();
         Thread.sleep(400);
     }
 
-    public void enterPassword(String passwd) throws InterruptedException {
+    public void password(String passwd) throws InterruptedException {
         Thread.sleep(300);
         password.sendKeys(passwd);
         Thread.sleep(400);
     }
 
-    public void clickLogin() throws InterruptedException {
+    public void loginButton() throws InterruptedException {
         Thread.sleep(400);
         loginButton.click();
+    }
+
+    public void menuBarHotelsIcon() throws InterruptedException {
+        // move mouse point to specific location
+        robot.mouseMove(570, 281);
+        robot.delay(300);
+        // press left click
+        robot.mousePress(InputEvent.BUTTON1_DOWN_MASK);
+        robot.delay(200);
+        robot.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
+        Thread.sleep(300);
     }
 }

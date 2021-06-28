@@ -3,48 +3,45 @@ package com.selenium.yatra.test;
 import com.selenium.yatra.base.BaseClass;
 import com.selenium.yatra.pages.Login;
 import org.testng.annotations.Test;
+import java.awt.*;
 
 public class LoginTest extends BaseClass {
 
+    @Test
+    public void signInTest() throws InterruptedException, AWTException {
+        Login login = new Login(driver);
+        login.signInUser();
+    }
 
     @Test
-    public void setSignInTest() throws InterruptedException {
-        Login login=new Login(driver);
+    public void emailTest() throws InterruptedException, AWTException {
+        Login login = new Login(driver);
         login.signInUser();
-//        login.enterEmaiIid("diliprathod32@gmail.com");
-//        login.setContinueButton();
-//        login.enterPassword("Login@123");
-//        login.clickLogin();
+        login.setEmailId(email);
+        login.continueButton();
+    }
 
-    }
     @Test
-    public void enterEmailTest() throws InterruptedException {
-        Login login=new Login(driver);
+    public void passwordTest() throws InterruptedException, AWTException {
+        Login login = new Login(driver);
         login.signInUser();
-        login.enterEmaiIid("diliprathod32@gmail.com");
+        login.setEmailId(email);
+        login.continueButton();
+        login.password(password);
     }
+
     @Test
-    public void clickContinueTest() throws InterruptedException {
-        Login login=new Login(driver);
+    public void loginTest() throws InterruptedException, AWTException {
+        Login login = new Login(driver);
         login.signInUser();
-        login.enterEmaiIid("diliprathod32@gmail.com");
-        login.setContinueButton();
+        login.setEmailId(email);
+        login.continueButton();
+        login.password(password);
+        login.loginButton();
     }
-    @Test
-    public void enterPasswordTest() throws InterruptedException {
-        Login login=new Login(driver);
-        login.signInUser();
-        login.enterEmaiIid("diliprathod32@gmail.com");
-        login.setContinueButton();
-        login.enterPassword("Login@123");
-    }
-    @Test
-    public void loginTest() throws InterruptedException {
-        Login login=new Login(driver);
-        login.signInUser();
-        login.enterEmaiIid("diliprathod32@gmail.com");
-        login.setContinueButton();
-        login.enterPassword("Login@123");
-        login.clickLogin();
+    public void menuBarIcon() throws InterruptedException, AWTException {
+        loginTest();
+        Login login= new Login(driver);
+        login.menuBarHotelsIcon();
     }
 }

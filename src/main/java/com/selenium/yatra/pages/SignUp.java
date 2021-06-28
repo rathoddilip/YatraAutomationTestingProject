@@ -12,36 +12,42 @@ public class SignUp extends BaseClass {
 
     @FindBy(xpath = "//a[text()='My Account']")
     WebElement myAccountDropDownToggle;
+
     @FindBy(xpath = "//a[@id='SignUpBtn']")
     WebElement signUpBtn;
+
     @FindBy(xpath = "//input[@id='login-input']")
     WebElement userEmailId;
+
     @FindBy(xpath = "//button[@id='login-continue-btn']")
     WebElement continueButton;
+
     @FindBy(xpath = "//input[@id='signup-mobile-number']")
     WebElement mobileNumber;
+
     @FindBy(xpath = "//input[@id='signup-password']")
     WebElement signUpPassword;
+
     @FindBy(xpath = "//input[@id='signup-user-first-name']")
     WebElement firstName;
+
     @FindBy(xpath = "//input[@id='signup-user-last-name']")
     WebElement lastName;
+
     @FindBy(xpath = "//label[@for='specialPromoNotif']")
     WebElement offerCheckbox;
+
     @FindBy(xpath = "//label[@for='whatsAppNotif']")
     WebElement whatsAppNotifCheckbox;
+
     @FindBy(xpath = "//button[@id=\"signup-form-continue-btn\"]")
     WebElement createAccoutBtn;
+
     @FindBy(id = "signup-user-designation")
     WebElement dropDownTitle;
-    @FindBy(xpath = "//button[@id='verify-otp']")
-    WebElement submitButton;
 
-    //wait for maximum of 30 seconds until the elements specified by annotations is loaded
-    public int TimeoutValue = 30;
-
-    public SignUp(WebDriver localdriver) {
-        PageFactory.initElements(localdriver, this);
+    public SignUp(WebDriver driver) {
+        PageFactory.initElements(driver, this);
     }
 
     public void signUpUser() throws InterruptedException {
@@ -85,7 +91,7 @@ public class SignUp extends BaseClass {
         lastName.sendKeys(lastname);
     }
 
-    public void offerAndPromocheckkbox() {
+    public void offerAndPromocheckbox() {
         // This will Toggle the Check box
         offerCheckbox.click();
         // Check whether the Check box is toggled on
@@ -96,7 +102,7 @@ public class SignUp extends BaseClass {
         }
     }
 
-    public void whatsAppNotifCheckbox() {
+    public void whatsAppNotifyCheckbox() {
         // This will Toggle the Check box
         whatsAppNotifCheckbox.click();
         // Check whether the Check box is toggled on
@@ -107,7 +113,7 @@ public class SignUp extends BaseClass {
         }
     }
 
-    public void clickAccoutButton() throws InterruptedException {
+    public void clickAccountButton() throws InterruptedException {
         Thread.sleep(400);
         createAccoutBtn.click();
     }
