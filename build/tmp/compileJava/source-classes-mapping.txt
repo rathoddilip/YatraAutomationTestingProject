@@ -1,0 +1,6 @@
+com/selenium/yatra/pages/SignUp.java
+ com.selenium.yatra.pages.SignUp
+com/selenium/yatra/base/BaseClass.java
+ com.selenium.yatra.base.BaseClass
+com/selenium/yatra/pages/Login.java
+ com.selenium.yatra.pages.Login
