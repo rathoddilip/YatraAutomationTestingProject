@@ -4,10 +4,18 @@ package com.selenium.yatra.test;
 import com.selenium.yatra.base.BaseClass;
 import com.selenium.yatra.pages.SignUp;
 
+import com.selenium.yatra.pages.YatraIConRobotClass;
 import org.testng.annotations.Test;
+
+import java.awt.*;
 
 public class YatraTest extends BaseClass {
 
+    @Test
+    public void yatraIconRobotTest() throws AWTException {
+        YatraIConRobotClass yatraIConRobotClass= new YatraIConRobotClass();
+        yatraIConRobotClass.YatraIcon();
+    }
     @Test
     public void setSignUpTest() throws InterruptedException {
         SignUp signUp = new SignUp(driver);

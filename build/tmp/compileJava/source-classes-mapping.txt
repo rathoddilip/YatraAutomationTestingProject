@@ -4,3 +4,5 @@ com/selenium/yatra/base/BaseClass.java
  com.selenium.yatra.base.BaseClass
 com/selenium/yatra/pages/Login.java
  com.selenium.yatra.pages.Login
+com/selenium/yatra/pages/YatraIConRobotClass.java
+ com.selenium.yatra.pages.YatraIConRobotClass

@@ -1,2 +1,4 @@
+com/selenium/yatra/test/LoginTest.java
+ com.selenium.yatra.test.LoginTest
 com/selenium/yatra/test/YatraTest.java
  com.selenium.yatra.test.YatraTest

@@ -12,8 +12,6 @@ public class SignUp extends BaseClass {
 
     @FindBy(xpath = "//a[text()='My Account']")
     WebElement myAccountDropDownToggle;
-    @FindBy(xpath = "//*[text()='Support ']")
-    WebElement supportDropDownToggle;
     @FindBy(xpath = "//a[@id='SignUpBtn']")
     WebElement signUpBtn;
     @FindBy(xpath = "//input[@id='login-input']")
@@ -41,8 +39,9 @@ public class SignUp extends BaseClass {
 
     //wait for maximum of 30 seconds until the elements specified by annotations is loaded
     public int TimeoutValue = 30;
+
     public SignUp(WebDriver localdriver) {
-        PageFactory.initElements(localdriver,this);
+        PageFactory.initElements(localdriver, this);
     }
 
     public void signUpUser() throws InterruptedException {
@@ -101,12 +100,9 @@ public class SignUp extends BaseClass {
         // This will Toggle the Check box
         whatsAppNotifCheckbox.click();
         // Check whether the Check box is toggled on
-        if (whatsAppNotifCheckbox.isSelected())
-        {
+        if (whatsAppNotifCheckbox.isSelected()) {
             System.out.println("Checkbox is Toggled On");
-        }
-        else
-        {
+        } else {
             System.out.println("Checkbox is Toggled Off");
         }
     }

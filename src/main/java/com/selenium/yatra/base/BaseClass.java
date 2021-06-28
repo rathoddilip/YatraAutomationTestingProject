@@ -19,9 +19,9 @@ public class BaseClass {
         System.out.println("Current url: " + driver.getCurrentUrl());
     }
 
-    @AfterTest
-    public void closeBrowser() {
-        driver.close();
-        driver.quit();
-    }
+//    @AfterTest
+//    public void closeBrowser() {
+//        driver.close();
+//        driver.quit();
+//    }
 }
