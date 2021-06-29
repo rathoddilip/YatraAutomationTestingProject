@@ -7,10 +7,14 @@ import com.selenium.yatra.pages.Login;
 import com.selenium.yatra.pages.SignUp;
 import com.selenium.yatra.pages.UserDashboard;
 import com.selenium.yatra.utility.MenuBar;
+import com.selenium.yatra.utility.YatraCustomListner;
+import org.testng.Assert;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import java.awt.*;
 
+@Listeners(YatraCustomListner.class)
 public class YatraTest extends BaseClass {
 
     @Test
@@ -148,6 +152,11 @@ public class YatraTest extends BaseClass {
         login.continueButton();
         login.password(password);
         login.loginButton();
+        //Title validation after user login
+        System.out.println("Title:"+driver.getTitle());
+        String actualTitle=driver.getTitle();
+        String expectedTitle="Yatra Account";
+        Assert.assertEquals(actualTitle,expectedTitle);
     }
 
     @Test
