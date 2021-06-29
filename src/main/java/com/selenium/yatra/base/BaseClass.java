@@ -10,9 +10,9 @@ import org.testng.annotations.BeforeTest;
 public class BaseClass {
 
     public static WebDriver driver;
-    public String email = "abc@gmail.com";
-    public String password = "abc@123";
-    public String mobileNumber = "7923995045";
+    public static String email = "diliprathod32@gmail.com";
+    public static String password = "Login@123";
+    public static String mobileNumber = "7756994045";
 
     @BeforeTest
     public void setup() {
@@ -27,8 +27,8 @@ public class BaseClass {
         System.out.println("Current url: " + driver.getCurrentUrl());
     }
 
-    @AfterTest
-    public void closeBrowser() {
-        driver.quit();
-    }
+//    @AfterTest
+//    public void closeBrowser() {
+//        driver.quit();
+//    }
 }
