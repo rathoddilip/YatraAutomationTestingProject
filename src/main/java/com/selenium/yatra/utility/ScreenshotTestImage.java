@@ -16,6 +16,7 @@ public class ScreenshotTestImage extends BaseClass {
     String timeStamp = new SimpleDateFormat("yyyyMMdd_HHmmss").format(Calendar.getInstance().getTime());
 
     public void failed(String testMethodName) throws IOException {
+
         sourceFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
         try
         {

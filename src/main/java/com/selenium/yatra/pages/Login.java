@@ -10,6 +10,7 @@ import java.awt.*;
 import java.awt.event.InputEvent;
 
 public class Login extends BaseClass {
+
     Robot robot = new Robot();
     @FindBy(xpath = "//a[text()='My Account']")
     WebElement myAccountDropDownToggle;

@@ -2,9 +2,15 @@ package com.selenium.yatra.test;
 
 import com.selenium.yatra.base.BaseClass;
 import com.selenium.yatra.pages.Login;
+import com.selenium.yatra.utility.DataProviderClass;
+import com.selenium.yatra.utility.YatraCustomListner;
+import org.testng.Assert;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
+
 import java.awt.*;
 
+@Listeners(YatraCustomListner.class)
 public class LoginTest extends BaseClass {
 
     @Test
@@ -39,9 +45,26 @@ public class LoginTest extends BaseClass {
         login.password(password);
         login.loginButton();
     }
+
+    @Test
     public void menuBarIcon() throws InterruptedException, AWTException {
         loginTest();
-        Login login= new Login(driver);
+        Login login = new Login(driver);
         login.menuBarHotelsIcon();
     }
+
+    // To get data from data_provider and inherite
+    @Test(dataProvider = "testDataSet", dataProviderClass = DataProviderClass.class)
+    public void loginUsingDataProvider(String emailData, String passwordData) throws AWTException, InterruptedException {
+        Login login = new Login(driver);
+        login.signInUser();
+        login.setEmailId(emailData);
+        login.continueButton();
+        login.password(passwordData);
+        login.loginButton();
+        String expected="diliprathod32@gmail.com";
+        String actual=emailData;
+        Assert.assertEquals(actual,expected);
+    }
+
 }

@@ -7,12 +7,14 @@ import com.selenium.yatra.pages.Login;
 import com.selenium.yatra.pages.SignUp;
 import com.selenium.yatra.pages.UserDashboard;
 import com.selenium.yatra.utility.MenuBar;
+import com.selenium.yatra.utility.ReadExcelData;
 import com.selenium.yatra.utility.YatraCustomListner;
 import org.testng.Assert;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import java.awt.*;
+import java.io.IOException;
 
 @Listeners(YatraCustomListner.class)
 public class YatraTest extends BaseClass {
@@ -152,11 +154,11 @@ public class YatraTest extends BaseClass {
         login.continueButton();
         login.password(password);
         login.loginButton();
-        //Title validation after user login
-        System.out.println("Title:"+driver.getTitle());
-        String actualTitle=driver.getTitle();
-        String expectedTitle="Yatra Account";
-        Assert.assertEquals(actualTitle,expectedTitle);
+        //validation after user login
+        System.out.println("Title:" + driver.getTitle());
+        String actualTitle = driver.getTitle();
+        String expectedTitle = "Yatra Account";
+        Assert.assertEquals(actualTitle, expectedTitle);
     }
 
     @Test
@@ -168,7 +170,7 @@ public class YatraTest extends BaseClass {
 
     @Test
     public void menuBarIconTest() throws AWTException, InterruptedException {
-        MenuBar menuBar= new MenuBar();
+        MenuBar menuBar = new MenuBar();
         loginTest();
         menuBar.menuBarHotelIconClick();
     }
@@ -179,6 +181,17 @@ public class YatraTest extends BaseClass {
         loginTest();
         userDashboard.setOneWay();
         userDashboard.setDeparatureFrom("mumbai");
+    }
+
+    @Test
+    public void readDataSpreadSheet() throws IOException {
+        ReadExcelData readExcelData=new ReadExcelData();
+        readExcelData.readDataFromODS();
+    }
+    @Test
+    public void readDataWorkbook() throws IOException {
+        ReadExcelData readExcelData=new ReadExcelData();
+        readExcelData.readDataWorkbook();
     }
 }
 

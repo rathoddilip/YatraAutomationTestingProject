@@ -8,20 +8,24 @@ import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 
+import java.util.concurrent.TimeUnit;
+
 public class BaseClass {
 
     public static WebDriver driver;
-    public static String email = "diliprathod32@gmail.com";
-    public static String password = "Login@123";
-    public static String mobileNumber = "7756994045";
+    public static String email = "abc@gmail.com";
+    public static String password = "abc@123";
+    public static String mobileNumber = "92558655231";
 
     @BeforeTest
     public void setup() {
+
         //handle browser level show notification pop window
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--disable-notifications");
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver(options);
+        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         driver.get("https://www.yatra.com/");
         driver.manage().window().maximize();
         System.out.println("Title: " + driver.getTitle());
@@ -33,10 +37,11 @@ public class BaseClass {
         String actualUrl = driver.getCurrentUrl();
         String expectedUrl = "https://www.yatra.com/";
         Assert.assertEquals(actualUrl, expectedUrl);
+    }
 
-//    @AfterTest
-//    public void closeBrowser() {
-//        driver.quit();
-//    }
+    @AfterTest
+    public void closeBrowser() {
+        driver.quit();
     }
 }
+
