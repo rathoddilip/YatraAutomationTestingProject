@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.selenium.yatra.test.LoginTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2021-07-01T08:52:25" hostname="arjun-HP-Laptop-15-bs0xx" time="0.476">
+<testsuite name="com.selenium.yatra.test.LoginTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2021-07-01T09:18:35" hostname="arjun-HP-Laptop-15-bs0xx" time="0.485">
   <properties/>
-  <testcase name="readDataFromExcelTest" classname="com.selenium.yatra.test.LoginTest" time="0.476">
+  <testcase name="readDataFromExcelTest" classname="com.selenium.yatra.test.LoginTest" time="0.485">
     <failure message="java.lang.NullPointerException: Cannot invoke &quot;org.apache.poi.xssf.usermodel.XSSFCell.getStringCellValue()&quot; because &quot;com.selenium.yatra.utility.DataConfig.cell&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke &quot;org.apache.poi.xssf.usermodel.XSSFCell.getStringCellValue()&quot; because &quot;com.selenium.yatra.utility.DataConfig.cell&quot; is null
-	at com.selenium.yatra.utility.DataConfig.getCellData(DataConfig.java:37)
-	at com.selenium.yatra.utility.ReadExcelData.getUserNameData(ReadExcelData.java:27)
+	at com.selenium.yatra.utility.DataConfig.getCellData(DataConfig.java:36)
+	at com.selenium.yatra.utility.ReadExcelData.getUserNameData(ReadExcelData.java:19)
 	at com.selenium.yatra.test.LoginTest.readDataFromExcelTest(LoginTest.java:76)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
@@ -61,7 +61,7 @@
 	at java.base/java.lang.Thread.run(Thread.java:831)
 </failure>
   </testcase>
-  <system-out><![CDATA[files: java.io.FileInputStream@36dfcd8e
+  <system-out><![CDATA[files: java.io.FileInputStream@74cf192e
 Sheet Name: LoginCredentials
 FirstRow: 0LastRow: 10
 RowCount:10
@@ -72,18 +72,18 @@ Cell Data: Login@123
 RowCount:10
 RowCount:10
 getRowCount: 10
-Cell Data: sandip@gmail.com
-Cell Data: Abc@123
+Cell Data: 
+Cell Data: 
 RowCount:10
 RowCount:10
 getRowCount: 10
-Cell Data: ranjit@gmail.com
-Cell Data: Abc@123
+Cell Data: 
+Cell Data: 
 RowCount:10
 RowCount:10
 getRowCount: 10
-Cell Data: ganesh@gmail.com
-Cell Data: abc@123
+Cell Data: 
+Cell Data: 
 RowCount:10
 RowCount:10
 getRowCount: 10

@@ -66,14 +66,15 @@ public class LoginTest extends BaseClass {
         login.password(passwordData);
         login.loginButton();
         String expected="diliprathod32@gmail.com";
-        String actual=emailData;
-        Assert.assertEquals(actual,expected);
+        String actualResult=emailData;
+        Assert.assertEquals(actualResult,expected);
     }
 
     @Test
-    public void readDataFromExcelTest() throws InterruptedException, AWTException, IOException {
+    public void readDataFromExcelTest() throws IOException {
         ReadExcelData readExcelData= new ReadExcelData() ;
-        readExcelData.getUserNameData();
+        String data =readExcelData.getUserNameData();
+        System.out.println("returnStringInTESTClass: "+data);
 
 
 

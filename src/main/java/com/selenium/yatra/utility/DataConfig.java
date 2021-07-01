@@ -1,20 +1,18 @@
 package com.selenium.yatra.utility;
 
 import org.apache.poi.xssf.usermodel.XSSFCell;
-import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
-import javax.sql.rowset.serial.SerialStruct;
 import java.io.FileInputStream;
 import java.io.IOException;
 
 public class DataConfig {
     public static XSSFWorkbook workbook;
     public static XSSFSheet sheet;
-    public static XSSFRow row;
     public static XSSFCell cell;
     public static String filePath = "/home/arjun/Dilip/YatraApplicationAutomationProject/src/main/resources/YatraLoginCredentials.xlsx";
+
     //public static String sheetName="";
     public void setExcelFile(String filePath) throws IOException {
 
@@ -27,23 +25,20 @@ public class DataConfig {
         System.out.println("Sheet Name: " + sheetName);
         //creating a Sheet object
         sheet = workbook.getSheetAt(0);
-        System.out.println("FirstRow: "+sheet.getFirstRowNum()+"LastRow: "+sheet.getLastRowNum());
-
+        System.out.println("FirstRow: " + sheet.getFirstRowNum() + "LastRow: " + sheet.getLastRowNum());
     }
+
     public String getCellData(int rowNumber, int cellNumber) {
         //getting the cell value from rowNumber and cell Number
         cell = sheet.getRow(rowNumber).getCell(cellNumber);
-        System.out.println("Cell Data: "+cell);
-        String value=cell.getStringCellValue();
-        return value;
-
+        System.out.println("Cell Data: " + cell);
         //returning the cell value as string
-        //return cell.getStringCellValue();
+        return cell.getStringCellValue();
     }
 
     public int getRowCountInSheet() {
         int rowCount = sheet.getLastRowNum() - sheet.getFirstRowNum();
-        System.out.println("RowCount:"+rowCount);
+        System.out.println("RowCount:" + rowCount);
         return rowCount;
     }
 }
