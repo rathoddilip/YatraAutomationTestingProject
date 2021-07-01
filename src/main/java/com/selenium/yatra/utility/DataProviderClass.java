@@ -3,6 +3,7 @@ package com.selenium.yatra.utility;
 import com.selenium.yatra.base.BaseClass;
 import org.testng.annotations.DataProvider;
 
+import java.io.IOException;
 import java.lang.reflect.Method;
 
 public class DataProviderClass extends BaseClass {

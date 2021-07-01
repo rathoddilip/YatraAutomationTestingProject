@@ -11,9 +11,8 @@ public class DataConfig {
     public static XSSFWorkbook workbook;
     public static XSSFSheet sheet;
     public static XSSFCell cell;
-    public static String filePath = "/home/arjun/Dilip/YatraApplicationAutomationProject/src/main/resources/YatraLoginCredentials.xlsx";
+    public static String filePath = "/home/arjun/Dilip/YatraApplicationAutomationProject/src/main/resources/LoginCredentials.xlsx";
 
-    //public static String sheetName="";
     public void setExcelFile(String filePath) throws IOException {
 
         //Create an object of FileInputStream class to read excel file
@@ -27,16 +26,18 @@ public class DataConfig {
         sheet = workbook.getSheetAt(0);
         System.out.println("FirstRow: " + sheet.getFirstRowNum() + "LastRow: " + sheet.getLastRowNum());
     }
-
     public String getCellData(int rowNumber, int cellNumber) {
+
         //getting the cell value from rowNumber and cell Number
         cell = sheet.getRow(rowNumber).getCell(cellNumber);
         System.out.println("Cell Data: " + cell);
+        //return cell.getCellFormula();
         //returning the cell value as string
         return cell.getStringCellValue();
     }
 
     public int getRowCountInSheet() {
+
         int rowCount = sheet.getLastRowNum() - sheet.getFirstRowNum();
         System.out.println("RowCount:" + rowCount);
         return rowCount;

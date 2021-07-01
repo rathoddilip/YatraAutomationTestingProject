@@ -1,27 +1,33 @@
 package com.selenium.yatra.utility;
 
-import com.selenium.yatra.base.BaseClass;
-
 import java.io.IOException;
 
-public class ReadExcelData extends BaseClass {
+public class ReadExcelData {
 
-    static DataConfig dataConfig = new DataConfig();
-    static String excelPath = DataConfig.filePath;
+    public static DataConfig dataConfig = new DataConfig();
+    public static String excelPath = DataConfig.filePath;
 
+    public String getPasswordData() throws IOException {
+
+        dataConfig.setExcelFile(excelPath);
+        String password = "";
+        //iterate over all the row to print the data present in each cell.
+        for (int i = 1; i <= 1; i++) {
+            password = dataConfig.getCellData(i, 1);
+        }
+        return password;
+    }
 
     public String getUserNameData() throws IOException {
-        dataConfig.setExcelFile(excelPath);
-        String username = "";
-        //iterate over all the row to print the data present in each cell.
-        for (int i = 1; i <= dataConfig.getRowCountInSheet(); i++) {
-            System.out.println("getRowCount: " + dataConfig.getRowCountInSheet());
-            email = dataConfig.getCellData(i, 0);
-            password = dataConfig.getCellData(i, 1);
 
+        dataConfig.setExcelFile(excelPath);
+        String emailIdData = "";
+        //Object[][] data = new Object[1][1];
+        //iterate over all the row to print the data present in each cell
+        for (int i = 1; i <= 1; i++) {
+            emailIdData = dataConfig.getCellData(i, 0);
         }
-        System.out.println("Username:" + email);
-        return username;
+        return emailIdData;
     }
 }
 

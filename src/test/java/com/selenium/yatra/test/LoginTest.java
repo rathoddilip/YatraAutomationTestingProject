@@ -65,19 +65,24 @@ public class LoginTest extends BaseClass {
         login.continueButton();
         login.password(passwordData);
         login.loginButton();
-        String expected="diliprathod32@gmail.com";
-        String actualResult=emailData;
-        Assert.assertEquals(actualResult,expected);
+        String expected = "diliprathod32@gmail.com";
+        Assert.assertEquals(emailData, expected);
     }
 
     @Test
-    public void readDataFromExcelTest() throws IOException {
-        ReadExcelData readExcelData= new ReadExcelData() ;
-        String data =readExcelData.getUserNameData();
-        System.out.println("returnStringInTESTClass: "+data);
-
-
-
+    public void readDataFromExcelTest() throws IOException, InterruptedException, AWTException {
+        ReadExcelData readExcelData = new ReadExcelData();
+        String emailDataFromFile = readExcelData.getUserNameData();
+        String passwordDataFromFile = readExcelData.getPasswordData();
+        System.out.println("passwordDataFromFile: "+passwordDataFromFile);
+        Login login = new Login(driver);
+        login.signInUser();
+        login.setEmailId(emailDataFromFile);
+        login.continueButton();
+        login.password(passwordDataFromFile);
+        login.loginButton();
+        String expected = "diliprathod32@gmail.com";
+        Assert.assertEquals(emailDataFromFile, expected);
     }
 
 }
