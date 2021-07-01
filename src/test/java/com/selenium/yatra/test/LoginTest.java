@@ -7,6 +7,7 @@ import com.selenium.yatra.utility.ReadExcelData;
 import com.selenium.yatra.utility.YatraCustomListner;
 import org.testng.Assert;
 import org.testng.annotations.Listeners;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import java.awt.*;
@@ -50,7 +51,7 @@ public class LoginTest extends BaseClass {
     }
 
     @Test
-    public void menuBarIcon() throws InterruptedException, AWTException {
+    public void menuBarIconTest() throws InterruptedException, AWTException {
         loginTest();
         Login login = new Login(driver);
         login.menuBarHotelsIcon();
@@ -58,7 +59,7 @@ public class LoginTest extends BaseClass {
 
     // To get data from data_provider
     @Test(dataProvider = "testDataSet", dataProviderClass = DataProviderClass.class)
-    public void loginUsingDataProvider(String emailData, String passwordData) throws AWTException, InterruptedException {
+    public void loginUsingDataProviderTest(String emailData, String passwordData) throws AWTException, InterruptedException {
         Login login = new Login(driver);
         login.signInUser();
         login.setEmailId(emailData);
@@ -85,7 +86,7 @@ public class LoginTest extends BaseClass {
         Assert.assertEquals(emailDataFromFile, expected);
     }
     @Test(dataProvider = "testDataSetFromFile", dataProviderClass = DataProviderClass.class)
-    public void loginUsingDataProviderFromExcelFile(String emailData, String passwordData) throws AWTException, InterruptedException {
+    public void loginUsingDataProviderFromExcelFileTest(String emailData, String passwordData) throws AWTException, InterruptedException {
         Login login = new Login(driver);
         login.signInUser();
         login.setEmailId(emailData);
@@ -94,6 +95,17 @@ public class LoginTest extends BaseClass {
         login.loginButton();
         String expected = "diliprathod32@gmail.com";
         Assert.assertEquals(emailData, expected);
+    }
+    @Test
+    @Parameters({"diliprathod32@gmail.com","Login@123"})
+    public void loginToYatraByParamaterTest() throws InterruptedException, AWTException {
+        Login login = new Login(driver);
+        login.signInUser();
+        login.setEmailId(email);
+        login.continueButton();
+        login.password(password);
+        login.loginButton();
+        Assert.assertTrue(true);
     }
 
 }

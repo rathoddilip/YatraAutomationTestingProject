@@ -1,0 +1,9 @@
+<suite name="Cross Browser Testing">
+    <test name = "Test On Chrome">
+        <parameter name = "username" value = "diliprathod32@gmail.com" />
+        <parameter name = "password" value = "Login@123" />
+        <classes>
+            <class name="com.selenium.yatra.test.LoginTest"/>
+        </classes>
+    </test> <!-- Test On Chrome -->
+</suite> <!-- Cross Browser Testing -->
