@@ -12,11 +12,11 @@ com/selenium/yatra/pages/UserDashboard.java
  com.selenium.yatra.pages.UserDashboard
 com/selenium/yatra/base/BaseClass.java
  com.selenium.yatra.base.BaseClass
-com/selenium/yatra/utility/DataProviderClass.java
- com.selenium.yatra.utility.DataProviderClass
 com/selenium/yatra/pages/Login.java
  com.selenium.yatra.pages.Login
 com/selenium/yatra/utility/DataConfig.java
  com.selenium.yatra.utility.DataConfig
 com/selenium/yatra/utility/ReadExcelData.java
  com.selenium.yatra.utility.ReadExcelData
+com/selenium/yatra/utility/DataProviderClass.java
+ com.selenium.yatra.utility.DataProviderClass

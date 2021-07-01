@@ -24,14 +24,12 @@ public class DataConfig {
         System.out.println("Sheet Name: " + sheetName);
         //creating a Sheet object
         sheet = workbook.getSheetAt(0);
-        System.out.println("FirstRow: " + sheet.getFirstRowNum() + "LastRow: " + sheet.getLastRowNum());
     }
     public String getCellData(int rowNumber, int cellNumber) {
 
         //getting the cell value from rowNumber and cell Number
         cell = sheet.getRow(rowNumber).getCell(cellNumber);
         System.out.println("Cell Data: " + cell);
-        //return cell.getCellFormula();
         //returning the cell value as string
         return cell.getStringCellValue();
     }

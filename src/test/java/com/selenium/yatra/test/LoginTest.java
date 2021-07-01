@@ -84,5 +84,16 @@ public class LoginTest extends BaseClass {
         String expected = "diliprathod32@gmail.com";
         Assert.assertEquals(emailDataFromFile, expected);
     }
+    @Test(dataProvider = "testDataSetFromFile", dataProviderClass = DataProviderClass.class)
+    public void loginUsingDataProviderFromExcelFile(String emailData, String passwordData) throws AWTException, InterruptedException {
+        Login login = new Login(driver);
+        login.signInUser();
+        login.setEmailId(emailData);
+        login.continueButton();
+        login.password(passwordData);
+        login.loginButton();
+        String expected = "diliprathod32@gmail.com";
+        Assert.assertEquals(emailData, expected);
+    }
 
 }
