@@ -13,9 +13,9 @@ import java.util.concurrent.TimeUnit;
 public class BaseClass {
 
     public static WebDriver driver;
-    public static String email = "abc@gmail.com";
-    public static String password = "abc@123";
-    public static String mobileNumber = "92558655231";
+    public static String email = "diliprathod32@gmail.com";
+    public static String password = "Login@123";
+    public static String mobileNumber = "7756994045";
 
     @BeforeTest
     public void setup() {

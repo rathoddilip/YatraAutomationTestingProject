@@ -186,12 +186,7 @@ public class YatraTest extends BaseClass {
     @Test
     public void readDataSpreadSheet() throws IOException {
         ReadExcelData readExcelData=new ReadExcelData();
-        readExcelData.readDataFromODS();
-    }
-    @Test
-    public void readDataWorkbook() throws IOException {
-        ReadExcelData readExcelData=new ReadExcelData();
-        readExcelData.readDataWorkbook();
+
     }
 }
 

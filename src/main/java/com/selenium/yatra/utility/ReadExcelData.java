@@ -1,7 +1,8 @@
 package com.selenium.yatra.utility;
 
-import com.github.miachm.sods.Sheet;
-import com.github.miachm.sods.SpreadSheet;
+import com.selenium.yatra.base.BaseClass;
+import org.apache.poi.xssf.usermodel.XSSFCell;
+import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
@@ -9,27 +10,26 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 
-public class ReadExcelData {
+public class ReadExcelData extends BaseClass {
+    public static XSSFWorkbook workbook;
+    public static XSSFSheet sheet;
 
-    public void readDataFromODS() throws IOException {
+    static DataConfig dataConfig= new DataConfig();
+    static String excelPath=DataConfig.filePath;
 
-        File sourceFile = new File("/home/arjun/Dilip/YatraApplicationAutomationProject/src/main/resources/YatraLoginCredentials.ods");
-        FileInputStream fileInputStream = new FileInputStream(sourceFile);
-        SpreadSheet spreadSheet = new SpreadSheet(fileInputStream);
-        Sheet sheet=spreadSheet.getSheet(0);
-        System.out.println(sheet);
-        System.out.println("SheetName: "+sheet.getName());
-        System.out.println("number of sheet: " + spreadSheet.getNumSheets() + spreadSheet.getSheet(0));
-        System.out.println("SpreadSheet:"+spreadSheet);
-    }
-    public  void readDataWorkbook() throws IOException {
 
-        File sourceFile= new File("/home/arjun/Dilip/YatraApplicationAutomationProject/src/main/resources/YatraLoginCredentials.ods");
-        FileInputStream fileInputStream= new FileInputStream(sourceFile);
-        XSSFWorkbook workbook=new XSSFWorkbook(fileInputStream);
-        XSSFSheet sheet=workbook.getSheetAt(0);
-        System.out.println("Sheet:"+sheet);
+    public String getUserNameData() throws IOException {
+        dataConfig.setExcelFile(excelPath);
+        String username = "";
+        //iterate over all the row to print the data present in each cell.
+        for (int i = 1; i <=dataConfig.getRowCountInSheet(); i++) {
+            System.out.println("getRowCount: "+dataConfig.getRowCountInSheet());
+            email = dataConfig.getCellData(i, 0);
+            password=dataConfig.getCellData(i,1);
 
+        }
+        System.out.println("Username:" + email);
+        return username;
     }
 }
 

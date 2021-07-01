@@ -63,9 +63,11 @@ public class Login extends BaseClass {
         Thread.sleep(400);
     }
 
-    public void loginButton() throws InterruptedException {
+    public boolean loginButton() throws InterruptedException {
         Thread.sleep(400);
         loginButton.click();
+        return true;
+
     }
 
     public void menuBarHotelsIcon() throws InterruptedException {

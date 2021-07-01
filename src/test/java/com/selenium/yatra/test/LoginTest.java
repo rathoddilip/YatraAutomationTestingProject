@@ -3,12 +3,14 @@ package com.selenium.yatra.test;
 import com.selenium.yatra.base.BaseClass;
 import com.selenium.yatra.pages.Login;
 import com.selenium.yatra.utility.DataProviderClass;
+import com.selenium.yatra.utility.ReadExcelData;
 import com.selenium.yatra.utility.YatraCustomListner;
 import org.testng.Assert;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import java.awt.*;
+import java.io.IOException;
 
 @Listeners(YatraCustomListner.class)
 public class LoginTest extends BaseClass {
@@ -44,6 +46,7 @@ public class LoginTest extends BaseClass {
         login.continueButton();
         login.password(password);
         login.loginButton();
+        Assert.assertTrue(true);
     }
 
     @Test
@@ -53,7 +56,7 @@ public class LoginTest extends BaseClass {
         login.menuBarHotelsIcon();
     }
 
-    // To get data from data_provider and inherite
+    // To get data from data_provider
     @Test(dataProvider = "testDataSet", dataProviderClass = DataProviderClass.class)
     public void loginUsingDataProvider(String emailData, String passwordData) throws AWTException, InterruptedException {
         Login login = new Login(driver);
@@ -65,6 +68,15 @@ public class LoginTest extends BaseClass {
         String expected="diliprathod32@gmail.com";
         String actual=emailData;
         Assert.assertEquals(actual,expected);
+    }
+
+    @Test
+    public void readDataFromExcelTest() throws InterruptedException, AWTException, IOException {
+        ReadExcelData readExcelData= new ReadExcelData() ;
+        readExcelData.getUserNameData();
+
+
+
     }
 
 }
