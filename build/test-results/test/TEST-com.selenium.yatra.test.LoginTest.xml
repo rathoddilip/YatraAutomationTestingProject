@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.selenium.yatra.test.LoginTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-07-01T17:42:06" hostname="arjun-HP-Laptop-15-bs0xx" time="8.938">
+<testsuite name="com.selenium.yatra.test.LoginTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-07-02T03:30:38" hostname="arjun-HP-Laptop-15-bs0xx" time="10.789">
   <properties/>
-  <testcase name="loginUsingDataProvider[0](diliprathod32@gmail.com, Login@123)" classname="com.selenium.yatra.test.LoginTest" time="8.938"/>
+  <testcase name="menuBarIconTest" classname="com.selenium.yatra.test.LoginTest" time="10.789"/>
   <system-out><![CDATA[SUCCESS Test
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>

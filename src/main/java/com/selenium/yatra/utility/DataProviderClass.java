@@ -24,7 +24,7 @@ public class DataProviderClass extends BaseClass {
         dataConfig.setExcelFile(excelPath);
         String username;
         String password;
-        Object[][] eXcelData = new Object[1][2];
+        Object[][] eXcelData =null;
         //iterate over all the row to print the data present in each cell
         for (int i = 1; i <= 1; i++) {
 

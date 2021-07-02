@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestNG Parameters Suite" thread-count="2">
+    <test name="loginToYatraApplicationByParameterTest">
+        <parameter name="username" value="diliprathod32@gmail.com" />
+        <parameter name="password" value="Login@123" />
+        <classes>
+            <class name="com.selenium.yatra.test.ParameterAnnotationTest">
+            </class>
+        </classes>
+    </test>
+</suite>
+

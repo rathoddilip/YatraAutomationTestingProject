@@ -97,15 +97,14 @@ public class LoginTest extends BaseClass {
         Assert.assertEquals(emailData, expected);
     }
     @Test
-    @Parameters({"diliprathod32@gmail.com","Login@123"})
-    public void loginToYatraByParamaterTest(String username,String password) throws InterruptedException, AWTException {
+    @Parameters({"username1","password1"})
+    public void loginToYatraApplicationByParameterTest(String username1, String password1) throws InterruptedException, AWTException {
         Login login = new Login(driver);
         login.signInUser();
-        login.setEmailId(username);
+        login.setEmailId(username1);
         login.continueButton();
-        login.password(password);
+        login.password(password1);
         login.loginButton();
-        Assert.assertTrue(true);
     }
 
 }
