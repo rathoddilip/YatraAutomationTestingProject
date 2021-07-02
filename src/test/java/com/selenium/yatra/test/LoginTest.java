@@ -98,10 +98,10 @@ public class LoginTest extends BaseClass {
     }
     @Test
     @Parameters({"diliprathod32@gmail.com","Login@123"})
-    public void loginToYatraByParamaterTest() throws InterruptedException, AWTException {
+    public void loginToYatraByParamaterTest(String username,String password) throws InterruptedException, AWTException {
         Login login = new Login(driver);
         login.signInUser();
-        login.setEmailId(email);
+        login.setEmailId(username);
         login.continueButton();
         login.password(password);
         login.loginButton();
