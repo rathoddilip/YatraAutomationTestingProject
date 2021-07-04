@@ -6,17 +6,19 @@ com/selenium/yatra/utility/YatraCustomListner.java
  com.selenium.yatra.utility.YatraCustomListner
 com/selenium/yatra/utility/ScreenshotTestImage.java
  com.selenium.yatra.utility.ScreenshotTestImage
-com/selenium/yatra/utility/MenuBar.java
- com.selenium.yatra.utility.MenuBar
 com/selenium/yatra/pages/UserDashboard.java
  com.selenium.yatra.pages.UserDashboard
 com/selenium/yatra/base/BaseClass.java
  com.selenium.yatra.base.BaseClass
-com/selenium/yatra/pages/Login.java
- com.selenium.yatra.pages.Login
-com/selenium/yatra/utility/DataConfig.java
- com.selenium.yatra.utility.DataConfig
-com/selenium/yatra/utility/ReadExcelData.java
- com.selenium.yatra.utility.ReadExcelData
+com/selenium/yatra/utility/MenuBarIcon.java
+ com.selenium.yatra.utility.MenuBarIcon
 com/selenium/yatra/utility/DataProviderClass.java
  com.selenium.yatra.utility.DataProviderClass
+com/selenium/yatra/base/CrossBrowserClass.java
+ com.selenium.yatra.base.CrossBrowserClass
+com/selenium/yatra/pages/Login.java
+ com.selenium.yatra.pages.Login
+com/selenium/yatra/utility/ExcelUtils.java
+ com.selenium.yatra.utility.ExcelUtils
+com/selenium/yatra/utility/ExcelDataProvider.java
+ com.selenium.yatra.utility.ExcelDataProvider

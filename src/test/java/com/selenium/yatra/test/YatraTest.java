@@ -6,15 +6,13 @@ import com.selenium.yatra.pages.LogOut;
 import com.selenium.yatra.pages.Login;
 import com.selenium.yatra.pages.SignUp;
 import com.selenium.yatra.pages.UserDashboard;
-import com.selenium.yatra.utility.MenuBar;
-import com.selenium.yatra.utility.ReadExcelData;
+import com.selenium.yatra.utility.MenuBarIcon;
 import com.selenium.yatra.utility.YatraCustomListner;
 import org.testng.Assert;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import java.awt.*;
-import java.io.IOException;
 
 @Listeners(YatraCustomListner.class)
 public class YatraTest extends BaseClass {
@@ -166,13 +164,14 @@ public class YatraTest extends BaseClass {
         LogOut logout = new LogOut(driver);
         loginTest();
         logout.logoutUser();
+        Assert.assertTrue(true);
     }
 
     @Test
     public void menuBarIconTest() throws AWTException, InterruptedException {
-        MenuBar menuBar = new MenuBar();
+        MenuBarIcon menuBarIcon = new MenuBarIcon();
         loginTest();
-        menuBar.menuBarHotelIconClick();
+        menuBarIcon.menuBarHotelIconClick();
     }
 
     @Test
@@ -181,12 +180,6 @@ public class YatraTest extends BaseClass {
         loginTest();
         userDashboard.setOneWay();
         userDashboard.setDeparatureFrom("mumbai");
-    }
-
-    @Test
-    public void readDataSpreadSheet() throws IOException {
-        ReadExcelData readExcelData=new ReadExcelData();
-
     }
 }
 

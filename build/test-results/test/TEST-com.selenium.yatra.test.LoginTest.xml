@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.selenium.yatra.test.LoginTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-07-02T03:30:38" hostname="arjun-HP-Laptop-15-bs0xx" time="10.789">
+<testsuite name="com.selenium.yatra.test.LoginTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-07-04T10:50:42" hostname="arjun-HP-Laptop-15-bs0xx" time="31.934">
   <properties/>
-  <testcase name="menuBarIconTest" classname="com.selenium.yatra.test.LoginTest" time="10.789"/>
-  <system-out><![CDATA[SUCCESS Test
+  <testcase name="loginUsingDataProviderFromExcelFileTest[0](diliprathod32@gmail.com, Login@123)" classname="com.selenium.yatra.test.LoginTest" time="11.296"/>
+  <testcase name="loginUsingDataProviderFromExcelFileTest[1](diliprathod32@gmail.com, Login@123)" classname="com.selenium.yatra.test.LoginTest" time="9.405"/>
+  <testcase name="loginUsingDataProviderFromExcelFileTest[2](diliprathod32@gmail.com, Login@123)" classname="com.selenium.yatra.test.LoginTest" time="10.136"/>
+  <system-out><![CDATA[number of rows: 4
+number of column: 2
+SUCCESS Test
+SUCCESS Test
+SUCCESS Test
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

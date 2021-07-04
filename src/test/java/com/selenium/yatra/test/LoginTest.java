@@ -1,9 +1,10 @@
 package com.selenium.yatra.test;
 
 import com.selenium.yatra.base.BaseClass;
+import com.selenium.yatra.pages.LogOut;
 import com.selenium.yatra.pages.Login;
 import com.selenium.yatra.utility.DataProviderClass;
-import com.selenium.yatra.utility.ReadExcelData;
+import com.selenium.yatra.utility.MenuBarIcon;
 import com.selenium.yatra.utility.YatraCustomListner;
 import org.testng.Assert;
 import org.testng.annotations.Listeners;
@@ -11,7 +12,6 @@ import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import java.awt.*;
-import java.io.IOException;
 
 @Listeners(YatraCustomListner.class)
 public class LoginTest extends BaseClass {
@@ -53,8 +53,16 @@ public class LoginTest extends BaseClass {
     @Test
     public void menuBarIconTest() throws InterruptedException, AWTException {
         loginTest();
-        Login login = new Login(driver);
-        login.menuBarHotelsIcon();
+        MenuBarIcon menuBarIcon = new MenuBarIcon();
+        menuBarIcon.menuBarHotelIconClick();
+    }
+
+    @Test
+    public void logOut() throws InterruptedException, AWTException {
+        LogOut logout = new LogOut(driver);
+        loginTest();
+        logout.logoutUser();
+        Assert.assertTrue(true);
     }
 
     // To get data from data_provider
@@ -70,22 +78,8 @@ public class LoginTest extends BaseClass {
         Assert.assertEquals(emailData, expected);
     }
 
-    @Test
-    public void readDataFromExcelTest() throws IOException, InterruptedException, AWTException {
-        ReadExcelData readExcelData = new ReadExcelData();
-        String emailDataFromFile = readExcelData.getUserNameData();
-        String passwordDataFromFile = readExcelData.getPasswordData();
-        System.out.println("passwordDataFromFile: "+passwordDataFromFile);
-        Login login = new Login(driver);
-        login.signInUser();
-        login.setEmailId(emailDataFromFile);
-        login.continueButton();
-        login.password(passwordDataFromFile);
-        login.loginButton();
-        String expected = "diliprathod32@gmail.com";
-        Assert.assertEquals(emailDataFromFile, expected);
-    }
-    @Test(dataProvider = "testDataSetFromFile", dataProviderClass = DataProviderClass.class)
+    // Here we are calling the Data Provider object with its Name
+    @Test(dataProvider = "testDataSetFromExcelFile", dataProviderClass = DataProviderClass.class)
     public void loginUsingDataProviderFromExcelFileTest(String emailData, String passwordData) throws AWTException, InterruptedException {
         Login login = new Login(driver);
         login.signInUser();
@@ -93,17 +87,20 @@ public class LoginTest extends BaseClass {
         login.continueButton();
         login.password(passwordData);
         login.loginButton();
+        LogOut logOut = new LogOut(driver);
+        logOut.logoutUser();
         String expected = "diliprathod32@gmail.com";
         Assert.assertEquals(emailData, expected);
     }
+
     @Test
-    @Parameters({"username1","password1"})
-    public void loginToYatraApplicationByParameterTest(String username1, String password1) throws InterruptedException, AWTException {
+    @Parameters({"username", "password"})
+    public void loginToApplicationByParameterTest(String username, String password) throws InterruptedException, AWTException {
         Login login = new Login(driver);
         login.signInUser();
-        login.setEmailId(username1);
+        login.setEmailId(username);
         login.continueButton();
-        login.password(password1);
+        login.password(password);
         login.loginButton();
     }
 

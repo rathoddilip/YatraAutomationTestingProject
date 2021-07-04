@@ -8,8 +8,6 @@ import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 
-import java.util.concurrent.TimeUnit;
-
 public class BaseClass {
 
     public static WebDriver driver;
@@ -17,15 +15,15 @@ public class BaseClass {
     public static String password = "Login@123";
     public static String mobileNumber = "7756994045";
 
+
     @BeforeTest
-    public void setup() {
+    public void setUp() {
 
         //handle browser level show notification pop window
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--disable-notifications");
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver(options);
-        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         driver.get("https://www.yatra.com/");
         driver.manage().window().maximize();
         System.out.println("Title: " + driver.getTitle());

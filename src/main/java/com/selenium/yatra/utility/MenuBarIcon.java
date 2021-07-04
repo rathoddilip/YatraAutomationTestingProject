@@ -1,23 +1,19 @@
 package com.selenium.yatra.utility;
 
-import com.selenium.yatra.base.BaseClass;
-
 import java.awt.*;
 import java.awt.event.InputEvent;
 
-public class MenuBar extends BaseClass {
-    Robot robot = new Robot();
+public class MenuBarIcon {
 
-    public MenuBar() throws AWTException {
-    }
-
-    public void menuBarHotelIconClick() {
+    public void menuBarHotelIconClick() throws AWTException, InterruptedException {
+        Robot robot = new Robot();
         // move mouse point to specific location
-        robot.mouseMove(560, 33);
+        robot.mouseMove(817, 40);
         robot.delay(300);
         // press left click
         robot.mousePress(InputEvent.BUTTON1_DOWN_MASK);
         robot.delay(200);
         robot.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
+        Thread.sleep(3000);
     }
 }

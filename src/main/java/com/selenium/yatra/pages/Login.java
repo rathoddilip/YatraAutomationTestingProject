@@ -40,7 +40,7 @@ public class Login extends BaseClass {
         //Hovering on my account menu
         actions.moveToElement(myAccountDropDownToggle);
         Thread.sleep(300);
-        //To mouseover on sub signin button menu and click
+        //To mouseover on sub sign in button menu and click
         actions.moveToElement(signInBtn).build().perform();
         signInBtn.click();
         Thread.sleep(400);
@@ -63,10 +63,9 @@ public class Login extends BaseClass {
         Thread.sleep(400);
     }
 
-    public boolean loginButton() throws InterruptedException {
+    public void loginButton() throws InterruptedException {
         Thread.sleep(400);
         loginButton.click();
-        return true;
 
     }
 

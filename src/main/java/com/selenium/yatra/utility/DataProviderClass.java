@@ -7,33 +7,20 @@ import java.io.IOException;
 
 public class DataProviderClass extends BaseClass {
 
-    public static DataConfig dataConfig = new DataConfig();
-    public static String excelPath = DataConfig.filePath;
-
     // @DataProvider passes data to test
     @DataProvider(name = "testDataSet")
     public Object[][] getData() {
-        // Create object with two paraments
+        // Create object with two parameters
         // first parameter is row and second one is column
         return new Object[][]{{email, password}};
     }
-    // @DataProvider passes data to test
-    @DataProvider(name = "testDataSetFromFile")
-    public Object[][] getDataFromFile() throws IOException {
 
-        dataConfig.setExcelFile(excelPath);
-        String username;
-        String password;
-        Object[][] eXcelData =null;
-        //iterate over all the row to print the data present in each cell
-        for (int i = 1; i <= 1; i++) {
-
-            username = dataConfig.getCellData(i, 0);
-            password = dataConfig.getCellData(i, 1);
-            // Create object with two paraments
-            // first parameter is row and second one is column
-            eXcelData = new Object[][]{{username, password}};
-        }
-        return eXcelData;
+    @DataProvider(name = "testDataSetFromExcelFile")
+    public Object[][] getDataTest() throws IOException {
+        String excelPath = "/home/arjun/Dilip/YatraApplicationAutomationProject/src/main/resources/YatraLoginCreadentials.xlsx";
+        Object[][] data = ExcelDataProvider.testData(excelPath, "loginCredentials");
+        return data;
     }
+
+
 }
