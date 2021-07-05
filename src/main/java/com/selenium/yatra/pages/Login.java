@@ -39,6 +39,7 @@ public class Login extends BaseClass {
         Thread.sleep(300);
         //To mouseover on sub sign in button menu and click
         actions.moveToElement(signInBtn).build().perform();
+        Thread.sleep(400);
         signInBtn.click();
         Thread.sleep(400);
     }

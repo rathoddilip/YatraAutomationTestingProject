@@ -8,27 +8,27 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.*;
 
 public class CrossBrowserClass {
-    public static WebDriver driver;
 
+    public static WebDriver crossDriver;
 
     @BeforeTest
-    @Parameters("browser")
+    @Parameters("browserName")
     public void setUp(String browser) {
         if (browser.equalsIgnoreCase("FireFox")) {
 
             WebDriverManager.firefoxdriver().setup();
-            FirefoxDriver driver = new FirefoxDriver();
-            driver.get("https://www.yatra.com/");
-            driver.manage().window().maximize();
+            crossDriver = new FirefoxDriver();
+            crossDriver.get("https://www.yatra.com/");
+            crossDriver.manage().window().maximize();
         } else if (browser.equalsIgnoreCase("Chrome")) {
 
             //handle browser level show notification pop window
             ChromeOptions options = new ChromeOptions();
             options.addArguments("--disable-notifications");
             WebDriverManager.chromedriver().setup();
-            driver = new ChromeDriver(options);
-            driver.get("https://www.yatra.com/");
-            driver.manage().window().maximize();
+            crossDriver = new ChromeDriver(options);
+            crossDriver.get("https://www.yatra.com/");
+            crossDriver.manage().window().maximize();
         } else {
 
             System.out.println("Incorrect browser value passed");
@@ -37,6 +37,6 @@ public class CrossBrowserClass {
 
     @AfterTest
     public void closeBrowser() {
-        driver.quit();
+        crossDriver.quit();
     }
 }

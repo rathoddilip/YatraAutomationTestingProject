@@ -7,14 +7,12 @@ import org.testng.annotations.Listeners;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
-import java.awt.*;
-
 @Listeners(YatraCustomListner.class)
 public class ParameterAnnotationTest extends BaseClass {
 
     @Test
-    @Parameters({"username","password"})
-    public void loginToYatraApplicationByParameterTest(String username, String password) throws InterruptedException, AWTException {
+    @Parameters({"username", "password"})
+    public void loginToYatraApplicationByParameterTest(String username, String password) throws InterruptedException {
         Login login = new Login(driver);
         login.signInUser();
         login.setEmailId(username);
