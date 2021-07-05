@@ -12,6 +12,7 @@ public class CrossBrowserClass {
     public static WebDriver crossDriver;
 
     @BeforeTest
+
     @Parameters("browserName")
     public void setUp(String browser) {
         if (browser.equalsIgnoreCase("FireFox")) {
