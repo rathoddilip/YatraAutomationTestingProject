@@ -17,13 +17,13 @@ import java.awt.*;
 public class LoginTest extends BaseClass {
 
     @Test
-    public void signInTest() throws InterruptedException, AWTException {
+    public void signInTest() throws InterruptedException {
         Login login = new Login(driver);
         login.signInUser();
     }
 
     @Test
-    public void emailTest() throws InterruptedException, AWTException {
+    public void emailTest() throws InterruptedException {
         Login login = new Login(driver);
         login.signInUser();
         login.setEmailId(email);
@@ -31,7 +31,7 @@ public class LoginTest extends BaseClass {
     }
 
     @Test
-    public void passwordTest() throws InterruptedException, AWTException {
+    public void passwordTest() throws InterruptedException {
         Login login = new Login(driver);
         login.signInUser();
         login.setEmailId(email);
@@ -40,7 +40,7 @@ public class LoginTest extends BaseClass {
     }
 
     @Test
-    public void loginTest() throws InterruptedException, AWTException {
+    public void loginTest() throws InterruptedException {
         Login login = new Login(driver);
         login.signInUser();
         login.setEmailId(email);
@@ -58,7 +58,7 @@ public class LoginTest extends BaseClass {
     }
 
     @Test
-    public void logOut() throws InterruptedException, AWTException {
+    public void logOut() throws InterruptedException {
         LogOut logout = new LogOut(driver);
         loginTest();
         logout.logoutUser();
@@ -67,7 +67,7 @@ public class LoginTest extends BaseClass {
 
     // To get data from data_provider
     @Test(dataProvider = "testDataSet", dataProviderClass = DataProviderClass.class)
-    public void loginUsingDataProviderTest(String emailData, String passwordData) throws AWTException, InterruptedException {
+    public void loginUsingDataProviderTest(String emailData, String passwordData) throws InterruptedException {
         Login login = new Login(driver);
         login.signInUser();
         login.setEmailId(emailData);
@@ -80,7 +80,7 @@ public class LoginTest extends BaseClass {
 
     // Here we are calling the Data Provider object with its Name
     @Test(dataProvider = "testDataSetFromExcelFile", dataProviderClass = DataProviderClass.class)
-    public void loginUsingDataProviderFromExcelFileTest(String emailData, String passwordData) throws AWTException, InterruptedException {
+    public void loginUsingDataProviderFromExcelFileTest(String emailData, String passwordData) throws InterruptedException {
         Login login = new Login(driver);
         login.signInUser();
         login.setEmailId(emailData);
@@ -95,7 +95,7 @@ public class LoginTest extends BaseClass {
 
     @Test
     @Parameters({"username", "password"})
-    public void loginToApplicationByParameterTest(String username, String password) throws InterruptedException, AWTException {
+    public void loginToApplicationByParameterTest(String username, String password) throws InterruptedException {
         Login login = new Login(driver);
         login.signInUser();
         login.setEmailId(username);
@@ -103,5 +103,4 @@ public class LoginTest extends BaseClass {
         login.password(password);
         login.loginButton();
     }
-
 }

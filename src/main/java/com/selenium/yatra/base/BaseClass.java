@@ -15,7 +15,6 @@ public class BaseClass {
     public static String password = "Login@123";
     public static String mobileNumber = "7756994045";
 
-
     @BeforeTest
     public void setUp() {
 

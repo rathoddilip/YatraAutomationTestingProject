@@ -6,12 +6,9 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import java.awt.*;
-import java.awt.event.InputEvent;
 
 public class Login extends BaseClass {
 
-    Robot robot = new Robot();
     @FindBy(xpath = "//a[text()='My Account']")
     WebElement myAccountDropDownToggle;
 
@@ -30,7 +27,7 @@ public class Login extends BaseClass {
     @FindBy(xpath = "//button[@class='main-btn']")
     WebElement loginButton;
 
-    public Login(WebDriver driver) throws AWTException {
+    public Login(WebDriver driver) {
         PageFactory.initElements(driver, this);
     }
 
@@ -66,17 +63,5 @@ public class Login extends BaseClass {
     public void loginButton() throws InterruptedException {
         Thread.sleep(400);
         loginButton.click();
-
-    }
-
-    public void menuBarHotelsIcon() throws InterruptedException {
-        // move mouse point to specific location
-        robot.mouseMove(570, 281);
-        robot.delay(300);
-        // press left click
-        robot.mousePress(InputEvent.BUTTON1_DOWN_MASK);
-        robot.delay(200);
-        robot.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
-        Thread.sleep(300);
     }
 }

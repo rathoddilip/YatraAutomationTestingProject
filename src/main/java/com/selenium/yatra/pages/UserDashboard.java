@@ -13,29 +13,26 @@ public class UserDashboard extends BaseClass {
 
     @FindBy(xpath = "//div[@class='journey-details clearfix']")
     WebElement frameElement;
-    @FindBy(xpath = "//a[@class='blur_class type-active']")
+    @FindBy(xpath = "//a[@title='One Way']")
     WebElement oneWay;
 
-    @FindBy(xpath = "//ul[@class='from-to dflex w94 clearfix safariFix focus-on-field focus-field-depart-city']")
-    WebElement deparatureFrom;
     @FindBy(xpath = "//input[@id='BE_flight_origin_city']")
-    WebElement depFrom;
+    WebElement deparatureFrom;
+
 
     public UserDashboard(WebDriver driver) {
         PageFactory.initElements(driver, this);
     }
 
     public void setOneWay() throws InterruptedException {
-        Thread.sleep(200);
-        driver.switchTo().frame(frameElement);
         oneWay.click();
     }
 
     public void setDeparatureFrom(String cityName) {
-       // String searchText = "Mumbai";
+        String searchText = "Mumbai";
         //WebElement dropdown = driver.findElement(By.id("grdAvailableGroups"));
-        depFrom.click(); // assuming you have to click the "dropdown" to open it
-        List<WebElement> options = depFrom.findElements(By.tagName("li"));
+        deparatureFrom.click(); // assuming you have to click the "dropdown" to open it
+        List<WebElement> options = deparatureFrom.findElements(By.tagName("li"));
         for (WebElement option : options)
         {
             if (option.getText().equals(cityName))

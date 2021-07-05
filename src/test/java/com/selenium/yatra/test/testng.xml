@@ -1,11 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="TestNG Parameters Suite" thread-count="2">
-    <test name="loginToYatraApplicationByParameterTest">
-        <parameter name="username" value="diliprathod32@gmail.com" />
-        <parameter name="password" value="Login@123" />
+<suite name="TestNG Parameters Suite" thread-count="1">
+    <parameter name="browser" value="Chrome"/>
+    <test name="Testing the LoginTest class methods">
+        <classes>
+            <class name="com.selenium.yatra.test.LoginTest">
+                <methods>
+                    <!--Testing the data provider test method-->
+                    <include name="loginUsingDataProviderFromExcelFileTest"/>
+                    <include name="loginUsingDataProviderTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Testing the Parameter annotation class method test">
+        <parameter name="username" value="diliprathod32@gmail.com"/>
+        <parameter name="password" value="Login@123"/>
         <classes>
             <class name="com.selenium.yatra.test.ParameterAnnotationTest">
+                <methods>
+                    <!--Testing the @parameters annotation test method-->
+                    <include name="loginToYatraApplicationByParameterTest"/>
+                </methods>
             </class>
         </classes>
     </test>
