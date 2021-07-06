@@ -21,6 +21,7 @@ public class ScreenshotTestImage extends BaseClass {
         try
         {
             FileUtils.copyFile(sourceFile, new File("/home/arjun/Dilip/YatraApplicationAutomationProject/src/main/java/com/selenium/yatra/testfailed/FAILED" + "_" + testMethodName + timeStamp + ".jpg"));
+
         }
         catch (IOException exception)
         {
@@ -33,6 +34,7 @@ public class ScreenshotTestImage extends BaseClass {
         try
         {
             FileUtils.copyFile(sourceFile, new File("/home/arjun/Dilip/YatraApplicationAutomationProject/src/main/java/com/selenium/yatra/testsuccess/SUCCESS" + "_" + testMethodName + timeStamp + ".jpg"));
+
         }
         catch (IOException exception)
         {

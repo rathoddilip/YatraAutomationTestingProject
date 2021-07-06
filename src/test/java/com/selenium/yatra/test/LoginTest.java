@@ -52,7 +52,12 @@ public class LoginTest extends BaseClass {
 
     @Test
     public void menuBarIconTest() throws InterruptedException, AWTException {
-        loginTest();
+        Login login = new Login(driver);
+        login.signInUser();
+        login.setEmailId(email);
+        login.continueButton();
+        login.password(password);
+        login.loginButton();
         MenuBarIcon menuBarIcon = new MenuBarIcon();
         menuBarIcon.menuBarHotelIconClick();
     }
@@ -102,5 +107,8 @@ public class LoginTest extends BaseClass {
         login.continueButton();
         login.password(password);
         login.loginButton();
+        String expected = "diliprathod32@gmail.com";
+        Assert.assertEquals(username, expected);
+
     }
 }

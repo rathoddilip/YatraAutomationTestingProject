@@ -1,6 +1,7 @@
 package com.selenium.yatra.pages;
 
 import com.selenium.yatra.base.BaseClass;
+import com.selenium.yatra.utility.CustomException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
