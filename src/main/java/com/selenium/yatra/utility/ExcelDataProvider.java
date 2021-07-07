@@ -11,6 +11,7 @@ public class ExcelDataProvider {
         int colCount = excelUtils.getColCount();
         Object[][] data = new Object[rowCount - 1][colCount];
 
+
         for (int i = 1; i < rowCount; i++) {
             for (int j = 0; j < colCount; j++) {
                 String cellData = excelUtils.getCellDataString(i, j);
