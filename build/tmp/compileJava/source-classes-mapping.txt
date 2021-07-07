@@ -9,8 +9,8 @@ com/selenium/yatra/base/BaseClass.java
  com.selenium.yatra.base.BaseClass
 com/selenium/yatra/utility/ExcelUtils.java
  com.selenium.yatra.utility.ExcelUtils
-com/selenium/yatra/utility/WriteTestStatusToExcel.java
- com.selenium.yatra.utility.WriteTestStatusToExcel
+com/selenium/yatra/pages/UserDashboard.java
+ com.selenium.yatra.pages.UserDashboard
 com/selenium/yatra/pages/Login.java
  com.selenium.yatra.pages.Login
 com/selenium/yatra/utility/MenuBarIcon.java
@@ -19,8 +19,8 @@ com/selenium/yatra/base/CrossBrowserClass.java
  com.selenium.yatra.base.CrossBrowserClass
 com/selenium/yatra/utility/ScreenshotTestImage.java
  com.selenium.yatra.utility.ScreenshotTestImage
-com/selenium/yatra/pages/UserDashboard.java
- com.selenium.yatra.pages.UserDashboard
+com/selenium/yatra/utility/WriteTestStatusToExcel.java
+ com.selenium.yatra.utility.WriteTestStatusToExcel
 com/selenium/yatra/utility/YatraCustomListner.java
  com.selenium.yatra.utility.YatraCustomListner
 com/selenium/yatra/utility/DataProviderClass.java

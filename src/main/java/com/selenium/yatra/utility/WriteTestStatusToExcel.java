@@ -14,14 +14,14 @@ public class WriteTestStatusToExcel {
     public static XSSFSheet sheet;
     public static XSSFRow row;
 
-
     public static void writeStatus(int rowPosition, int colPosition, String pass) throws IOException {
 
-        workbok = new XSSFWorkbook(new FileInputStream("/home/arjun/Dilip/YatraApplicationAutomationProject/src/main/resources/YatraLoginCreadentials.xlsx"));
+        String fileName="/home/arjun/Dilip/YatraApplicationAutomationProject/src/main/resources/YatraLoginCreadentials.xlsx";
+        workbok = new XSSFWorkbook(new FileInputStream(fileName));
         sheet = workbok.getSheet("loginCredentials");
         row = sheet.getRow(rowPosition);
         row.createCell(colPosition).setCellValue(pass);
-        FileOutputStream fileOutputStream = new FileOutputStream("/home/arjun/Dilip/YatraApplicationAutomationProject/src/main/resources/YatraLoginCreadentials.xlsx");
+        FileOutputStream fileOutputStream = new FileOutputStream(fileName);
         workbok.write(fileOutputStream);
     }
 }

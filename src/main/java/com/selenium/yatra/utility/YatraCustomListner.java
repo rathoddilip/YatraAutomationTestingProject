@@ -11,7 +11,7 @@ public class YatraCustomListner extends BaseClass implements ITestListener {
     public static int rowDynamic = 1;
     ScreenshotTestImage screenshotTestImage = new ScreenshotTestImage();
 
-    public YatraCustomListner() throws IOException {
+    public YatraCustomListner() {
     }
 
     public void onTestFailure(ITestResult result) {
