@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.selenium.yatra.test.LoginTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-07-08T10:54:04" hostname="arjun-HP-Laptop-15-bs0xx" time="25.392">
+<testsuite name="com.selenium.yatra.test.LoginTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-07-08T17:24:04" hostname="arjun-HP-Laptop-15-bs0xx" time="18.612">
   <properties/>
-  <testcase name="LogInAndlogOutTEst" classname="com.selenium.yatra.test.LoginTest" time="25.392"/>
-  <system-out><![CDATA[[INFO ] 2021-07-08 16:24:04.714 [Test worker] LogClass - Mouse hovering on my account menu
-[INFO ] 2021-07-08 16:24:05.022 [Test worker] LogClass - Mouseover on sign in button menu
-[INFO ] 2021-07-08 16:24:05.892 [Test worker] LogClass - Clicking on signIn Button
-[INFO ] 2021-07-08 16:24:22.634 [Test worker] LogClass - Entering email id
-[INFO ] 2021-07-08 16:24:23.072 [Test worker] LogClass - Clicking on continue button
-[INFO ] 2021-07-08 16:24:23.893 [Test worker] LogClass - Entering password
-[INFO ] 2021-07-08 16:24:24.829 [Test worker] LogClass - Clicking on Login button
-[INFO ] 2021-07-08 16:24:25.319 [Test worker] LogClass - Mouse hovering on my account menu
-[INFO ] 2021-07-08 16:24:25.622 [Test worker] LogClass - mouse hovering on logout sub menu
-[INFO ] 2021-07-08 16:24:28.153 [Test worker] LogClass - Clicking on sub menu logout
+  <testcase name="LogInlogOutTest" classname="com.selenium.yatra.test.LoginTest" time="18.612"/>
+  <system-out><![CDATA[[INFO ] 2021-07-08 22:54:04.606 [Test worker] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-08 22:54:04.908 [Test worker] LogClass - Mouseover on sign in button menu
+[INFO ] 2021-07-08 22:54:05.702 [Test worker] LogClass - Clicking on signIn Button
+[INFO ] 2021-07-08 22:54:14.705 [Test worker] LogClass - Entering email id
+[INFO ] 2021-07-08 22:54:15.236 [Test worker] LogClass - Clicking on continue button
+[INFO ] 2021-07-08 22:54:16.075 [Test worker] LogClass - Entering password
+[INFO ] 2021-07-08 22:54:17.079 [Test worker] LogClass - Clicking on Login button
+[INFO ] 2021-07-08 22:54:17.673 [Test worker] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-08 22:54:17.985 [Test worker] LogClass - mouse hovering on logout sub menu
+[INFO ] 2021-07-08 22:54:21.734 [Test worker] LogClass - Clicking on sub menu logout
 SUCCESS Test
+[INFO ] 2021-07-08 22:54:26.437 [Test worker] LogClass - LogInlogOutTest :take success screenshot in ITestlistner method
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

@@ -2,8 +2,6 @@ package com.selenium.yatra.pages;
 
 import com.selenium.yatra.base.BaseClass;
 import com.selenium.yatra.utility.LogClass;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -11,7 +9,6 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class Login extends BaseClass {
-
 
 
     @FindBy(xpath = "//a[text()='My Account']")
@@ -37,7 +34,7 @@ public class Login extends BaseClass {
     }
 
     public void signInUser() throws InterruptedException {
-        ;
+
         Thread.sleep(400);
         Actions actions = new Actions(driver);
         //Hovering on my account menu

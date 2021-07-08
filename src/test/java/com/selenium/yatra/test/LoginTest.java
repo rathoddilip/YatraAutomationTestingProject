@@ -64,8 +64,8 @@ public class LoginTest extends BaseClass {
     }
 
     @Test
-    public void LogInAndlogOutTEst() throws InterruptedException {
-
+    @Description("Login to application with valid credentials ")
+    public void LogInlogOutTest() throws InterruptedException {
         LogOut logout = new LogOut(driver);
         loginTest();
         logout.logoutUser();
