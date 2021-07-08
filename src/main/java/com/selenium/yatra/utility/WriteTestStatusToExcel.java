@@ -17,6 +17,7 @@ public class WriteTestStatusToExcel {
     public static void writeStatus(int rowPosition, int colPosition, String pass) throws IOException {
 
         String fileName="/home/arjun/Dilip/YatraApplicationAutomationProject/src/main/resources/YatraLoginCreadentials.xlsx";
+
         workbok = new XSSFWorkbook(new FileInputStream(fileName));
         sheet = workbok.getSheet("loginCredentials");
         row = sheet.getRow(rowPosition);

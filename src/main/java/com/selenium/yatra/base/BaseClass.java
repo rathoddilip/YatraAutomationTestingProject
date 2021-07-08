@@ -1,5 +1,6 @@
 package com.selenium.yatra.base;
 
+import com.selenium.yatra.utility.LogClass;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -18,11 +19,15 @@ public class BaseClass {
     @BeforeTest
     public void setUp() {
 
+        LogClass.info("******************************* Starting test cases ****************************************");
         //handle browser level show notification pop window
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--disable-notifications");
+
         WebDriverManager.chromedriver().setup();
+        LogClass.info("launching the Chrome browser");
         driver = new ChromeDriver(options);
+        LogClass.info("Navigate to url yatra ");
         driver.get("https://www.yatra.com/");
         driver.manage().window().maximize();
         System.out.println("Title: " + driver.getTitle());
@@ -38,6 +43,8 @@ public class BaseClass {
 
     @AfterTest
     public void closeBrowser() {
+
+        LogClass.info("******************************* End Test Cases ****************************************");
         driver.quit();
     }
 }

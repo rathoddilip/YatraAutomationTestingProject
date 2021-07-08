@@ -1,7 +1,9 @@
 package com.selenium.yatra.pages;
 
 import com.selenium.yatra.base.BaseClass;
-import com.selenium.yatra.utility.CustomException;
+import com.selenium.yatra.utility.LogClass;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -9,6 +11,8 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class Login extends BaseClass {
+
+
 
     @FindBy(xpath = "//a[text()='My Account']")
     WebElement myAccountDropDownToggle;
@@ -33,37 +37,45 @@ public class Login extends BaseClass {
     }
 
     public void signInUser() throws InterruptedException {
+        ;
         Thread.sleep(400);
         Actions actions = new Actions(driver);
         //Hovering on my account menu
+        LogClass.info("Mouse hovering on my account menu");
         actions.moveToElement(myAccountDropDownToggle);
         Thread.sleep(300);
         //To mouseover on sub sign in button menu and click
+        LogClass.info("Mouseover on sign in button menu");
         actions.moveToElement(signInBtn).build().perform();
         Thread.sleep(400);
+        LogClass.info("Clicking on signIn Button");
         signInBtn.click();
         Thread.sleep(400);
     }
 
     public void setEmailId(String username) throws InterruptedException {
         Thread.sleep(300);
+        LogClass.info("Entering email id");
         emailId.sendKeys(username);
         Thread.sleep(300);
     }
 
     public void continueButton() throws InterruptedException {
+        LogClass.info("Clicking on continue button");
         continueButton.click();
         Thread.sleep(400);
     }
 
     public void password(String passwd) throws InterruptedException {
         Thread.sleep(300);
+        LogClass.info("Entering password");
         password.sendKeys(passwd);
         Thread.sleep(400);
     }
 
     public void loginButton() throws InterruptedException {
         Thread.sleep(400);
+        LogClass.info("Clicking on Login button");
         loginButton.click();
     }
 }

@@ -8,8 +8,8 @@ import java.io.IOException;
 
 public class YatraCustomListner extends BaseClass implements ITestListener {
 
-    public static int rowDynamic = 1;
     ScreenshotTestImage screenshotTestImage = new ScreenshotTestImage();
+    public static int rowDynamic = 1;
 
     public YatraCustomListner() {
     }
@@ -19,7 +19,6 @@ public class YatraCustomListner extends BaseClass implements ITestListener {
         try {
             screenshotTestImage.failed(result.getMethod().getMethodName());
             WriteTestStatusToExcel.writeStatus(rowDynamic, 2, "FAIL");
-            System.out.println("_" + 2 + "_" + "fail");
         } catch (IOException exception) {
             exception.printStackTrace();
             System.out.println("Error fail: " + "_" + 2 + "_" + "fail");
@@ -33,7 +32,6 @@ public class YatraCustomListner extends BaseClass implements ITestListener {
         screenshotTestImage.success(result.getMethod().getMethodName());
         try {
             WriteTestStatusToExcel.writeStatus(rowDynamic, 2, "PASS");
-            System.out.println("_" + 2 + "_" + "pass");
         } catch (IOException exception) {
             exception.printStackTrace();
             System.out.println("Error pass: " + "_" + 2 + "_" + "pass");

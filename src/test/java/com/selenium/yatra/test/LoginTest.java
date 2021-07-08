@@ -6,6 +6,7 @@ import com.selenium.yatra.pages.Login;
 import com.selenium.yatra.utility.DataProviderClass;
 import com.selenium.yatra.utility.MenuBarIcon;
 import com.selenium.yatra.utility.YatraCustomListner;
+import jdk.jfr.Description;
 import org.testng.Assert;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Parameters;
@@ -63,7 +64,8 @@ public class LoginTest extends BaseClass {
     }
 
     @Test
-    public void logOut() throws InterruptedException {
+    public void LogInAndlogOutTEst() throws InterruptedException {
+
         LogOut logout = new LogOut(driver);
         loginTest();
         logout.logoutUser();
