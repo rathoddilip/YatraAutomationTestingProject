@@ -6,6 +6,7 @@ import com.selenium.yatra.pages.Login;
 import com.selenium.yatra.utility.DataProviderClass;
 import com.selenium.yatra.utility.MenuBarIcon;
 import com.selenium.yatra.utility.YatraCustomListner;
+import io.qameta.allure.*;
 import jdk.jfr.Description;
 import org.testng.Assert;
 import org.testng.annotations.Listeners;
@@ -14,6 +15,8 @@ import org.testng.annotations.Test;
 
 import java.awt.*;
 
+@Feature("Login to application")
+@Epic("")
 @Listeners(YatraCustomListner.class)
 public class LoginTest extends BaseClass {
 
@@ -40,6 +43,10 @@ public class LoginTest extends BaseClass {
         login.password(password);
     }
 
+    @Severity(SeverityLevel.CRITICAL)
+    @Story("Test Login")
+    @Description("Login to application with valid credentials")
+    @Story("Test login account ")
     @Test
     public void loginTest() throws InterruptedException {
         Login login = new Login(driver);
@@ -63,8 +70,9 @@ public class LoginTest extends BaseClass {
         menuBarIcon.menuBarHotelIconClick();
     }
 
+    @Description("Login to application with valid credentials and logout ")
+    @Severity(SeverityLevel.CRITICAL)
     @Test
-    @Description("Login to application with valid credentials ")
     public void LogInlogOutTest() throws InterruptedException {
         LogOut logout = new LogOut(driver);
         loginTest();

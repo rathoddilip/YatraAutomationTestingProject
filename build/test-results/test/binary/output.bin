@@ -1,12 +1,12 @@
-[[INFO ] 2021-07-08 22:54:04.606 [Test worker] LogClass - Mouse hovering on my account menu
-Z[INFO ] 2021-07-08 22:54:04.908 [Test worker] LogClass - Mouseover on sign in button menu
-S[INFO ] 2021-07-08 22:54:05.702 [Test worker] LogClass - Clicking on signIn Button
-K[INFO ] 2021-07-08 22:54:14.705 [Test worker] LogClass - Entering email id
-U[INFO ] 2021-07-08 22:54:15.236 [Test worker] LogClass - Clicking on continue button
-K[INFO ] 2021-07-08 22:54:16.075 [Test worker] LogClass - Entering password
-R[INFO ] 2021-07-08 22:54:17.079 [Test worker] LogClass - Clicking on Login button
-[[INFO ] 2021-07-08 22:54:17.673 [Test worker] LogClass - Mouse hovering on my account menu
-[[INFO ] 2021-07-08 22:54:17.985 [Test worker] LogClass - mouse hovering on logout sub menu
-U[INFO ] 2021-07-08 22:54:21.734 [Test worker] LogClass - Clicking on sub menu logout
+[[INFO ] 2021-07-09 15:03:27.777 [Test worker] LogClass - Mouse hovering on my account menu
+Z[INFO ] 2021-07-09 15:03:28.080 [Test worker] LogClass - Mouseover on sign in button menu
+S[INFO ] 2021-07-09 15:03:28.792 [Test worker] LogClass - Clicking on signIn Button
+K[INFO ] 2021-07-09 15:03:40.033 [Test worker] LogClass - Entering email id
+U[INFO ] 2021-07-09 15:03:40.485 [Test worker] LogClass - Clicking on continue button
+K[INFO ] 2021-07-09 15:03:41.304 [Test worker] LogClass - Entering password
+R[INFO ] 2021-07-09 15:03:42.292 [Test worker] LogClass - Clicking on Login button
+[[INFO ] 2021-07-09 15:03:42.782 [Test worker] LogClass - Mouse hovering on my account menu
+[[INFO ] 2021-07-09 15:03:43.085 [Test worker] LogClass - mouse hovering on logout sub menu
+U[INFO ] 2021-07-09 15:03:44.927 [Test worker] LogClass - Clicking on sub menu logout
 SUCCESS Test
-y[INFO ] 2021-07-08 22:54:26.437 [Test worker] LogClass - LogInlogOutTest :take success screenshot in ITestlistner method
+y[INFO ] 2021-07-09 15:03:47.505 [Test worker] LogClass - LogInlogOutTest :take success screenshot in ITestlistner method

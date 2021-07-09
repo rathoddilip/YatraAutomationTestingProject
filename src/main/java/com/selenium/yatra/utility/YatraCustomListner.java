@@ -21,6 +21,7 @@ public class YatraCustomListner extends BaseClass implements ITestListener {
             screenshotTestImage.success(result.getMethod().getMethodName());
             WriteTestStatusToExcel.writeStatus(rowDynamic, 2, "PASS");
             LogClass.info(result.getMethod().getMethodName() + " :take success screenshot in ITestlistner method");
+
         } catch (IOException exception) {
             exception.printStackTrace();
             System.out.println("Error pass: " + "_" + 2 + "_" + "pass");
@@ -38,20 +39,6 @@ public class YatraCustomListner extends BaseClass implements ITestListener {
         } catch (IOException exception) {
             exception.printStackTrace();
             System.out.println("Error fail: " + "_" + 2 + "_" + "fail");
-        }
-        rowDynamic++;
-    }
-
-    public void onTestSkipped(ITestResult result) {
-        System.out.println("SKIPPED Test");
-
-        try {
-            screenshotTestImage.skipped(result.getMethod().getMethodName());
-            WriteTestStatusToExcel.writeStatus(rowDynamic, 2, "PASS");
-            LogClass.fatal(result.getMethod().getMethodName() + " :take skipped screenshot in Ilistner method");
-        } catch (IOException exception) {
-            exception.printStackTrace();
-            System.out.println("Error skipped: " + "_" + 2 + "_" + "pass");
         }
         rowDynamic++;
     }

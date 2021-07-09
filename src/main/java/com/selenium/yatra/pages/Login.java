@@ -2,6 +2,7 @@ package com.selenium.yatra.pages;
 
 import com.selenium.yatra.base.BaseClass;
 import com.selenium.yatra.utility.LogClass;
+import io.qameta.allure.Step;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -33,6 +34,7 @@ public class Login extends BaseClass {
         PageFactory.initElements(driver, this);
     }
 
+    @Step("Clicking on signIn button")
     public void signInUser() throws InterruptedException {
 
         Thread.sleep(400);
@@ -50,6 +52,7 @@ public class Login extends BaseClass {
         Thread.sleep(400);
     }
 
+    @Step("Enter email id {0}")
     public void setEmailId(String username) throws InterruptedException {
         Thread.sleep(300);
         LogClass.info("Entering email id");
@@ -57,12 +60,14 @@ public class Login extends BaseClass {
         Thread.sleep(300);
     }
 
+    @Step("Clicking on button")
     public void continueButton() throws InterruptedException {
         LogClass.info("Clicking on continue button");
         continueButton.click();
         Thread.sleep(400);
     }
 
+    @Step("Enter password {0}")
     public void password(String passwd) throws InterruptedException {
         Thread.sleep(300);
         LogClass.info("Entering password");
@@ -70,6 +75,7 @@ public class Login extends BaseClass {
         Thread.sleep(400);
     }
 
+    @Step("Clicking on Login button")
     public void loginButton() throws InterruptedException {
         Thread.sleep(400);
         LogClass.info("Clicking on Login button");

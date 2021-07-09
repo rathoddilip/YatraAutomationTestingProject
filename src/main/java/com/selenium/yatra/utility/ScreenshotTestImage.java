@@ -37,16 +37,4 @@ public class ScreenshotTestImage extends BaseClass {
             exception.printStackTrace();
         }
     }
-
-    public void skipped(String testMethodName) {
-
-        sourceFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-        try {
-            FileUtils.copyFile(sourceFile, new File(screenshotFilePath + "/testskipped/SKIPPED" + "_" + testMethodName + timeStamp + ".jpg"));
-
-        } catch (IOException exception) {
-            exception.printStackTrace();
-        }
-    }
-
 }

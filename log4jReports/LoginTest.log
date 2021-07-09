@@ -1,152 +1,226 @@
-[INFO ] 2021-07-08 13:39:12.133 [Test worker] LoginTest - this infor
-[INFO ] 2021-07-08 16:23:41.550 [Test worker] LogClass - ******************************* Starting test cases ****************************************
-[INFO ] 2021-07-08 16:23:41.997 [Test worker] LogClass - launching the Chrome browser
-[INFO ] 2021-07-08 16:23:43.027 [Test worker] LogClass - Navigate to url yatra 
-[INFO ] 2021-07-08 16:24:03.854 [Test worker] LogClass - 
-[INFO ] 2021-07-08 16:24:04.714 [Test worker] LogClass - Mouse hovering on my account menu
-[INFO ] 2021-07-08 16:24:05.022 [Test worker] LogClass - Mouseover on sign in button menu
-[INFO ] 2021-07-08 16:24:05.892 [Test worker] LogClass - Clicking on signIn Button
-[INFO ] 2021-07-08 16:24:22.634 [Test worker] LogClass - Entering email id
-[INFO ] 2021-07-08 16:24:23.072 [Test worker] LogClass - Clicking on continue button
-[INFO ] 2021-07-08 16:24:23.893 [Test worker] LogClass - Entering password
-[INFO ] 2021-07-08 16:24:24.829 [Test worker] LogClass - Clicking on Login button
-[INFO ] 2021-07-08 16:24:25.319 [Test worker] LogClass - Mouse hovering on my account menu
-[INFO ] 2021-07-08 16:24:25.622 [Test worker] LogClass - mouse hovering on logout sub menu
-[INFO ] 2021-07-08 16:24:28.153 [Test worker] LogClass - Clicking on sub menu logout
-[INFO ] 2021-07-08 16:24:30.734 [Test worker] LogClass - ******************************* End Test Cases ****************************************
-[INFO ] 2021-07-08 18:09:37.217 [Test worker] LogClass - ******************************* Starting test cases ****************************************
-[INFO ] 2021-07-08 18:09:39.861 [Test worker] LogClass - launching the Chrome browser
-[INFO ] 2021-07-08 18:09:46.775 [Test worker] LogClass - Navigate to url yatra 
-[INFO ] 2021-07-08 18:10:10.394 [Test worker] LogClass - Mouse hovering on my account menu
-[INFO ] 2021-07-08 18:10:10.701 [Test worker] LogClass - Mouseover on sign in button menu
-[INFO ] 2021-07-08 18:10:11.586 [Test worker] LogClass - Clicking on signIn Button
-[INFO ] 2021-07-08 18:10:16.962 [Test worker] LogClass - Entering email id
-[INFO ] 2021-07-08 18:10:17.703 [Test worker] LogClass - Clicking on continue button
-[INFO ] 2021-07-08 18:10:18.575 [Test worker] LogClass - Entering password
-[INFO ] 2021-07-08 18:10:19.545 [Test worker] LogClass - Clicking on Login button
-[INFO ] 2021-07-08 18:10:20.092 [Test worker] LogClass - Mouse hovering on my account menu
-[INFO ] 2021-07-08 18:10:20.396 [Test worker] LogClass - mouse hovering on logout sub menu
-[INFO ] 2021-07-08 18:10:22.710 [Test worker] LogClass - Clicking on sub menu logout
-[INFO ] 2021-07-08 18:10:25.891 [Test worker] LogClass - ******************************* End Test Cases ****************************************
-[INFO ] 2021-07-08 18:16:35.172 [Test worker] LogClass - ******************************* Starting test cases ****************************************
-[INFO ] 2021-07-08 18:16:35.811 [Test worker] LogClass - launching the Chrome browser
-[INFO ] 2021-07-08 18:16:37.289 [Test worker] LogClass - Navigate to url yatra 
-[INFO ] 2021-07-08 18:17:05.242 [Test worker] LogClass - Mouse hovering on my account menu
-[INFO ] 2021-07-08 18:17:05.547 [Test worker] LogClass - Mouseover on sign in button menu
-[INFO ] 2021-07-08 18:17:06.268 [Test worker] LogClass - Clicking on signIn Button
-[INFO ] 2021-07-08 18:17:17.462 [Test worker] LogClass - Entering email id
-[INFO ] 2021-07-08 18:17:17.989 [Test worker] LogClass - Clicking on continue button
-[INFO ] 2021-07-08 18:17:18.835 [Test worker] LogClass - Entering password
-[INFO ] 2021-07-08 18:17:19.768 [Test worker] LogClass - Clicking on Login button
-[INFO ] 2021-07-08 18:17:20.396 [Test worker] LogClass - Mouse hovering on my account menu
-[INFO ] 2021-07-08 18:17:20.697 [Test worker] LogClass - mouse hovering on logout sub menu
-[INFO ] 2021-07-08 18:17:22.969 [Test worker] LogClass - Clicking on sub menu logout
-[WARN ] 2021-07-08 18:17:26.753 [Test worker] LogClass - Test case Passed
-[INFO ] 2021-07-08 18:17:26.768 [Test worker] LogClass - ******************************* End Test Cases ****************************************
-[INFO ] 2021-07-08 18:22:07.983 [Test worker] LogClass - ******************************* Starting test cases ****************************************
-[INFO ] 2021-07-08 18:22:08.697 [Test worker] LogClass - launching the Chrome browser
-[INFO ] 2021-07-08 18:22:10.534 [Test worker] LogClass - Navigate to url yatra 
-[INFO ] 2021-07-08 18:22:20.874 [Test worker] LogClass - Mouse hovering on my account menu
-[INFO ] 2021-07-08 18:22:21.183 [Test worker] LogClass - Mouseover on sign in button menu
-[INFO ] 2021-07-08 18:22:21.908 [Test worker] LogClass - Clicking on signIn Button
-[INFO ] 2021-07-08 18:22:31.832 [Test worker] LogClass - Entering email id
-[INFO ] 2021-07-08 18:22:32.368 [Test worker] LogClass - Clicking on continue button
-[INFO ] 2021-07-08 18:22:33.229 [Test worker] LogClass - Entering password
-[INFO ] 2021-07-08 18:22:34.183 [Test worker] LogClass - Clicking on Login button
-[INFO ] 2021-07-08 18:22:34.695 [Test worker] LogClass - Mouse hovering on my account menu
-[INFO ] 2021-07-08 18:22:34.995 [Test worker] LogClass - mouse hovering on logout sub menu
-[INFO ] 2021-07-08 18:22:36.926 [Test worker] LogClass - Clicking on sub menu logout
-[WARN ] 2021-07-08 18:22:38.751 [Test worker] LogClass - Test case take success screenshot in ITestlistner method
-[INFO ] 2021-07-08 18:22:38.760 [Test worker] LogClass - ******************************* End Test Cases ****************************************
-[INFO ] 2021-07-08 22:15:08.135 [Test worker] LogClass - ******************************* Starting test cases ****************************************
-[INFO ] 2021-07-08 22:15:21.023 [Test worker] LogClass - launching the Chrome browser
-[INFO ] 2021-07-08 22:15:23.587 [Test worker] LogClass - Navigate to url yatra 
-[INFO ] 2021-07-08 22:15:52.381 [Test worker] LogClass - Mouse hovering on my account menu
-[INFO ] 2021-07-08 22:15:52.688 [Test worker] LogClass - Mouseover on sign in button menu
-[INFO ] 2021-07-08 22:15:53.495 [Test worker] LogClass - Clicking on signIn Button
-[INFO ] 2021-07-08 22:15:58.212 [Test worker] LogClass - Entering email id
-[INFO ] 2021-07-08 22:15:58.729 [Test worker] LogClass - Clicking on continue button
-[INFO ] 2021-07-08 22:15:59.549 [Test worker] LogClass - Entering password
-[INFO ] 2021-07-08 22:16:00.501 [Test worker] LogClass - Clicking on Login button
-[INFO ] 2021-07-08 22:16:01.018 [Test worker] LogClass - Mouse hovering on my account menu
-[INFO ] 2021-07-08 22:16:01.319 [Test worker] LogClass - mouse hovering on logout sub menu
-[INFO ] 2021-07-08 22:16:02.989 [Test worker] LogClass - Clicking on sub menu logout
-[INFO ] 2021-07-08 22:16:05.369 [Test worker] LogClass - LogInlogOutTestTest case take success screenshot in ITestlistner method
-[INFO ] 2021-07-08 22:16:05.373 [Test worker] LogClass - ******************************* End Test Cases ****************************************
-[INFO ] 2021-07-08 22:28:12.400 [Test worker] LogClass - ******************************* Starting test cases ****************************************
-[INFO ] 2021-07-08 22:28:12.937 [Test worker] LogClass - launching the Chrome browser
-[INFO ] 2021-07-08 22:28:13.968 [Test worker] LogClass - Navigate to url yatra 
-[INFO ] 2021-07-08 22:29:41.861 [Test worker] LogClass - ******************************* Starting test cases ****************************************
-[INFO ] 2021-07-08 22:29:42.431 [Test worker] LogClass - launching the Chrome browser
-[INFO ] 2021-07-08 22:29:43.427 [Test worker] LogClass - Navigate to url yatra 
-[INFO ] 2021-07-08 22:29:50.307 [Test worker] LogClass - Mouse hovering on my account menu
-[INFO ] 2021-07-08 22:29:50.615 [Test worker] LogClass - Mouseover on sign in button menu
-[INFO ] 2021-07-08 22:29:51.351 [Test worker] LogClass - Clicking on signIn Button
-[INFO ] 2021-07-08 22:29:55.171 [Test worker] LogClass - Entering email id
-[INFO ] 2021-07-08 22:29:55.765 [Test worker] LogClass - Clicking on continue button
-[INFO ] 2021-07-08 22:29:56.612 [Test worker] LogClass - Entering password
-[INFO ] 2021-07-08 22:29:57.599 [Test worker] LogClass - Clicking on Login button
-[INFO ] 2021-07-08 22:29:57.682 [Test worker] LogClass - ******************************* End Test Cases ****************************************
-[INFO ] 2021-07-08 22:32:00.656 [Test worker] LogClass - ******************************* Starting test cases ****************************************
-[INFO ] 2021-07-08 22:32:01.181 [Test worker] LogClass - launching the Chrome browser
-[INFO ] 2021-07-08 22:32:02.129 [Test worker] LogClass - Navigate to url yatra 
-[INFO ] 2021-07-08 22:32:09.826 [Test worker] LogClass - Mouse hovering on my account menu
-[INFO ] 2021-07-08 22:32:10.133 [Test worker] LogClass - Mouseover on sign in button menu
-[INFO ] 2021-07-08 22:32:10.855 [Test worker] LogClass - Clicking on signIn Button
-[INFO ] 2021-07-08 22:32:23.389 [Test worker] LogClass - Entering email id
-[INFO ] 2021-07-08 22:32:23.841 [Test worker] LogClass - Clicking on continue button
-[INFO ] 2021-07-08 22:32:24.654 [Test worker] LogClass - Entering password
-[INFO ] 2021-07-08 22:32:25.621 [Test worker] LogClass - Clicking on Login button
-[INFO ] 2021-07-08 22:32:26.129 [Test worker] LogClass - Mouse hovering on my account menu
-[INFO ] 2021-07-08 22:32:26.430 [Test worker] LogClass - mouse hovering on logout sub menu
-[INFO ] 2021-07-08 22:32:28.485 [Test worker] LogClass - Clicking on sub menu logout
-[INFO ] 2021-07-08 22:32:30.269 [Test worker] LogClass - loginUsingDataProviderFromExcelFileTestTest case take success screenshot in ITestlistner method
-[INFO ] 2021-07-08 22:32:30.674 [Test worker] LogClass - Mouse hovering on my account menu
-[INFO ] 2021-07-08 22:32:30.975 [Test worker] LogClass - Mouseover on sign in button menu
-[INFO ] 2021-07-08 22:32:31.680 [Test worker] LogClass - Clicking on signIn Button
-[INFO ] 2021-07-08 22:32:38.160 [Test worker] LogClass - Entering email id
-[INFO ] 2021-07-08 22:32:38.666 [Test worker] LogClass - Clicking on continue button
-[INFO ] 2021-07-08 22:32:39.465 [Test worker] LogClass - Entering password
-[INFO ] 2021-07-08 22:32:40.508 [Test worker] LogClass - Clicking on Login button
-[INFO ] 2021-07-08 22:32:41.031 [Test worker] LogClass - Mouse hovering on my account menu
-[INFO ] 2021-07-08 22:32:41.332 [Test worker] LogClass - mouse hovering on logout sub menu
-[INFO ] 2021-07-08 22:32:43.572 [Test worker] LogClass - Clicking on sub menu logout
-[INFO ] 2021-07-08 22:32:45.285 [Test worker] LogClass - loginUsingDataProviderFromExcelFileTestTest case take success screenshot in ITestlistner method
-[INFO ] 2021-07-08 22:32:45.688 [Test worker] LogClass - Mouse hovering on my account menu
-[INFO ] 2021-07-08 22:32:45.989 [Test worker] LogClass - Mouseover on sign in button menu
-[INFO ] 2021-07-08 22:32:46.673 [Test worker] LogClass - Clicking on signIn Button
-[INFO ] 2021-07-08 22:32:58.467 [Test worker] LogClass - Entering email id
-[INFO ] 2021-07-08 22:32:58.933 [Test worker] LogClass - Clicking on continue button
-[INFO ] 2021-07-08 22:32:59.762 [Test worker] LogClass - Entering password
-[ERROR] 2021-07-08 22:33:00.393 [Test worker] LogClass - Test case take failed screenshot in Ilistner method
-[INFO ] 2021-07-08 22:33:00.424 [Test worker] LogClass - ******************************* End Test Cases ****************************************
-[INFO ] 2021-07-08 22:45:16.620 [Test worker] LogClass - ******************************* Starting test cases ****************************************
-[INFO ] 2021-07-08 22:45:17.099 [Test worker] LogClass - launching the Chrome browser
-[INFO ] 2021-07-08 22:45:18.328 [Test worker] LogClass - Navigate to url yatra 
-[INFO ] 2021-07-08 22:45:58.644 [Test worker] LogClass - Mouse hovering on my account menu
-[INFO ] 2021-07-08 22:45:58.948 [Test worker] LogClass - Mouseover on sign in button menu
-[INFO ] 2021-07-08 22:45:59.737 [Test worker] LogClass - Clicking on signIn Button
-[INFO ] 2021-07-08 22:46:03.792 [Test worker] LogClass - Entering email id
-[INFO ] 2021-07-08 22:46:04.291 [Test worker] LogClass - Clicking on continue button
-[INFO ] 2021-07-08 22:46:05.113 [Test worker] LogClass - Entering password
-[INFO ] 2021-07-08 22:46:06.082 [Test worker] LogClass - Clicking on Login button
-[INFO ] 2021-07-08 22:46:08.816 [Test worker] LogClass - Move mouse point to specific location
-[INFO ] 2021-07-08 22:46:09.125 [Test worker] LogClass - Mouse press left click
-[INFO ] 2021-07-08 22:46:09.326 [Test worker] LogClass - Mouse release left click and navigate to bar hotel home page
-[INFO ] 2021-07-08 22:46:13.430 [Test worker] LogClass - menuBarIconTest :take success screenshot in ITestlistner method
-[INFO ] 2021-07-08 22:46:13.434 [Test worker] LogClass - ******************************* End Test Cases ****************************************
-[INFO ] 2021-07-08 22:53:39.331 [Test worker] LogClass - ******************************* Starting test cases ****************************************
-[INFO ] 2021-07-08 22:53:39.860 [Test worker] LogClass - launching the Chrome browser
-[INFO ] 2021-07-08 22:53:44.191 [Test worker] LogClass - Navigate to url yatra 
-[INFO ] 2021-07-08 22:54:04.606 [Test worker] LogClass - Mouse hovering on my account menu
-[INFO ] 2021-07-08 22:54:04.908 [Test worker] LogClass - Mouseover on sign in button menu
-[INFO ] 2021-07-08 22:54:05.702 [Test worker] LogClass - Clicking on signIn Button
-[INFO ] 2021-07-08 22:54:14.705 [Test worker] LogClass - Entering email id
-[INFO ] 2021-07-08 22:54:15.236 [Test worker] LogClass - Clicking on continue button
-[INFO ] 2021-07-08 22:54:16.075 [Test worker] LogClass - Entering password
-[INFO ] 2021-07-08 22:54:17.079 [Test worker] LogClass - Clicking on Login button
-[INFO ] 2021-07-08 22:54:17.673 [Test worker] LogClass - Mouse hovering on my account menu
-[INFO ] 2021-07-08 22:54:17.985 [Test worker] LogClass - mouse hovering on logout sub menu
-[INFO ] 2021-07-08 22:54:21.734 [Test worker] LogClass - Clicking on sub menu logout
-[INFO ] 2021-07-08 22:54:26.437 [Test worker] LogClass - LogInlogOutTest :take success screenshot in ITestlistner method
-[INFO ] 2021-07-08 22:54:26.441 [Test worker] LogClass - ******************************* End Test Cases ****************************************
+[INFO ] 2021-07-09 10:19:40.377 [Test worker] LogClass - ******************************* Starting test cases ****************************************
+[INFO ] 2021-07-09 10:19:44.436 [Test worker] LogClass - launching the Chrome browser
+[INFO ] 2021-07-09 10:19:51.177 [Test worker] LogClass - Navigate to url yatra 
+[INFO ] 2021-07-09 10:20:08.448 [Test worker] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-09 10:20:08.752 [Test worker] LogClass - Mouseover on sign in button menu
+[INFO ] 2021-07-09 10:20:09.597 [Test worker] LogClass - Clicking on signIn Button
+[INFO ] 2021-07-09 10:20:12.665 [Test worker] LogClass - Entering email id
+[INFO ] 2021-07-09 10:20:13.115 [Test worker] LogClass - Clicking on continue button
+[INFO ] 2021-07-09 10:20:13.943 [Test worker] LogClass - Entering password
+[INFO ] 2021-07-09 10:20:14.979 [Test worker] LogClass - Clicking on Login button
+[INFO ] 2021-07-09 10:20:15.470 [Test worker] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-09 10:20:15.772 [Test worker] LogClass - mouse hovering on logout sub menu
+[INFO ] 2021-07-09 10:20:17.261 [Test worker] LogClass - Clicking on sub menu logout
+[INFO ] 2021-07-09 10:20:20.727 [Test worker] LogClass - LogInlogOutTest :take success screenshot in ITestlistner method
+[INFO ] 2021-07-09 10:20:20.825 [Test worker] LogClass - ******************************* End Test Cases ****************************************
+[INFO ] 2021-07-09 10:36:39.506 [Test worker] LogClass - ******************************* Starting test cases ****************************************
+[INFO ] 2021-07-09 10:36:40.033 [Test worker] LogClass - launching the Chrome browser
+[INFO ] 2021-07-09 10:36:41.175 [Test worker] LogClass - Navigate to url yatra 
+[INFO ] 2021-07-09 10:37:16.665 [Test worker] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-09 10:37:16.979 [Test worker] LogClass - Mouseover on sign in button menu
+[INFO ] 2021-07-09 10:37:17.697 [Test worker] LogClass - Clicking on signIn Button
+[INFO ] 2021-07-09 10:37:30.815 [Test worker] LogClass - Entering email id
+[INFO ] 2021-07-09 10:37:31.426 [Test worker] LogClass - Clicking on continue button
+[INFO ] 2021-07-09 10:37:32.332 [Test worker] LogClass - Entering password
+[INFO ] 2021-07-09 10:37:33.299 [Test worker] LogClass - Clicking on Login button
+[INFO ] 2021-07-09 10:37:33.890 [Test worker] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-09 10:37:34.192 [Test worker] LogClass - mouse hovering on logout sub menu
+[INFO ] 2021-07-09 10:37:36.685 [Test worker] LogClass - Clicking on sub menu logout
+[INFO ] 2021-07-09 10:37:38.434 [Test worker] LogClass - loginUsingDataProviderFromExcelFileTest :take success screenshot in ITestlistner method
+[INFO ] 2021-07-09 10:37:38.990 [Test worker] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-09 10:37:39.291 [Test worker] LogClass - Mouseover on sign in button menu
+[INFO ] 2021-07-09 10:37:39.998 [Test worker] LogClass - Clicking on signIn Button
+[INFO ] 2021-07-09 10:37:45.953 [Test worker] LogClass - Entering email id
+[INFO ] 2021-07-09 10:37:46.493 [Test worker] LogClass - Clicking on continue button
+[INFO ] 2021-07-09 10:37:47.417 [Test worker] LogClass - Entering password
+[INFO ] 2021-07-09 10:37:48.381 [Test worker] LogClass - Clicking on Login button
+[INFO ] 2021-07-09 10:37:48.933 [Test worker] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-09 10:37:49.237 [Test worker] LogClass - mouse hovering on logout sub menu
+[INFO ] 2021-07-09 10:38:11.384 [Test worker] LogClass - Clicking on sub menu logout
+[INFO ] 2021-07-09 10:38:13.887 [Test worker] LogClass - loginUsingDataProviderFromExcelFileTest :take success screenshot in ITestlistner method
+[INFO ] 2021-07-09 10:38:14.301 [Test worker] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-09 10:38:14.602 [Test worker] LogClass - Mouseover on sign in button menu
+[INFO ] 2021-07-09 10:38:15.307 [Test worker] LogClass - Clicking on signIn Button
+[INFO ] 2021-07-09 10:38:34.093 [Test worker] LogClass - Entering email id
+[INFO ] 2021-07-09 10:38:34.664 [Test worker] LogClass - Clicking on continue button
+[INFO ] 2021-07-09 10:38:35.595 [Test worker] LogClass - Entering password
+[INFO ] 2021-07-09 10:38:36.536 [Test worker] LogClass - Clicking on Login button
+[INFO ] 2021-07-09 10:38:37.104 [Test worker] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-09 10:38:37.405 [Test worker] LogClass - mouse hovering on logout sub menu
+[ERROR] 2021-07-09 10:38:37.896 [Test worker] LogClass - loginUsingDataProviderFromExcelFileTest :take failed screenshot in Ilistner method
+[INFO ] 2021-07-09 10:38:37.907 [Test worker] LogClass - ******************************* End Test Cases ****************************************
+[INFO ] 2021-07-09 12:10:44.421 [Test worker] LogClass - ******************************* Starting test cases ****************************************
+[INFO ] 2021-07-09 12:10:45.861 [Test worker] LogClass - launching the Chrome browser
+[INFO ] 2021-07-09 12:10:46.973 [Test worker] LogClass - Navigate to url yatra 
+[INFO ] 2021-07-09 12:11:03.206 [Test worker] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-09 12:11:03.509 [Test worker] LogClass - Mouseover on sign in button menu
+[INFO ] 2021-07-09 12:11:04.266 [Test worker] LogClass - Clicking on signIn Button
+[INFO ] 2021-07-09 12:11:14.732 [Test worker] LogClass - Entering email id
+[INFO ] 2021-07-09 12:11:15.223 [Test worker] LogClass - Clicking on continue button
+[INFO ] 2021-07-09 12:11:16.039 [Test worker] LogClass - Entering password
+[INFO ] 2021-07-09 12:11:17.031 [Test worker] LogClass - Clicking on Login button
+[INFO ] 2021-07-09 12:11:18.653 [Test worker] LogClass - loginTest :take success screenshot in ITestlistner method
+[ERROR] 2021-07-09 12:11:19.653 [Test worker] LogClass - loginTest :take failed screenshot in Ilistner method
+[INFO ] 2021-07-09 12:11:19.777 [Test worker] LogClass - ******************************* End Test Cases ****************************************
+[INFO ] 2021-07-09 12:20:45.308 [Test worker] LogClass - ******************************* Starting test cases ****************************************
+[INFO ] 2021-07-09 12:20:45.816 [Test worker] LogClass - launching the Chrome browser
+[INFO ] 2021-07-09 12:20:46.859 [Test worker] LogClass - Navigate to url yatra 
+[INFO ] 2021-07-09 12:21:03.490 [Test worker] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-09 12:21:03.797 [Test worker] LogClass - Mouseover on sign in button menu
+[INFO ] 2021-07-09 12:21:04.631 [Test worker] LogClass - Clicking on signIn Button
+[INFO ] 2021-07-09 12:21:09.384 [Test worker] LogClass - Entering email id
+[INFO ] 2021-07-09 12:21:09.879 [Test worker] LogClass - Clicking on continue button
+[INFO ] 2021-07-09 12:21:10.752 [Test worker] LogClass - Entering password
+[INFO ] 2021-07-09 12:21:11.767 [Test worker] LogClass - Clicking on Login button
+[INFO ] 2021-07-09 12:21:13.031 [Test worker] LogClass - loginTest :take success screenshot in ITestlistner method
+[INFO ] 2021-07-09 12:21:13.040 [Test worker] LogClass - ******************************* End Test Cases ****************************************
+[INFO ] 2021-07-09 12:47:55.528 [Test worker] LogClass - ******************************* Starting test cases ****************************************
+[INFO ] 2021-07-09 12:47:56.044 [Test worker] LogClass - launching the Chrome browser
+[INFO ] 2021-07-09 12:47:57.312 [Test worker] LogClass - Navigate to url yatra 
+[INFO ] 2021-07-09 12:48:31.196 [Test worker] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-09 12:48:31.503 [Test worker] LogClass - Mouseover on sign in button menu
+[INFO ] 2021-07-09 12:48:32.224 [Test worker] LogClass - Clicking on signIn Button
+[INFO ] 2021-07-09 12:48:40.825 [Test worker] LogClass - Entering email id
+[INFO ] 2021-07-09 12:48:41.277 [Test worker] LogClass - Clicking on continue button
+[INFO ] 2021-07-09 12:48:42.086 [Test worker] LogClass - Entering password
+[INFO ] 2021-07-09 12:48:43.072 [Test worker] LogClass - Clicking on Login button
+[INFO ] 2021-07-09 12:48:44.195 [Test worker] LogClass - loginTest :take success screenshot in ITestlistner method
+[ERROR] 2021-07-09 12:48:47.095 [Test worker] LogClass - loginTest :take failed screenshot in Ilistner method
+[INFO ] 2021-07-09 12:48:47.210 [Test worker] LogClass - ******************************* End Test Cases ****************************************
+[INFO ] 2021-07-09 12:58:32.546 [Test worker] LogClass - ******************************* Starting test cases ****************************************
+[INFO ] 2021-07-09 12:58:33.074 [Test worker] LogClass - launching the Chrome browser
+[INFO ] 2021-07-09 12:58:34.305 [Test worker] LogClass - Navigate to url yatra 
+[INFO ] 2021-07-09 12:59:03.538 [Test worker] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-09 12:59:03.846 [Test worker] LogClass - Mouseover on sign in button menu
+[INFO ] 2021-07-09 12:59:04.567 [Test worker] LogClass - Clicking on signIn Button
+[INFO ] 2021-07-09 12:59:22.288 [Test worker] LogClass - Entering email id
+[INFO ] 2021-07-09 12:59:22.761 [Test worker] LogClass - Clicking on continue button
+[INFO ] 2021-07-09 12:59:23.567 [Test worker] LogClass - Entering password
+[INFO ] 2021-07-09 12:59:24.511 [Test worker] LogClass - Clicking on Login button
+[INFO ] 2021-07-09 12:59:25.739 [Test worker] LogClass - loginTest :take success screenshot in ITestlistner method
+[INFO ] 2021-07-09 12:59:25.834 [Test worker] LogClass - ******************************* End Test Cases ****************************************
+[INFO ] 2021-07-09 13:02:51.928 [Test worker] LogClass - ******************************* Starting test cases ****************************************
+[INFO ] 2021-07-09 13:02:52.520 [Test worker] LogClass - launching the Chrome browser
+[INFO ] 2021-07-09 13:02:53.745 [Test worker] LogClass - Navigate to url yatra 
+[INFO ] 2021-07-09 13:03:16.197 [Test worker] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-09 13:03:16.514 [Test worker] LogClass - Mouseover on sign in button menu
+[INFO ] 2021-07-09 13:03:17.362 [Test worker] LogClass - Clicking on signIn Button
+[INFO ] 2021-07-09 13:03:21.966 [Test worker] LogClass - Entering email id
+[ERROR] 2021-07-09 13:03:22.818 [Test worker] LogClass - loginTest :take failed screenshot in Ilistner method
+[INFO ] 2021-07-09 13:03:22.822 [Test worker] LogClass - ******************************* End Test Cases ****************************************
+[INFO ] 2021-07-09 13:27:47.370 [Test worker] LogClass - ******************************* Starting test cases ****************************************
+[INFO ] 2021-07-09 13:27:49.364 [Test worker] LogClass - launching the Chrome browser
+[INFO ] 2021-07-09 13:27:50.530 [Test worker] LogClass - Navigate to url yatra 
+[INFO ] 2021-07-09 13:28:02.721 [Test worker] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-09 13:28:03.030 [Test worker] LogClass - Mouseover on sign in button menu
+[INFO ] 2021-07-09 13:28:03.824 [Test worker] LogClass - Clicking on signIn Button
+[INFO ] 2021-07-09 13:28:16.774 [Test worker] LogClass - Entering email id
+[ERROR] 2021-07-09 13:28:17.687 [Test worker] LogClass - loginTest :take failed screenshot in Ilistner method
+[INFO ] 2021-07-09 13:28:17.953 [Test worker] LogClass - ******************************* End Test Cases ****************************************
+[INFO ] 2021-07-09 13:28:43.250 [Test worker] LogClass - ******************************* Starting test cases ****************************************
+[INFO ] 2021-07-09 13:28:43.722 [Test worker] LogClass - launching the Chrome browser
+[INFO ] 2021-07-09 13:28:44.806 [Test worker] LogClass - Navigate to url yatra 
+[INFO ] 2021-07-09 13:28:56.907 [Test worker] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-09 13:28:57.217 [Test worker] LogClass - Mouseover on sign in button menu
+[INFO ] 2021-07-09 13:28:58.007 [Test worker] LogClass - Clicking on signIn Button
+[INFO ] 2021-07-09 13:29:08.012 [Test worker] LogClass - Entering email id
+[INFO ] 2021-07-09 13:29:08.462 [Test worker] LogClass - Clicking on continue button
+[INFO ] 2021-07-09 13:29:09.273 [Test worker] LogClass - Entering password
+[INFO ] 2021-07-09 13:29:10.247 [Test worker] LogClass - Clicking on Login button
+[INFO ] 2021-07-09 13:29:11.412 [Test worker] LogClass - loginTest :take success screenshot in ITestlistner method
+[INFO ] 2021-07-09 13:29:11.495 [Test worker] LogClass - ******************************* End Test Cases ****************************************
+[INFO ] 2021-07-09 13:30:30.164 [Test worker] LogClass - ******************************* Starting test cases ****************************************
+[INFO ] 2021-07-09 13:30:30.647 [Test worker] LogClass - launching the Chrome browser
+[INFO ] 2021-07-09 13:30:31.612 [Test worker] LogClass - Navigate to url yatra 
+[INFO ] 2021-07-09 13:30:50.564 [Test worker] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-09 13:30:50.870 [Test worker] LogClass - Mouseover on sign in button menu
+[INFO ] 2021-07-09 13:30:51.632 [Test worker] LogClass - Clicking on signIn Button
+[INFO ] 2021-07-09 13:31:51.481 [Test worker] LogClass - Entering email id
+[INFO ] 2021-07-09 13:31:51.962 [Test worker] LogClass - Clicking on continue button
+[INFO ] 2021-07-09 13:31:52.769 [Test worker] LogClass - Entering password
+[ERROR] 2021-07-09 13:31:54.147 [Test worker] LogClass - loginTest :take failed screenshot in Ilistner method
+[INFO ] 2021-07-09 13:31:54.479 [Test worker] LogClass - ******************************* End Test Cases ****************************************
+[INFO ] 2021-07-09 13:35:15.693 [Test worker] LogClass - ******************************* Starting test cases ****************************************
+[INFO ] 2021-07-09 13:35:16.164 [Test worker] LogClass - launching the Chrome browser
+[INFO ] 2021-07-09 13:35:17.243 [Test worker] LogClass - Navigate to url yatra 
+[INFO ] 2021-07-09 13:35:29.919 [Test worker] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-09 13:35:30.225 [Test worker] LogClass - Mouseover on sign in button menu
+[INFO ] 2021-07-09 13:35:30.990 [Test worker] LogClass - Clicking on signIn Button
+[INFO ] 2021-07-09 13:36:08.323 [Test worker] LogClass - Entering email id
+[INFO ] 2021-07-09 13:36:08.787 [Test worker] LogClass - Clicking on continue button
+[INFO ] 2021-07-09 13:36:09.606 [Test worker] LogClass - Entering password
+[ERROR] 2021-07-09 13:36:10.521 [Test worker] LogClass - loginTest :take failed screenshot in Ilistner method
+[INFO ] 2021-07-09 13:36:10.809 [Test worker] LogClass - ******************************* End Test Cases ****************************************
+[INFO ] 2021-07-09 14:55:47.676 [Test worker] LogClass - ******************************* Starting test cases ****************************************
+[INFO ] 2021-07-09 14:55:49.548 [Test worker] LogClass - launching the Chrome browser
+[INFO ] 2021-07-09 14:55:51.596 [Test worker] LogClass - Navigate to url yatra 
+[INFO ] 2021-07-09 14:56:19.281 [Test worker] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-09 14:56:19.589 [Test worker] LogClass - Mouseover on sign in button menu
+[INFO ] 2021-07-09 14:56:20.331 [Test worker] LogClass - Clicking on signIn Button
+[INFO ] 2021-07-09 14:56:33.259 [Test worker] LogClass - Entering email id
+[INFO ] 2021-07-09 14:56:33.738 [Test worker] LogClass - Clicking on continue button
+[INFO ] 2021-07-09 14:56:34.550 [Test worker] LogClass - Entering password
+[ERROR] 2021-07-09 14:56:35.432 [Test worker] LogClass - LogInlogOutTest :take failed screenshot in Ilistner method
+[INFO ] 2021-07-09 14:56:35.505 [Test worker] LogClass - ******************************* End Test Cases ****************************************
+[INFO ] 2021-07-09 14:57:19.605 [Test worker] LogClass - ******************************* Starting test cases ****************************************
+[INFO ] 2021-07-09 14:57:20.177 [Test worker] LogClass - launching the Chrome browser
+[INFO ] 2021-07-09 14:57:21.353 [Test worker] LogClass - Navigate to url yatra 
+[INFO ] 2021-07-09 14:57:42.819 [Test worker] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-09 14:57:43.126 [Test worker] LogClass - Mouseover on sign in button menu
+[INFO ] 2021-07-09 14:57:43.885 [Test worker] LogClass - Clicking on signIn Button
+[INFO ] 2021-07-09 14:58:02.965 [Test worker] LogClass - Entering email id
+[INFO ] 2021-07-09 14:58:03.428 [Test worker] LogClass - Clicking on continue button
+[INFO ] 2021-07-09 14:58:04.262 [Test worker] LogClass - Entering password
+[ERROR] 2021-07-09 14:58:05.335 [Test worker] LogClass - LogInlogOutTest :take failed screenshot in Ilistner method
+[INFO ] 2021-07-09 14:58:05.422 [Test worker] LogClass - ******************************* End Test Cases ****************************************
+[INFO ] 2021-07-09 15:00:06.815 [Test worker] LogClass - ******************************* Starting test cases ****************************************
+[INFO ] 2021-07-09 15:00:07.333 [Test worker] LogClass - launching the Chrome browser
+[INFO ] 2021-07-09 15:00:08.308 [Test worker] LogClass - Navigate to url yatra 
+[INFO ] 2021-07-09 15:00:36.120 [Test worker] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-09 15:00:36.427 [Test worker] LogClass - Mouseover on sign in button menu
+[INFO ] 2021-07-09 15:00:37.187 [Test worker] LogClass - Clicking on signIn Button
+[INFO ] 2021-07-09 15:00:53.806 [Test worker] LogClass - Entering email id
+[INFO ] 2021-07-09 15:00:54.263 [Test worker] LogClass - Clicking on continue button
+[INFO ] 2021-07-09 15:00:55.078 [Test worker] LogClass - Entering password
+[INFO ] 2021-07-09 15:00:56.032 [Test worker] LogClass - Clicking on Login button
+[INFO ] 2021-07-09 15:00:57.245 [Test worker] LogClass - loginUsingDataProviderTest :take success screenshot in ITestlistner method
+[INFO ] 2021-07-09 15:00:57.392 [Test worker] LogClass - ******************************* End Test Cases ****************************************
+[INFO ] 2021-07-09 15:01:16.534 [Test worker] LogClass - ******************************* Starting test cases ****************************************
+[INFO ] 2021-07-09 15:01:17.047 [Test worker] LogClass - launching the Chrome browser
+[INFO ] 2021-07-09 15:01:18.075 [Test worker] LogClass - Navigate to url yatra 
+[INFO ] 2021-07-09 15:01:38.944 [Test worker] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-09 15:01:39.250 [Test worker] LogClass - Mouseover on sign in button menu
+[INFO ] 2021-07-09 15:01:40.092 [Test worker] LogClass - Clicking on signIn Button
+[INFO ] 2021-07-09 15:01:45.215 [Test worker] LogClass - Entering email id
+[INFO ] 2021-07-09 15:01:45.667 [Test worker] LogClass - Clicking on continue button
+[INFO ] 2021-07-09 15:01:46.486 [Test worker] LogClass - Entering password
+[INFO ] 2021-07-09 15:01:47.455 [Test worker] LogClass - Clicking on Login button
+[INFO ] 2021-07-09 15:01:48.628 [Test worker] LogClass - loginTest :take success screenshot in ITestlistner method
+[INFO ] 2021-07-09 15:01:48.741 [Test worker] LogClass - ******************************* End Test Cases ****************************************
+[INFO ] 2021-07-09 15:02:21.622 [Test worker] LogClass - ******************************* Starting test cases ****************************************
+[INFO ] 2021-07-09 15:02:22.109 [Test worker] LogClass - launching the Chrome browser
+[INFO ] 2021-07-09 15:02:23.141 [Test worker] LogClass - Navigate to url yatra 
+[INFO ] 2021-07-09 15:02:42.799 [Test worker] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-09 15:02:43.108 [Test worker] LogClass - Mouseover on sign in button menu
+[INFO ] 2021-07-09 15:02:43.843 [Test worker] LogClass - Clicking on signIn Button
+[INFO ] 2021-07-09 15:02:55.011 [Test worker] LogClass - Entering email id
+[INFO ] 2021-07-09 15:02:55.467 [Test worker] LogClass - Clicking on continue button
+[INFO ] 2021-07-09 15:02:56.281 [Test worker] LogClass - Entering password
+[INFO ] 2021-07-09 15:02:57.232 [Test worker] LogClass - Clicking on Login button
+[INFO ] 2021-07-09 15:02:58.422 [Test worker] LogClass - loginTest :take success screenshot in ITestlistner method
+[INFO ] 2021-07-09 15:02:58.496 [Test worker] LogClass - ******************************* End Test Cases ****************************************
+[INFO ] 2021-07-09 15:03:11.542 [Test worker] LogClass - ******************************* Starting test cases ****************************************
+[INFO ] 2021-07-09 15:03:12.068 [Test worker] LogClass - launching the Chrome browser
+[INFO ] 2021-07-09 15:03:13.092 [Test worker] LogClass - Navigate to url yatra 
+[INFO ] 2021-07-09 15:03:27.777 [Test worker] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-09 15:03:28.080 [Test worker] LogClass - Mouseover on sign in button menu
+[INFO ] 2021-07-09 15:03:28.792 [Test worker] LogClass - Clicking on signIn Button
+[INFO ] 2021-07-09 15:03:40.033 [Test worker] LogClass - Entering email id
+[INFO ] 2021-07-09 15:03:40.485 [Test worker] LogClass - Clicking on continue button
+[INFO ] 2021-07-09 15:03:41.304 [Test worker] LogClass - Entering password
+[INFO ] 2021-07-09 15:03:42.292 [Test worker] LogClass - Clicking on Login button
+[INFO ] 2021-07-09 15:03:42.782 [Test worker] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-09 15:03:43.085 [Test worker] LogClass - mouse hovering on logout sub menu
+[INFO ] 2021-07-09 15:03:44.927 [Test worker] LogClass - Clicking on sub menu logout
+[INFO ] 2021-07-09 15:03:47.505 [Test worker] LogClass - LogInlogOutTest :take success screenshot in ITestlistner method
+[INFO ] 2021-07-09 15:03:47.586 [Test worker] LogClass - ******************************* End Test Cases ****************************************
