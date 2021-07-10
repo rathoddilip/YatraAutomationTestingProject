@@ -9,11 +9,10 @@ public class ExcelDataProvider {
         ExcelUtils excelUtils = new ExcelUtils(excelPath, sheetName);
         int rowCount = excelUtils.getRowCount();
         int colCount = excelUtils.getColCount();
-        Object[][] data = new Object[rowCount - 1][colCount];
-
+        Object[][] data = new Object[rowCount - 1][colCount-1];
 
         for (int i = 1; i < rowCount; i++) {
-            for (int j = 0; j < colCount; j++) {
+            for (int j = 0; j < colCount-1; j++) {
                 String cellData = excelUtils.getCellDataString(i, j);
                 data[i - 1][j] = cellData;
             }

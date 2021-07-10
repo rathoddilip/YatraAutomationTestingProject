@@ -16,7 +16,6 @@ import org.testng.annotations.Test;
 import java.awt.*;
 
 @Feature("Login to application")
-@Epic("")
 @Listeners(YatraCustomListner.class)
 public class LoginTest extends BaseClass {
 
@@ -59,6 +58,9 @@ public class LoginTest extends BaseClass {
     }
 
     @Test
+    @Severity(SeverityLevel.MINOR)
+    @Description("Login to application")
+    @Story("Test login account by using data provider credentials ")
     public void menuBarIconTest() throws InterruptedException, AWTException {
         Login login = new Login(driver);
         login.signInUser();
@@ -93,7 +95,10 @@ public class LoginTest extends BaseClass {
         Assert.assertEquals(emailData, expected);
     }
 
-    // Here we are calling the Data Provider object with its Name
+    @Severity(SeverityLevel.CRITICAL)
+    @Story("Test Login with data set from excel sheet")
+    @Description("Login to application with valid credentials")
+    @Story("Test login account by using data provider credentials ")
     @Test(dataProvider = "testDataSetFromExcelFile", dataProviderClass = DataProviderClass.class)
     public void loginUsingDataProviderFromExcelFileTest(String emailData, String passwordData) throws InterruptedException {
         Login login = new Login(driver);
@@ -119,6 +124,5 @@ public class LoginTest extends BaseClass {
         login.loginButton();
         String expected = "diliprathod32@gmail.com";
         Assert.assertEquals(username, expected);
-
     }
 }

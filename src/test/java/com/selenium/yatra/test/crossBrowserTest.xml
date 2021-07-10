@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="/home/arjun/Dilip/YatraApplicationAutomationProject">
+        <classes>
+            <class name="com.selenium.yatra.test.LoginTest">
+                <methods>
+                    <include name="signInTest"/>
+                    <include name="emailTest"/>
+                    <include name="passwordTest"/>
+                    <include name="loginTest"/>
+                    <include name="menuBarIconTest"/>
+                    <include name="LogInlogOutTest"/>
+                    <include name="loginUsingDataProviderTest"/>
+                    <include name="loginUsingDataProviderFromExcelFileTest"/>
+                </methods>
+            </class>
+            <class name="com.selenium.yatra.test.YatraTest">
+                <methods>
+                    <include name="setSignUpTest"/>
+                    <include name="enterEmailTest"/>
+                    <include name="clickContinueButtonTest"/>
+                    <include name="setMobileNumberTest"/>
+                    <include name="enterPasswordTest"/>
+                    <include name="setSelectTitleTest"/>
+                    <include name="enterFistAndLastNameTest"/>
+                    <include name="offerAndPromocheckkboxTest"/>
+                    <include name="whatsAppNotifCheckboxTest"/>
+                    <include name="clickAccoutButtonTest"/>
+                    <include name="signInTest"/>
+                    <include name="emailTest"/>
+                    <include name="passwordTest"/>
+                    <include name="loginTest"/>
+                    <include name="logOut"/>
+                    <include name="menuBarIconTest"/>
+                    <include name="searchFlight"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

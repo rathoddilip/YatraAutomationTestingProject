@@ -55,7 +55,7 @@ public class Login extends BaseClass {
     @Step("Enter email id {0}")
     public void setEmailId(String username) throws InterruptedException {
         Thread.sleep(300);
-        LogClass.info("Entering email id");
+        LogClass.info("Entering email id: "+username);
         emailId.sendKeys(username);
         Thread.sleep(300);
     }
@@ -70,7 +70,7 @@ public class Login extends BaseClass {
     @Step("Enter password {0}")
     public void password(String passwd) throws InterruptedException {
         Thread.sleep(300);
-        LogClass.info("Entering password");
+        LogClass.info("Entering password: "+passwd);
         password.sendKeys(passwd);
         Thread.sleep(400);
     }

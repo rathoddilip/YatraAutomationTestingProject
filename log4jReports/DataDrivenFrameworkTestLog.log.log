@@ -1,0 +1,36 @@
+[INFO ] 2021-07-10 09:54:09.407 [Test worker] LogClass - ******************************* Starting test cases ****************************************
+[INFO ] 2021-07-10 09:54:09.878 [Test worker] LogClass - launching the Chrome browser
+[INFO ] 2021-07-10 09:54:10.831 [Test worker] LogClass - Navigate to url yatra 
+[INFO ] 2021-07-10 09:55:42.154 [Test worker] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-10 09:55:42.456 [Test worker] LogClass - Mouseover on sign in button menu
+[INFO ] 2021-07-10 09:55:43.165 [Test worker] LogClass - Clicking on signIn Button
+[INFO ] 2021-07-10 09:55:50.039 [Test worker] LogClass - Entering email id: diliprathod32@gmail.com
+[INFO ] 2021-07-10 09:55:50.500 [Test worker] LogClass - Clicking on continue button
+[INFO ] 2021-07-10 09:55:51.329 [Test worker] LogClass - Entering password: Login@123
+[INFO ] 2021-07-10 09:55:52.336 [Test worker] LogClass - Clicking on Login button
+[INFO ] 2021-07-10 09:55:52.837 [Test worker] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-10 09:55:53.141 [Test worker] LogClass - mouse hovering on logout sub menu
+[INFO ] 2021-07-10 09:55:56.292 [Test worker] LogClass - Clicking on sub menu logout
+[INFO ] 2021-07-10 09:55:58.895 [Test worker] LogClass - loginUsingDataProviderFromExcelFileTest :take success screenshot in ITestlistner method
+[INFO ] 2021-07-10 09:55:59.746 [Test worker] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-10 09:56:00.047 [Test worker] LogClass - Mouseover on sign in button menu
+[INFO ] 2021-07-10 09:56:00.740 [Test worker] LogClass - Clicking on signIn Button
+[INFO ] 2021-07-10 09:56:03.542 [Test worker] LogClass - Entering email id: diliprathod32@gmail.com
+[INFO ] 2021-07-10 09:56:04.003 [Test worker] LogClass - Clicking on continue button
+[INFO ] 2021-07-10 09:56:04.844 [Test worker] LogClass - Entering password: Login@123
+[INFO ] 2021-07-10 09:56:05.819 [Test worker] LogClass - Clicking on Login button
+[INFO ] 2021-07-10 09:56:06.325 [Test worker] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-10 09:56:06.626 [Test worker] LogClass - mouse hovering on logout sub menu
+[INFO ] 2021-07-10 09:56:08.305 [Test worker] LogClass - Clicking on sub menu logout
+[INFO ] 2021-07-10 09:56:09.566 [Test worker] LogClass - loginUsingDataProviderFromExcelFileTest :take success screenshot in ITestlistner method
+[INFO ] 2021-07-10 09:56:10.358 [Test worker] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-10 09:56:10.659 [Test worker] LogClass - Mouseover on sign in button menu
+[INFO ] 2021-07-10 09:56:11.375 [Test worker] LogClass - Clicking on signIn Button
+[INFO ] 2021-07-10 09:56:14.222 [Test worker] LogClass - Entering email id: diliprathod32@gmail.com
+[INFO ] 2021-07-10 09:56:14.712 [Test worker] LogClass - Clicking on continue button
+[INFO ] 2021-07-10 09:56:15.537 [Test worker] LogClass - Entering password: Abc@123
+[INFO ] 2021-07-10 09:56:16.461 [Test worker] LogClass - Clicking on Login button
+[INFO ] 2021-07-10 09:56:16.944 [Test worker] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-10 09:56:17.246 [Test worker] LogClass - mouse hovering on logout sub menu
+[ERROR] 2021-07-10 09:56:17.648 [Test worker] LogClass - loginUsingDataProviderFromExcelFileTest :take failed screenshot in Ilistner method
+[INFO ] 2021-07-10 09:56:17.903 [Test worker] LogClass - ******************************* End Test Cases ****************************************
