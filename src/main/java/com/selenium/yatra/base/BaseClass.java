@@ -15,6 +15,7 @@ public class BaseClass {
     public static String email = "diliprathod32@gmail.com";
     public static String password = "Login@123";
     public static String mobileNumber = "7756994045";
+    public static String propertyFilePath = "/home/arjun/Dilip/YatraApplicationAutomationProject/src/test/resources/objectRepositoryOFWebElement.properties";
 
     @BeforeTest
     public void setUp() {

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.selenium.yatra.test.LoginObjectRepoTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-07-11T09:49:49" hostname="arjun-HP-Laptop-15-bs0xx" time="11.408">
+  <properties/>
+  <testcase name="LoginToApplication" classname="com.selenium.yatra.test.LoginObjectRepoTest" time="11.408"/>
+  <system-out><![CDATA[[INFO ] 2021-07-11 15:19:49.558 [Test worker] LogClass - Mouse hovering on my account menu
+please check file path and name
+[INFO ] 2021-07-11 15:19:49.926 [Test worker] LogClass - Mouseover on sign in button menu
+please check file path and name
+[INFO ] 2021-07-11 15:19:50.601 [Test worker] LogClass - Clicking on signIn Button
+please check file path and name
+[INFO ] 2021-07-11 15:19:57.498 [Test worker] LogClass - Entering email id: diliprathod32@gmail.com
+please check file path and name
+[INFO ] 2021-07-11 15:19:58.012 [Test worker] LogClass - Clicking on continue button
+please check file path and name
+[INFO ] 2021-07-11 15:19:58.902 [Test worker] LogClass - Entering password: Login@123
+please check file path and name
+[INFO ] 2021-07-11 15:19:59.939 [Test worker] LogClass - Clicking on Login button
+please check file path and name
+[INFO ] 2021-07-11 15:20:00.118 [Test worker] LogClass - Login Successfully
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

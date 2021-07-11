@@ -43,7 +43,6 @@ public class LoginTest extends BaseClass {
     }
 
     @Severity(SeverityLevel.CRITICAL)
-    @Story("Test Login")
     @Description("Login to application with valid credentials")
     @Story("Test login account ")
     @Test

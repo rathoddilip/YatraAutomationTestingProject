@@ -1,0 +1,184 @@
+[INFO ] 2021-07-11 14:07:46.296 [Test worker] LogClass - ******************************* Starting test cases ****************************************
+[INFO ] 2021-07-11 14:07:46.816 [Test worker] LogClass - launching the Chrome browser
+[INFO ] 2021-07-11 14:07:47.856 [Test worker] LogClass - Navigate to url yatra 
+[INFO ] 2021-07-11 14:07:54.898 [Test worker] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-11 14:07:55.276 [Test worker] LogClass - Mouseover on sign in button menu
+[INFO ] 2021-07-11 14:07:55.983 [Test worker] LogClass - Clicking on signIn Button
+[INFO ] 2021-07-11 14:08:00.654 [Test worker] LogClass - Entering email id: diliprathod32@gmail.com
+[INFO ] 2021-07-11 14:08:01.115 [Test worker] LogClass - Clicking on continue button
+[INFO ] 2021-07-11 14:08:01.976 [Test worker] LogClass - Entering password: Login@123
+[INFO ] 2021-07-11 14:08:02.943 [Test worker] LogClass - Clicking on Login button
+[INFO ] 2021-07-11 14:08:03.164 [Test worker] LogClass - ******************************* End Test Cases ****************************************
+[INFO ] 2021-07-11 14:22:00.719 [Test worker] LogClass - ******************************* Starting test cases ****************************************
+[INFO ] 2021-07-11 14:22:01.227 [Test worker] LogClass - launching the Chrome browser
+[INFO ] 2021-07-11 14:22:02.353 [Test worker] LogClass - Navigate to url yatra 
+[INFO ] 2021-07-11 14:22:11.824 [Test worker] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-11 14:22:12.237 [Test worker] LogClass - Mouseover on sign in button menu
+[INFO ] 2021-07-11 14:22:12.946 [Test worker] LogClass - Clicking on signIn Button
+[INFO ] 2021-07-11 14:22:17.276 [Test worker] LogClass - Entering email id: diliprathod32@gmail.com
+[INFO ] 2021-07-11 14:22:17.753 [Test worker] LogClass - Clicking on continue button
+[INFO ] 2021-07-11 14:22:18.604 [Test worker] LogClass - Entering password: Login@123
+[INFO ] 2021-07-11 14:22:19.593 [Test worker] LogClass - Clicking on Login button
+[INFO ] 2021-07-11 14:22:20.103 [Test worker] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-11 14:22:20.262 [Test worker] LogClass - ******************************* End Test Cases ****************************************
+[INFO ] 2021-07-11 14:27:18.458 [Test worker] LogClass - ******************************* Starting test cases ****************************************
+[INFO ] 2021-07-11 14:27:18.929 [Test worker] LogClass - launching the Chrome browser
+[INFO ] 2021-07-11 14:27:20.091 [Test worker] LogClass - Navigate to url yatra 
+[INFO ] 2021-07-11 14:27:28.549 [Test worker] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-11 14:27:28.872 [Test worker] LogClass - Mouseover on sign in button menu
+[INFO ] 2021-07-11 14:27:29.577 [Test worker] LogClass - Clicking on signIn Button
+[INFO ] 2021-07-11 14:27:35.180 [Test worker] LogClass - Entering email id: diliprathod32@gmail.com
+[INFO ] 2021-07-11 14:27:35.640 [Test worker] LogClass - Clicking on continue button
+[INFO ] 2021-07-11 14:27:36.473 [Test worker] LogClass - Entering password: Login@123
+[INFO ] 2021-07-11 14:27:37.439 [Test worker] LogClass - Clicking on Login button
+[INFO ] 2021-07-11 14:27:37.932 [Test worker] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-11 14:27:38.120 [Test worker] LogClass - ******************************* End Test Cases ****************************************
+[INFO ] 2021-07-11 14:33:05.254 [Test worker] LogClass - ******************************* Starting test cases ****************************************
+[INFO ] 2021-07-11 14:33:05.757 [Test worker] LogClass - launching the Chrome browser
+[INFO ] 2021-07-11 14:33:06.815 [Test worker] LogClass - Navigate to url yatra 
+[INFO ] 2021-07-11 14:33:14.436 [Test worker] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-11 14:33:14.785 [Test worker] LogClass - Mouseover on sign in button menu
+[INFO ] 2021-07-11 14:33:15.490 [Test worker] LogClass - Clicking on signIn Button
+[INFO ] 2021-07-11 14:33:20.067 [Test worker] LogClass - Entering email id: diliprathod32@gmail.com
+[INFO ] 2021-07-11 14:33:20.525 [Test worker] LogClass - Clicking on continue button
+[INFO ] 2021-07-11 14:33:21.341 [Test worker] LogClass - Entering password: Login@123
+[INFO ] 2021-07-11 14:33:22.279 [Test worker] LogClass - Clicking on Login button
+[INFO ] 2021-07-11 14:33:22.776 [Test worker] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-11 14:33:22.956 [Test worker] LogClass - ******************************* End Test Cases ****************************************
+[INFO ] 2021-07-11 14:37:02.646 [Test worker] LogClass - ******************************* Starting test cases ****************************************
+[INFO ] 2021-07-11 14:37:03.128 [Test worker] LogClass - launching the Chrome browser
+[INFO ] 2021-07-11 14:37:04.074 [Test worker] LogClass - Navigate to url yatra 
+[INFO ] 2021-07-11 14:37:11.877 [Test worker] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-11 14:37:12.249 [Test worker] LogClass - Mouseover on sign in button menu
+[INFO ] 2021-07-11 14:37:12.949 [Test worker] LogClass - Clicking on signIn Button
+[INFO ] 2021-07-11 14:37:16.922 [Test worker] LogClass - Entering email id: diliprathod32@gmail.com
+[INFO ] 2021-07-11 14:37:17.415 [Test worker] LogClass - Clicking on continue button
+[INFO ] 2021-07-11 14:37:18.275 [Test worker] LogClass - Entering password: Login@123
+[INFO ] 2021-07-11 14:37:19.271 [Test worker] LogClass - Clicking on Login button
+[INFO ] 2021-07-11 14:37:19.387 [Test worker] LogClass - Login Successfully
+[INFO ] 2021-07-11 14:37:19.949 [Test worker] LogClass - ******************************* End Test Cases ****************************************
+[INFO ] 2021-07-11 14:37:37.047 [Test worker] LogClass - ******************************* Starting test cases ****************************************
+[INFO ] 2021-07-11 14:37:37.547 [Test worker] LogClass - launching the Chrome browser
+[INFO ] 2021-07-11 14:37:38.594 [Test worker] LogClass - Navigate to url yatra 
+[INFO ] 2021-07-11 14:37:45.739 [Test worker] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-11 14:37:46.109 [Test worker] LogClass - Mouseover on sign in button menu
+[INFO ] 2021-07-11 14:37:46.818 [Test worker] LogClass - Clicking on signIn Button
+[INFO ] 2021-07-11 14:37:52.200 [Test worker] LogClass - Entering email id: diliprathod32@gmail.com
+[INFO ] 2021-07-11 14:37:52.707 [Test worker] LogClass - Clicking on continue button
+[INFO ] 2021-07-11 14:37:53.559 [Test worker] LogClass - Entering password: Login@123
+[INFO ] 2021-07-11 14:37:54.480 [Test worker] LogClass - Clicking on Login button
+[INFO ] 2021-07-11 14:37:54.578 [Test worker] LogClass - Login Successfully
+[INFO ] 2021-07-11 14:37:55.379 [Test worker] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-11 14:37:56.840 [Test worker] LogClass - mouse hovering on logout sub menu
+[INFO ] 2021-07-11 14:37:57.164 [Test worker] LogClass - Clicking on sub menu logout
+[INFO ] 2021-07-11 14:37:57.301 [Test worker] LogClass - ******************************* End Test Cases ****************************************
+[INFO ] 2021-07-11 14:38:46.908 [Test worker] LogClass - ******************************* Starting test cases ****************************************
+[INFO ] 2021-07-11 14:38:47.401 [Test worker] LogClass - launching the Chrome browser
+[INFO ] 2021-07-11 14:38:48.525 [Test worker] LogClass - Navigate to url yatra 
+[INFO ] 2021-07-11 14:38:56.300 [Test worker] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-11 14:38:56.661 [Test worker] LogClass - Mouseover on sign in button menu
+[INFO ] 2021-07-11 14:38:57.440 [Test worker] LogClass - Clicking on signIn Button
+[INFO ] 2021-07-11 14:39:02.776 [Test worker] LogClass - Entering email id: diliprathod32@gmail.com
+[INFO ] 2021-07-11 14:39:03.238 [Test worker] LogClass - Clicking on continue button
+[INFO ] 2021-07-11 14:39:04.067 [Test worker] LogClass - Entering password: Login@123
+[INFO ] 2021-07-11 14:39:04.988 [Test worker] LogClass - Clicking on Login button
+[INFO ] 2021-07-11 14:39:05.081 [Test worker] LogClass - Login Successfully
+[INFO ] 2021-07-11 14:39:05.882 [Test worker] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-11 14:39:07.623 [Test worker] LogClass - mouse hovering on logout sub menu
+[INFO ] 2021-07-11 14:39:07.979 [Test worker] LogClass - Clicking on sub menu logout
+[INFO ] 2021-07-11 14:39:08.531 [Test worker] LogClass - ******************************* End Test Cases ****************************************
+[INFO ] 2021-07-11 14:41:08.647 [Test worker] LogClass - ******************************* Starting test cases ****************************************
+[INFO ] 2021-07-11 14:41:09.140 [Test worker] LogClass - launching the Chrome browser
+[INFO ] 2021-07-11 14:41:10.166 [Test worker] LogClass - Navigate to url yatra 
+[INFO ] 2021-07-11 14:41:22.544 [Test worker] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-11 14:41:22.869 [Test worker] LogClass - Mouseover on sign in button menu
+[INFO ] 2021-07-11 14:41:23.585 [Test worker] LogClass - Clicking on signIn Button
+[INFO ] 2021-07-11 14:41:27.908 [Test worker] LogClass - Entering email id: diliprathod32@gmail.com
+[INFO ] 2021-07-11 14:41:28.356 [Test worker] LogClass - Clicking on continue button
+[INFO ] 2021-07-11 14:41:29.183 [Test worker] LogClass - Entering password: Login@123
+[INFO ] 2021-07-11 14:41:30.149 [Test worker] LogClass - Clicking on Login button
+[INFO ] 2021-07-11 14:41:30.246 [Test worker] LogClass - Login Successfully
+[INFO ] 2021-07-11 14:41:31.048 [Test worker] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-11 14:41:32.367 [Test worker] LogClass - mouse hovering on logout sub menu
+[INFO ] 2021-07-11 14:41:32.705 [Test worker] LogClass - Clicking on sub menu logout
+[INFO ] 2021-07-11 14:41:33.897 [Test worker] LogClass - ******************************* End Test Cases ****************************************
+[INFO ] 2021-07-11 14:46:02.117 [Test worker] LogClass - ******************************* Starting test cases ****************************************
+[INFO ] 2021-07-11 14:46:02.588 [Test worker] LogClass - launching the Chrome browser
+[INFO ] 2021-07-11 14:46:03.693 [Test worker] LogClass - Navigate to url yatra 
+[INFO ] 2021-07-11 14:46:11.405 [Test worker] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-11 14:46:11.792 [Test worker] LogClass - Mouseover on sign in button menu
+[INFO ] 2021-07-11 14:46:12.502 [Test worker] LogClass - Clicking on signIn Button
+[INFO ] 2021-07-11 14:46:15.983 [Test worker] LogClass - Entering email id: diliprathod32@gmail.com
+[INFO ] 2021-07-11 14:46:16.539 [Test worker] LogClass - Clicking on continue button
+[INFO ] 2021-07-11 14:46:17.430 [Test worker] LogClass - Entering password: Login@123
+[INFO ] 2021-07-11 14:46:18.444 [Test worker] LogClass - Clicking on Login button
+[INFO ] 2021-07-11 14:46:18.592 [Test worker] LogClass - Login Successfully
+[INFO ] 2021-07-11 14:46:19.392 [Test worker] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-11 14:46:20.469 [Test worker] LogClass - mouse hovering on logout sub menu
+[INFO ] 2021-07-11 14:46:20.807 [Test worker] LogClass - Clicking on sub menu logout
+[INFO ] 2021-07-11 14:46:21.580 [Test worker] LogClass - Logout successfully
+[INFO ] 2021-07-11 14:46:22.131 [Test worker] LogClass - ******************************* End Test Cases ****************************************
+[INFO ] 2021-07-11 15:00:39.486 [Test worker] LogClass - ******************************* Starting test cases ****************************************
+[INFO ] 2021-07-11 15:00:40.006 [Test worker] LogClass - launching the Chrome browser
+[INFO ] 2021-07-11 15:00:41.129 [Test worker] LogClass - Navigate to url yatra 
+[INFO ] 2021-07-11 15:00:48.634 [Test worker] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-11 15:00:48.787 [Test worker] LogClass - ******************************* End Test Cases ****************************************
+[INFO ] 2021-07-11 15:03:20.349 [Test worker] LogClass - ******************************* Starting test cases ****************************************
+[INFO ] 2021-07-11 15:03:20.849 [Test worker] LogClass - launching the Chrome browser
+[INFO ] 2021-07-11 15:03:22.028 [Test worker] LogClass - Navigate to url yatra 
+[INFO ] 2021-07-11 15:03:28.840 [Test worker] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-11 15:03:29.225 [Test worker] LogClass - Mouseover on sign in button menu
+[INFO ] 2021-07-11 15:03:29.914 [Test worker] LogClass - Clicking on signIn Button
+[INFO ] 2021-07-11 15:03:34.560 [Test worker] LogClass - Entering email id: diliprathod32@gmail.com
+[INFO ] 2021-07-11 15:03:35.035 [Test worker] LogClass - Clicking on continue button
+[INFO ] 2021-07-11 15:03:35.914 [Test worker] LogClass - Entering password: Login@123
+[INFO ] 2021-07-11 15:03:36.843 [Test worker] LogClass - Clicking on Login button
+[INFO ] 2021-07-11 15:03:36.921 [Test worker] LogClass - Login Successfully
+[INFO ] 2021-07-11 15:03:37.722 [Test worker] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-11 15:03:38.995 [Test worker] LogClass - mouse hovering on logout sub menu
+[INFO ] 2021-07-11 15:03:39.368 [Test worker] LogClass - Clicking on sub menu logout
+[INFO ] 2021-07-11 15:03:40.019 [Test worker] LogClass - Logout successfully
+[INFO ] 2021-07-11 15:03:40.572 [Test worker] LogClass - ******************************* End Test Cases ****************************************
+[INFO ] 2021-07-11 15:04:47.219 [Test worker] LogClass - ******************************* Starting test cases ****************************************
+[INFO ] 2021-07-11 15:04:49.006 [Test worker] LogClass - launching the Chrome browser
+[INFO ] 2021-07-11 15:04:50.012 [Test worker] LogClass - Navigate to url yatra 
+[INFO ] 2021-07-11 15:04:57.785 [Test worker] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-11 15:04:58.176 [Test worker] LogClass - Mouseover on sign in button menu
+[INFO ] 2021-07-11 15:04:58.960 [Test worker] LogClass - Clicking on signIn Button
+[INFO ] 2021-07-11 15:05:02.595 [Test worker] LogClass - Entering email id: diliprathod32@gmail.com
+[INFO ] 2021-07-11 15:05:03.146 [Test worker] LogClass - Clicking on continue button
+[INFO ] 2021-07-11 15:05:03.994 [Test worker] LogClass - Entering password: Login@123
+[INFO ] 2021-07-11 15:05:04.956 [Test worker] LogClass - Clicking on Login button
+[INFO ] 2021-07-11 15:05:05.047 [Test worker] LogClass - Login Successfully
+[INFO ] 2021-07-11 15:05:05.848 [Test worker] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-11 15:05:07.291 [Test worker] LogClass - mouse hovering on logout sub menu
+[INFO ] 2021-07-11 15:05:07.576 [Test worker] LogClass - Clicking on sub menu logout
+[INFO ] 2021-07-11 15:05:08.227 [Test worker] LogClass - Logout successfully
+[INFO ] 2021-07-11 15:05:08.750 [Test worker] LogClass - ******************************* End Test Cases ****************************************
+[INFO ] 2021-07-11 15:13:22.644 [Test worker] LogClass - ******************************* Starting test cases ****************************************
+[INFO ] 2021-07-11 15:13:23.227 [Test worker] LogClass - launching the Chrome browser
+[INFO ] 2021-07-11 15:13:24.507 [Test worker] LogClass - Navigate to url yatra 
+[INFO ] 2021-07-11 15:13:42.630 [Test worker] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-11 15:13:42.816 [Test worker] LogClass - ******************************* End Test Cases ****************************************
+[INFO ] 2021-07-11 15:16:34.688 [Test worker] LogClass - ******************************* Starting test cases ****************************************
+[INFO ] 2021-07-11 15:16:35.197 [Test worker] LogClass - launching the Chrome browser
+[INFO ] 2021-07-11 15:16:36.261 [Test worker] LogClass - Navigate to url yatra 
+[INFO ] 2021-07-11 15:16:42.509 [Test worker] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-11 15:16:42.736 [Test worker] LogClass - ******************************* End Test Cases ****************************************
+[INFO ] 2021-07-11 15:18:18.676 [Test worker] LogClass - ******************************* Starting test cases ****************************************
+[INFO ] 2021-07-11 15:18:19.177 [Test worker] LogClass - launching the Chrome browser
+[INFO ] 2021-07-11 15:18:20.362 [Test worker] LogClass - Navigate to url yatra 
+[INFO ] 2021-07-11 15:18:31.643 [Test worker] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-11 15:18:31.823 [Test worker] LogClass - ******************************* End Test Cases ****************************************
+[INFO ] 2021-07-11 15:19:39.595 [Test worker] LogClass - ******************************* Starting test cases ****************************************
+[INFO ] 2021-07-11 15:19:40.093 [Test worker] LogClass - launching the Chrome browser
+[INFO ] 2021-07-11 15:19:41.167 [Test worker] LogClass - Navigate to url yatra 
+[INFO ] 2021-07-11 15:19:49.558 [Test worker] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-11 15:19:49.926 [Test worker] LogClass - Mouseover on sign in button menu
+[INFO ] 2021-07-11 15:19:50.601 [Test worker] LogClass - Clicking on signIn Button
+[INFO ] 2021-07-11 15:19:57.498 [Test worker] LogClass - Entering email id: diliprathod32@gmail.com
+[INFO ] 2021-07-11 15:19:58.012 [Test worker] LogClass - Clicking on continue button
+[INFO ] 2021-07-11 15:19:58.902 [Test worker] LogClass - Entering password: Login@123
+[INFO ] 2021-07-11 15:19:59.939 [Test worker] LogClass - Clicking on Login button
+[INFO ] 2021-07-11 15:20:00.118 [Test worker] LogClass - Login Successfully
+[INFO ] 2021-07-11 15:20:00.704 [Test worker] LogClass - ******************************* End Test Cases ****************************************
