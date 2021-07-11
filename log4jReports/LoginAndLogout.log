@@ -1,0 +1,612 @@
+[INFO ] 2021-07-11 09:03:25.018 [main] LogClass - ******************************* Starting test cases ****************************************
+[INFO ] 2021-07-11 09:03:26.315 [main] LogClass - launching the Chrome browser
+[INFO ] 2021-07-11 09:03:28.908 [main] LogClass - Navigate to url yatra 
+[INFO ] 2021-07-11 09:03:55.158 [main] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-11 09:03:55.485 [main] LogClass - Mouseover on sign in button menu
+[INFO ] 2021-07-11 09:03:56.366 [main] LogClass - Clicking on signIn Button
+[INFO ] 2021-07-11 09:04:11.261 [main] LogClass - Entering email id: diliprathod32@gmail.com
+[INFO ] 2021-07-11 09:04:11.864 [main] LogClass - Clicking on continue button
+[INFO ] 2021-07-11 09:04:12.674 [main] LogClass - Entering password: Login@123
+[INFO ] 2021-07-11 09:04:13.586 [main] LogClass - Clicking on Login button
+[INFO ] 2021-07-11 09:04:14.083 [main] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-11 09:04:14.385 [main] LogClass - mouse hovering on logout sub menu
+[ERROR] 2021-07-11 09:04:17.974 [main] LogClass - LogInlogOutTest :take failed screenshot in Ilistner method
+[INFO ] 2021-07-11 09:04:18.640 [main] LogClass - ******************************* End Test Cases ****************************************
+[INFO ] 2021-07-11 09:06:28.376 [main] LogClass - ******************************* Starting test cases ****************************************
+[INFO ] 2021-07-11 09:06:28.887 [main] LogClass - launching the Chrome browser
+[INFO ] 2021-07-11 09:06:29.914 [main] LogClass - Navigate to url yatra 
+[INFO ] 2021-07-11 09:06:47.953 [main] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-11 09:06:48.260 [main] LogClass - Mouseover on sign in button menu
+[INFO ] 2021-07-11 09:06:49.048 [main] LogClass - Clicking on signIn Button
+[INFO ] 2021-07-11 09:06:59.190 [main] LogClass - Entering email id: diliprathod32@gmail.com
+[INFO ] 2021-07-11 09:06:59.639 [main] LogClass - Clicking on continue button
+[INFO ] 2021-07-11 09:07:00.461 [main] LogClass - Entering password: Login@123
+[ERROR] 2021-07-11 09:07:01.665 [main] LogClass - LogInlogOutTest :take failed screenshot in Ilistner method
+[INFO ] 2021-07-11 09:07:01.958 [main] LogClass - ******************************* End Test Cases ****************************************
+[INFO ] 2021-07-11 09:07:44.559 [Test worker] LogClass - ******************************* Starting test cases ****************************************
+[INFO ] 2021-07-11 09:07:45.069 [Test worker] LogClass - launching the Chrome browser
+[INFO ] 2021-07-11 09:07:46.095 [Test worker] LogClass - Navigate to url yatra 
+[INFO ] 2021-07-11 09:08:13.542 [Test worker] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-11 09:08:13.851 [Test worker] LogClass - Mouseover on sign in button menu
+[INFO ] 2021-07-11 09:08:14.674 [Test worker] LogClass - Clicking on signIn Button
+[INFO ] 2021-07-11 09:08:21.718 [Test worker] LogClass - Entering email id: diliprathod32@gmail.com
+[INFO ] 2021-07-11 09:08:22.199 [Test worker] LogClass - Clicking on continue button
+[INFO ] 2021-07-11 09:08:23.016 [Test worker] LogClass - Entering password: Login@123
+[INFO ] 2021-07-11 09:08:24.031 [Test worker] LogClass - Clicking on Login button
+[INFO ] 2021-07-11 09:08:24.511 [Test worker] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-11 09:08:24.812 [Test worker] LogClass - mouse hovering on logout sub menu
+[INFO ] 2021-07-11 09:08:26.833 [Test worker] LogClass - Clicking on sub menu logout
+[INFO ] 2021-07-11 09:08:31.904 [Test worker] LogClass - LogInlogOutTest :take success screenshot in ITestlistner method
+[INFO ] 2021-07-11 09:08:32.376 [Test worker] LogClass - ******************************* End Test Cases ****************************************
+[INFO ] 2021-07-11 09:09:40.961 [main] LogClass - ******************************* Starting test cases ****************************************
+[INFO ] 2021-07-11 09:09:41.478 [main] LogClass - launching the Chrome browser
+[INFO ] 2021-07-11 09:09:42.480 [main] LogClass - Navigate to url yatra 
+[INFO ] 2021-07-11 09:09:56.385 [main] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-11 09:09:56.694 [main] LogClass - Mouseover on sign in button menu
+[INFO ] 2021-07-11 09:09:57.406 [main] LogClass - Clicking on signIn Button
+[INFO ] 2021-07-11 09:10:08.311 [main] LogClass - Entering email id: diliprathod32@gmail.com
+[INFO ] 2021-07-11 09:10:08.781 [main] LogClass - Clicking on continue button
+[INFO ] 2021-07-11 09:10:09.595 [main] LogClass - Entering password: Login@123
+[INFO ] 2021-07-11 09:10:10.522 [main] LogClass - Clicking on Login button
+[INFO ] 2021-07-11 09:10:11.029 [main] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-11 09:10:11.331 [main] LogClass - mouse hovering on logout sub menu
+[INFO ] 2021-07-11 09:10:13.255 [main] LogClass - Clicking on sub menu logout
+[INFO ] 2021-07-11 09:10:17.017 [main] LogClass - LogInlogOutTest :take success screenshot in ITestlistner method
+[INFO ] 2021-07-11 09:10:17.566 [main] LogClass - ******************************* End Test Cases ****************************************
+[INFO ] 2021-07-11 09:11:53.608 [main] LogClass - ******************************* Starting test cases ****************************************
+[INFO ] 2021-07-11 09:11:54.183 [main] LogClass - launching the Chrome browser
+[INFO ] 2021-07-11 09:11:55.215 [main] LogClass - Navigate to url yatra 
+[INFO ] 2021-07-11 09:12:11.372 [main] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-11 09:12:11.677 [main] LogClass - Mouseover on sign in button menu
+[INFO ] 2021-07-11 09:12:12.371 [main] LogClass - Clicking on signIn Button
+[INFO ] 2021-07-11 09:12:18.736 [main] LogClass - Entering email id: diliprathod32@gmail.com
+[INFO ] 2021-07-11 09:12:19.186 [main] LogClass - Clicking on continue button
+[INFO ] 2021-07-11 09:12:20.014 [main] LogClass - Entering password: Login@123
+[INFO ] 2021-07-11 09:12:20.950 [main] LogClass - Clicking on Login button
+[INFO ] 2021-07-11 09:12:21.427 [main] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-11 09:12:21.728 [main] LogClass - mouse hovering on logout sub menu
+[INFO ] 2021-07-11 09:12:23.771 [main] LogClass - Clicking on sub menu logout
+[INFO ] 2021-07-11 09:12:25.617 [main] LogClass - LogInlogOutTest :take success screenshot in ITestlistner method
+[INFO ] 2021-07-11 09:12:26.550 [main] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-11 09:12:26.851 [main] LogClass - Mouseover on sign in button menu
+[INFO ] 2021-07-11 09:12:27.558 [main] LogClass - Clicking on signIn Button
+[INFO ] 2021-07-11 09:12:30.755 [main] LogClass - Entering email id: diliprathod32@gmail.com
+[INFO ] 2021-07-11 09:12:31.191 [main] LogClass - Clicking on continue button
+[INFO ] 2021-07-11 09:12:32.020 [main] LogClass - Entering password: Login@123
+[INFO ] 2021-07-11 09:12:32.989 [main] LogClass - Clicking on Login button
+[INFO ] 2021-07-11 09:12:33.501 [main] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-11 09:12:33.803 [main] LogClass - mouse hovering on logout sub menu
+[INFO ] 2021-07-11 09:12:35.480 [main] LogClass - Clicking on sub menu logout
+[INFO ] 2021-07-11 09:12:37.576 [main] LogClass - loginUsingDataProviderFromExcelFileTest :take success screenshot in ITestlistner method
+[INFO ] 2021-07-11 09:12:38.379 [main] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-11 09:12:38.680 [main] LogClass - Mouseover on sign in button menu
+[INFO ] 2021-07-11 09:12:39.369 [main] LogClass - Clicking on signIn Button
+[INFO ] 2021-07-11 09:12:45.056 [main] LogClass - Entering email id: diliprathod32@gmail.com
+[INFO ] 2021-07-11 09:12:45.495 [main] LogClass - Clicking on continue button
+[INFO ] 2021-07-11 09:12:46.286 [main] LogClass - Entering password: Login@123
+[INFO ] 2021-07-11 09:12:47.214 [main] LogClass - Clicking on Login button
+[INFO ] 2021-07-11 09:12:47.709 [main] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-11 09:12:48.010 [main] LogClass - mouse hovering on logout sub menu
+[ERROR] 2021-07-11 09:12:48.354 [main] LogClass - loginUsingDataProviderFromExcelFileTest :take failed screenshot in Ilistner method
+[INFO ] 2021-07-11 09:12:49.064 [main] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-11 09:12:49.365 [main] LogClass - Mouseover on sign in button menu
+[INFO ] 2021-07-11 09:12:50.077 [main] LogClass - ******************************* End Test Cases ****************************************
+[INFO ] 2021-07-11 09:14:51.227 [main] LogClass - ******************************* Starting test cases ****************************************
+[INFO ] 2021-07-11 09:14:51.759 [main] LogClass - launching the Chrome browser
+[INFO ] 2021-07-11 09:14:52.724 [main] LogClass - Navigate to url yatra 
+[INFO ] 2021-07-11 09:15:00.004 [main] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-11 09:15:00.312 [main] LogClass - Mouseover on sign in button menu
+[INFO ] 2021-07-11 09:15:01.169 [main] LogClass - Clicking on signIn Button
+[INFO ] 2021-07-11 09:15:04.676 [main] LogClass - Entering email id: diliprathod32@gmail.com
+[INFO ] 2021-07-11 09:15:05.152 [main] LogClass - Clicking on continue button
+[INFO ] 2021-07-11 09:15:05.986 [main] LogClass - Entering password: Login@123
+[INFO ] 2021-07-11 09:15:06.912 [main] LogClass - Clicking on Login button
+[INFO ] 2021-07-11 09:15:07.438 [main] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-11 09:15:07.742 [main] LogClass - mouse hovering on logout sub menu
+[INFO ] 2021-07-11 09:15:09.368 [main] LogClass - Clicking on sub menu logout
+[INFO ] 2021-07-11 09:15:11.766 [main] LogClass - LogInlogOutTest :take success screenshot in ITestlistner method
+[INFO ] 2021-07-11 09:15:12.663 [main] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-11 09:15:12.964 [main] LogClass - Mouseover on sign in button menu
+[INFO ] 2021-07-11 09:15:13.659 [main] LogClass - Clicking on signIn Button
+[INFO ] 2021-07-11 09:15:16.474 [main] LogClass - Entering email id: diliprathod32@gmail.com
+[INFO ] 2021-07-11 09:15:16.957 [main] LogClass - Clicking on continue button
+[INFO ] 2021-07-11 09:15:17.765 [main] LogClass - Entering password: Login@123
+[INFO ] 2021-07-11 09:15:18.684 [main] LogClass - Clicking on Login button
+[INFO ] 2021-07-11 09:15:19.191 [main] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-11 09:15:19.491 [main] LogClass - mouse hovering on logout sub menu
+[INFO ] 2021-07-11 09:15:20.714 [main] LogClass - Clicking on sub menu logout
+[INFO ] 2021-07-11 09:15:22.576 [main] LogClass - loginUsingDataProviderFromExcelFileTest :take success screenshot in ITestlistner method
+[INFO ] 2021-07-11 09:15:23.397 [main] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-11 09:15:23.699 [main] LogClass - Mouseover on sign in button menu
+[INFO ] 2021-07-11 09:15:24.392 [main] LogClass - Clicking on signIn Button
+[INFO ] 2021-07-11 09:15:27.307 [main] LogClass - Entering email id: diliprathod32@gmail.com
+[INFO ] 2021-07-11 09:15:27.754 [main] LogClass - Clicking on continue button
+[INFO ] 2021-07-11 09:15:28.584 [main] LogClass - Entering password: Login@123
+[INFO ] 2021-07-11 09:15:29.515 [main] LogClass - Clicking on Login button
+[INFO ] 2021-07-11 09:15:30.017 [main] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-11 09:15:30.317 [main] LogClass - mouse hovering on logout sub menu
+[INFO ] 2021-07-11 09:15:31.476 [main] LogClass - Clicking on sub menu logout
+[INFO ] 2021-07-11 09:15:32.671 [main] LogClass - loginUsingDataProviderFromExcelFileTest :take success screenshot in ITestlistner method
+[INFO ] 2021-07-11 09:15:33.447 [main] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-11 09:15:33.748 [main] LogClass - Mouseover on sign in button menu
+[INFO ] 2021-07-11 09:15:34.440 [main] LogClass - Clicking on signIn Button
+[INFO ] 2021-07-11 09:15:36.614 [main] LogClass - Entering email id: diliprathod32@gmail.com
+[INFO ] 2021-07-11 09:15:37.063 [main] LogClass - Clicking on continue button
+[INFO ] 2021-07-11 09:15:37.879 [main] LogClass - Entering password: Abc@123
+[INFO ] 2021-07-11 09:15:38.864 [main] LogClass - Clicking on Login button
+[INFO ] 2021-07-11 09:15:39.379 [main] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-11 09:15:39.681 [main] LogClass - mouse hovering on logout sub menu
+[INFO ] 2021-07-11 09:15:40.334 [main] LogClass - ******************************* End Test Cases ****************************************
+[INFO ] 2021-07-11 09:18:06.844 [main] LogClass - ******************************* Starting test cases ****************************************
+[INFO ] 2021-07-11 09:18:07.330 [main] LogClass - launching the Chrome browser
+[INFO ] 2021-07-11 09:18:08.317 [main] LogClass - Navigate to url yatra 
+[INFO ] 2021-07-11 09:18:14.689 [main] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-11 09:18:14.996 [main] LogClass - Mouseover on sign in button menu
+[INFO ] 2021-07-11 09:18:15.760 [main] LogClass - Clicking on signIn Button
+[INFO ] 2021-07-11 09:18:19.402 [main] LogClass - Entering email id: diliprathod32@gmail.com
+[INFO ] 2021-07-11 09:18:19.855 [main] LogClass - Clicking on continue button
+[INFO ] 2021-07-11 09:18:20.673 [main] LogClass - Entering password: Login@123
+[INFO ] 2021-07-11 09:18:21.602 [main] LogClass - Clicking on Login button
+[INFO ] 2021-07-11 09:18:22.103 [main] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-11 09:18:22.405 [main] LogClass - mouse hovering on logout sub menu
+[INFO ] 2021-07-11 09:18:23.740 [main] LogClass - Clicking on sub menu logout
+[INFO ] 2021-07-11 09:18:25.510 [main] LogClass - LogInlogOutTest :take success screenshot in ITestlistner method
+[INFO ] 2021-07-11 09:18:26.460 [main] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-11 09:18:26.761 [main] LogClass - Mouseover on sign in button menu
+[INFO ] 2021-07-11 09:18:27.489 [main] LogClass - Clicking on signIn Button
+[INFO ] 2021-07-11 09:18:30.040 [main] LogClass - Entering email id: diliprathod32@gmail.com
+[INFO ] 2021-07-11 09:18:30.483 [main] LogClass - Clicking on continue button
+[INFO ] 2021-07-11 09:18:31.307 [main] LogClass - Entering password: Login@123
+[INFO ] 2021-07-11 09:18:32.288 [main] LogClass - Clicking on Login button
+[INFO ] 2021-07-11 09:18:32.792 [main] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-11 09:18:33.093 [main] LogClass - mouse hovering on logout sub menu
+[INFO ] 2021-07-11 09:18:34.444 [main] LogClass - Clicking on sub menu logout
+[INFO ] 2021-07-11 09:18:35.573 [main] LogClass - loginUsingDataProviderFromExcelFileTest :take success screenshot in ITestlistner method
+[INFO ] 2021-07-11 09:18:36.355 [main] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-11 09:18:36.656 [main] LogClass - Mouseover on sign in button menu
+[INFO ] 2021-07-11 09:18:37.356 [main] LogClass - Clicking on signIn Button
+[INFO ] 2021-07-11 09:18:39.799 [main] LogClass - Entering email id: diliprathod32@gmail.com
+[INFO ] 2021-07-11 09:18:40.255 [main] LogClass - Clicking on continue button
+[INFO ] 2021-07-11 09:18:41.075 [main] LogClass - Entering password: Login@123
+[INFO ] 2021-07-11 09:18:41.995 [main] LogClass - Clicking on Login button
+[INFO ] 2021-07-11 09:18:42.499 [main] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-11 09:18:42.800 [main] LogClass - mouse hovering on logout sub menu
+[INFO ] 2021-07-11 09:18:44.406 [main] LogClass - Clicking on sub menu logout
+[INFO ] 2021-07-11 09:18:45.630 [main] LogClass - loginUsingDataProviderFromExcelFileTest :take success screenshot in ITestlistner method
+[INFO ] 2021-07-11 09:18:46.404 [main] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-11 09:18:46.705 [main] LogClass - Mouseover on sign in button menu
+[INFO ] 2021-07-11 09:18:47.372 [main] LogClass - Clicking on signIn Button
+[INFO ] 2021-07-11 09:18:49.689 [main] LogClass - Entering email id: diliprathod32@gmail.com
+[INFO ] 2021-07-11 09:18:50.140 [main] LogClass - Clicking on continue button
+[INFO ] 2021-07-11 09:18:50.951 [main] LogClass - Entering password: Abc@123
+[INFO ] 2021-07-11 09:18:51.921 [main] LogClass - Clicking on Login button
+[INFO ] 2021-07-11 09:18:52.446 [main] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-11 09:18:52.747 [main] LogClass - mouse hovering on logout sub menu
+[INFO ] 2021-07-11 09:18:53.311 [main] LogClass - ******************************* End Test Cases ****************************************
+[INFO ] 2021-07-11 09:19:29.927 [main] LogClass - ******************************* Starting test cases ****************************************
+[INFO ] 2021-07-11 09:19:30.403 [main] LogClass - launching the Chrome browser
+[INFO ] 2021-07-11 09:19:31.407 [main] LogClass - Navigate to url yatra 
+[INFO ] 2021-07-11 09:19:37.669 [main] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-11 09:19:37.972 [main] LogClass - Mouseover on sign in button menu
+[INFO ] 2021-07-11 09:19:38.765 [main] LogClass - Clicking on signIn Button
+[INFO ] 2021-07-11 09:19:41.982 [main] LogClass - Entering email id: diliprathod32@gmail.com
+[INFO ] 2021-07-11 09:19:42.450 [main] LogClass - Clicking on continue button
+[INFO ] 2021-07-11 09:19:43.274 [main] LogClass - Entering password: Login@123
+[INFO ] 2021-07-11 09:19:44.244 [main] LogClass - Clicking on Login button
+[INFO ] 2021-07-11 09:19:44.743 [main] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-11 09:19:45.043 [main] LogClass - mouse hovering on logout sub menu
+[INFO ] 2021-07-11 09:19:46.221 [main] LogClass - Clicking on sub menu logout
+[INFO ] 2021-07-11 09:19:48.522 [main] LogClass - LogInlogOutTest :take success screenshot in ITestlistner method
+[INFO ] 2021-07-11 09:19:49.452 [main] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-11 09:19:49.753 [main] LogClass - Mouseover on sign in button menu
+[INFO ] 2021-07-11 09:19:50.448 [main] LogClass - Clicking on signIn Button
+[INFO ] 2021-07-11 09:19:53.083 [main] LogClass - Entering email id: diliprathod32@gmail.com
+[INFO ] 2021-07-11 09:19:53.524 [main] LogClass - Clicking on continue button
+[INFO ] 2021-07-11 09:19:54.355 [main] LogClass - Entering password: Login@123
+[INFO ] 2021-07-11 09:19:55.343 [main] LogClass - Clicking on Login button
+[INFO ] 2021-07-11 09:19:55.849 [main] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-11 09:19:56.150 [main] LogClass - mouse hovering on logout sub menu
+[INFO ] 2021-07-11 09:19:57.587 [main] LogClass - Clicking on sub menu logout
+[INFO ] 2021-07-11 09:19:58.735 [main] LogClass - loginUsingDataProviderFromExcelFileTest :take success screenshot in ITestlistner method
+[INFO ] 2021-07-11 09:19:59.522 [main] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-11 09:19:59.823 [main] LogClass - Mouseover on sign in button menu
+[INFO ] 2021-07-11 09:20:00.534 [main] LogClass - Clicking on signIn Button
+[INFO ] 2021-07-11 09:20:02.771 [main] LogClass - Entering email id: diliprathod32@gmail.com
+[INFO ] 2021-07-11 09:20:03.219 [main] LogClass - Clicking on continue button
+[INFO ] 2021-07-11 09:20:04.061 [main] LogClass - Entering password: Login@123
+[INFO ] 2021-07-11 09:20:05.003 [main] LogClass - Clicking on Login button
+[INFO ] 2021-07-11 09:20:05.501 [main] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-11 09:20:05.802 [main] LogClass - mouse hovering on logout sub menu
+[INFO ] 2021-07-11 09:20:07.130 [main] LogClass - Clicking on sub menu logout
+[INFO ] 2021-07-11 09:20:09.392 [main] LogClass - loginUsingDataProviderFromExcelFileTest :take success screenshot in ITestlistner method
+[INFO ] 2021-07-11 09:20:10.185 [main] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-11 09:20:10.487 [main] LogClass - Mouseover on sign in button menu
+[INFO ] 2021-07-11 09:20:11.207 [main] LogClass - Clicking on signIn Button
+[INFO ] 2021-07-11 09:20:13.683 [main] LogClass - Entering email id: diliprathod32@gmail.com
+[INFO ] 2021-07-11 09:20:14.144 [main] LogClass - Clicking on continue button
+[INFO ] 2021-07-11 09:20:14.995 [main] LogClass - Entering password: Abc@123
+[INFO ] 2021-07-11 09:20:15.943 [main] LogClass - Clicking on Login button
+[INFO ] 2021-07-11 09:20:16.446 [main] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-11 09:20:16.747 [main] LogClass - mouse hovering on logout sub menu
+[INFO ] 2021-07-11 09:20:17.328 [main] LogClass - ******************************* End Test Cases ****************************************
+[INFO ] 2021-07-11 09:25:48.881 [main] LogClass - ******************************* Starting test cases ****************************************
+[INFO ] 2021-07-11 09:25:49.402 [main] LogClass - launching the Chrome browser
+[INFO ] 2021-07-11 09:25:50.506 [main] LogClass - Navigate to url yatra 
+[INFO ] 2021-07-11 09:25:58.734 [main] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-11 09:25:59.041 [main] LogClass - Mouseover on sign in button menu
+[INFO ] 2021-07-11 09:25:59.892 [main] LogClass - Clicking on signIn Button
+[INFO ] 2021-07-11 09:26:03.029 [main] LogClass - Entering email id: diliprathod32@gmail.com
+[INFO ] 2021-07-11 09:26:03.512 [main] LogClass - Clicking on continue button
+[INFO ] 2021-07-11 09:26:04.339 [main] LogClass - Entering password: Login@123
+[INFO ] 2021-07-11 09:26:05.348 [main] LogClass - Clicking on Login button
+[INFO ] 2021-07-11 09:26:05.858 [main] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-11 09:26:06.160 [main] LogClass - mouse hovering on logout sub menu
+[INFO ] 2021-07-11 09:26:07.536 [main] LogClass - Clicking on sub menu logout
+[INFO ] 2021-07-11 09:26:09.977 [main] LogClass - LogInlogOutTest :take success screenshot in ITestlistner method
+[INFO ] 2021-07-11 09:26:10.905 [main] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-11 09:26:11.207 [main] LogClass - Mouseover on sign in button menu
+[INFO ] 2021-07-11 09:26:11.886 [main] LogClass - Clicking on signIn Button
+[INFO ] 2021-07-11 09:26:14.139 [main] LogClass - Entering email id: diliprathod32@gmail.com
+[INFO ] 2021-07-11 09:26:14.625 [main] LogClass - Clicking on continue button
+[INFO ] 2021-07-11 09:26:15.474 [main] LogClass - Entering password: Login@123
+[INFO ] 2021-07-11 09:26:16.371 [main] LogClass - Clicking on Login button
+[INFO ] 2021-07-11 09:26:16.873 [main] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-11 09:26:17.175 [main] LogClass - mouse hovering on logout sub menu
+[INFO ] 2021-07-11 09:26:18.380 [main] LogClass - Clicking on sub menu logout
+[INFO ] 2021-07-11 09:26:19.695 [main] LogClass - loginUsingDataProviderFromExcelFileTest :take success screenshot in ITestlistner method
+[INFO ] 2021-07-11 09:26:20.559 [main] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-11 09:26:20.860 [main] LogClass - Mouseover on sign in button menu
+[INFO ] 2021-07-11 09:26:21.544 [main] LogClass - Clicking on signIn Button
+[INFO ] 2021-07-11 09:26:23.815 [main] LogClass - Entering email id: diliprathod32@gmail.com
+[INFO ] 2021-07-11 09:26:24.279 [main] LogClass - Clicking on continue button
+[INFO ] 2021-07-11 09:26:25.103 [main] LogClass - Entering password: Login@123
+[INFO ] 2021-07-11 09:26:26.026 [main] LogClass - Clicking on Login button
+[INFO ] 2021-07-11 09:26:26.495 [main] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-11 09:26:26.795 [main] LogClass - mouse hovering on logout sub menu
+[INFO ] 2021-07-11 09:26:27.997 [main] LogClass - Clicking on sub menu logout
+[INFO ] 2021-07-11 09:26:29.958 [main] LogClass - loginUsingDataProviderFromExcelFileTest :take success screenshot in ITestlistner method
+[INFO ] 2021-07-11 09:26:30.779 [main] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-11 09:26:31.080 [main] LogClass - Mouseover on sign in button menu
+[INFO ] 2021-07-11 09:26:31.745 [main] LogClass - Clicking on signIn Button
+[INFO ] 2021-07-11 09:26:34.471 [main] LogClass - Entering email id: diliprathod32@gmail.com
+[INFO ] 2021-07-11 09:26:34.894 [main] LogClass - Clicking on continue button
+[INFO ] 2021-07-11 09:26:35.746 [main] LogClass - Entering password: Abc@123
+[INFO ] 2021-07-11 09:26:36.696 [main] LogClass - Clicking on Login button
+[INFO ] 2021-07-11 09:26:37.181 [main] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-11 09:26:37.483 [main] LogClass - mouse hovering on logout sub menu
+[INFO ] 2021-07-11 09:26:38.005 [main] LogClass - ******************************* End Test Cases ****************************************
+[INFO ] 2021-07-11 09:30:17.602 [main] LogClass - ******************************* Starting test cases ****************************************
+[INFO ] 2021-07-11 09:30:18.094 [main] LogClass - launching the Chrome browser
+[INFO ] 2021-07-11 09:30:19.152 [main] LogClass - Navigate to url yatra 
+[INFO ] 2021-07-11 09:30:27.998 [main] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-11 09:30:28.310 [main] LogClass - Mouseover on sign in button menu
+[INFO ] 2021-07-11 09:30:29.070 [main] LogClass - Clicking on signIn Button
+[INFO ] 2021-07-11 09:30:33.315 [main] LogClass - Entering email id: diliprathod32@gmail.com
+[INFO ] 2021-07-11 09:30:33.791 [main] LogClass - Clicking on continue button
+[INFO ] 2021-07-11 09:30:34.610 [main] LogClass - Entering password: Login@123
+[INFO ] 2021-07-11 09:30:35.531 [main] LogClass - Clicking on Login button
+[INFO ] 2021-07-11 09:30:36.032 [main] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-11 09:30:36.333 [main] LogClass - mouse hovering on logout sub menu
+[INFO ] 2021-07-11 09:30:37.743 [main] LogClass - Clicking on sub menu logout
+[INFO ] 2021-07-11 09:30:39.504 [main] LogClass - LogInlogOutTest :take success screenshot in ITestlistner method
+[INFO ] 2021-07-11 09:30:40.461 [main] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-11 09:30:40.763 [main] LogClass - Mouseover on sign in button menu
+[INFO ] 2021-07-11 09:30:41.464 [main] LogClass - Clicking on signIn Button
+[INFO ] 2021-07-11 09:30:44.223 [main] LogClass - Entering email id: diliprathod32@gmail.com
+[INFO ] 2021-07-11 09:30:44.652 [main] LogClass - Clicking on continue button
+[INFO ] 2021-07-11 09:30:45.484 [main] LogClass - Entering password: Login@123
+[INFO ] 2021-07-11 09:30:46.411 [main] LogClass - Clicking on Login button
+[INFO ] 2021-07-11 09:30:46.881 [main] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-11 09:30:47.182 [main] LogClass - mouse hovering on logout sub menu
+[INFO ] 2021-07-11 09:30:48.567 [main] LogClass - Clicking on sub menu logout
+[INFO ] 2021-07-11 09:30:50.993 [main] LogClass - loginUsingDataProviderFromExcelFileTest :take success screenshot in ITestlistner method
+[INFO ] 2021-07-11 09:30:51.782 [main] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-11 09:30:52.083 [main] LogClass - Mouseover on sign in button menu
+[INFO ] 2021-07-11 09:30:52.780 [main] LogClass - Clicking on signIn Button
+[INFO ] 2021-07-11 09:30:55.542 [main] LogClass - Entering email id: diliprathod32@gmail.com
+[INFO ] 2021-07-11 09:30:55.977 [main] LogClass - Clicking on continue button
+[INFO ] 2021-07-11 09:30:56.798 [main] LogClass - Entering password: Login@123
+[INFO ] 2021-07-11 09:30:57.722 [main] LogClass - Clicking on Login button
+[INFO ] 2021-07-11 09:30:58.233 [main] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-11 09:30:58.536 [main] LogClass - mouse hovering on logout sub menu
+[INFO ] 2021-07-11 09:31:00.125 [main] LogClass - Clicking on sub menu logout
+[INFO ] 2021-07-11 09:31:02.148 [main] LogClass - loginUsingDataProviderFromExcelFileTest :take success screenshot in ITestlistner method
+[INFO ] 2021-07-11 09:31:02.929 [main] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-11 09:31:03.231 [main] LogClass - Mouseover on sign in button menu
+[INFO ] 2021-07-11 09:31:03.931 [main] LogClass - Clicking on signIn Button
+[INFO ] 2021-07-11 09:31:07.032 [main] LogClass - Entering email id: diliprathod32@gmail.com
+[INFO ] 2021-07-11 09:31:07.474 [main] LogClass - Clicking on continue button
+[INFO ] 2021-07-11 09:31:08.301 [main] LogClass - Entering password: Abc@123
+[INFO ] 2021-07-11 09:31:09.277 [main] LogClass - Clicking on Login button
+[INFO ] 2021-07-11 09:31:09.779 [main] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-11 09:31:10.080 [main] LogClass - mouse hovering on logout sub menu
+[INFO ] 2021-07-11 09:31:10.705 [main] LogClass - ******************************* End Test Cases ****************************************
+[INFO ] 2021-07-11 09:41:27.400 [main] LogClass - ******************************* Starting test cases ****************************************
+[INFO ] 2021-07-11 09:41:27.876 [main] LogClass - launching the Chrome browser
+[INFO ] 2021-07-11 09:41:28.943 [main] LogClass - Navigate to url yatra 
+[INFO ] 2021-07-11 09:41:36.168 [main] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-11 09:41:36.474 [main] LogClass - Mouseover on sign in button menu
+[INFO ] 2021-07-11 09:41:37.180 [main] LogClass - Clicking on signIn Button
+[INFO ] 2021-07-11 09:41:47.533 [main] LogClass - Entering email id: diliprathod32@gmail.com
+[INFO ] 2021-07-11 09:41:48.015 [main] LogClass - Clicking on continue button
+[INFO ] 2021-07-11 09:41:48.837 [main] LogClass - Entering password: Login@123
+[INFO ] 2021-07-11 09:41:49.776 [main] LogClass - Clicking on Login button
+[INFO ] 2021-07-11 09:41:50.285 [main] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-11 09:41:50.586 [main] LogClass - mouse hovering on logout sub menu
+[INFO ] 2021-07-11 09:41:52.243 [main] LogClass - Clicking on sub menu logout
+[INFO ] 2021-07-11 09:41:55.123 [main] LogClass - LogInlogOutTest :take success screenshot in ITestlistner method
+[INFO ] 2021-07-11 09:41:56.031 [main] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-11 09:41:56.331 [main] LogClass - Mouseover on sign in button menu
+[INFO ] 2021-07-11 09:41:57.052 [main] LogClass - Clicking on signIn Button
+[INFO ] 2021-07-11 09:42:05.900 [main] LogClass - Entering email id: diliprathod32@gmail.com
+[INFO ] 2021-07-11 09:42:06.373 [main] LogClass - Clicking on continue button
+[INFO ] 2021-07-11 09:42:07.218 [main] LogClass - Entering password: Login@123
+[INFO ] 2021-07-11 09:42:08.139 [main] LogClass - Clicking on Login button
+[INFO ] 2021-07-11 09:42:08.639 [main] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-11 09:42:08.940 [main] LogClass - mouse hovering on logout sub menu
+[INFO ] 2021-07-11 09:42:10.349 [main] LogClass - Clicking on sub menu logout
+[INFO ] 2021-07-11 09:42:12.257 [main] LogClass - loginUsingDataProviderFromExcelFileTest :take success screenshot in ITestlistner method
+[INFO ] 2021-07-11 09:42:13.052 [main] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-11 09:42:13.353 [main] LogClass - Mouseover on sign in button menu
+[INFO ] 2021-07-11 09:42:14.053 [main] LogClass - Clicking on signIn Button
+[INFO ] 2021-07-11 09:42:16.856 [main] LogClass - Entering email id: diliprathod32@gmail.com
+[INFO ] 2021-07-11 09:42:17.316 [main] LogClass - Clicking on continue button
+[INFO ] 2021-07-11 09:42:18.148 [main] LogClass - Entering password: Login@123
+[INFO ] 2021-07-11 09:42:19.083 [main] LogClass - Clicking on Login button
+[INFO ] 2021-07-11 09:42:19.578 [main] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-11 09:42:19.879 [main] LogClass - mouse hovering on logout sub menu
+[INFO ] 2021-07-11 09:42:21.149 [main] LogClass - Clicking on sub menu logout
+[INFO ] 2021-07-11 09:42:23.401 [main] LogClass - loginUsingDataProviderFromExcelFileTest :take success screenshot in ITestlistner method
+[INFO ] 2021-07-11 09:42:24.218 [main] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-11 09:42:24.519 [main] LogClass - Mouseover on sign in button menu
+[INFO ] 2021-07-11 09:42:25.249 [main] LogClass - Clicking on signIn Button
+[INFO ] 2021-07-11 09:42:27.963 [main] LogClass - Entering email id: diliprathod32@gmail.com
+[INFO ] 2021-07-11 09:42:28.404 [main] LogClass - Clicking on continue button
+[INFO ] 2021-07-11 09:42:29.227 [main] LogClass - Entering password: Abc@123
+[INFO ] 2021-07-11 09:42:30.199 [main] LogClass - Clicking on Login button
+[INFO ] 2021-07-11 09:42:30.695 [main] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-11 09:42:30.996 [main] LogClass - mouse hovering on logout sub menu
+[INFO ] 2021-07-11 09:42:31.579 [main] LogClass - ******************************* End Test Cases ****************************************
+[INFO ] 2021-07-11 09:47:47.540 [main] LogClass - ******************************* Starting test cases ****************************************
+[INFO ] 2021-07-11 09:47:48.124 [main] LogClass - launching the Chrome browser
+[INFO ] 2021-07-11 09:47:49.534 [main] LogClass - Navigate to url yatra 
+[INFO ] 2021-07-11 09:47:56.359 [main] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-11 09:47:56.665 [main] LogClass - Mouseover on sign in button menu
+[INFO ] 2021-07-11 09:47:57.392 [main] LogClass - Clicking on signIn Button
+[INFO ] 2021-07-11 09:48:01.227 [main] LogClass - Entering email id: diliprathod32@gmail.com
+[INFO ] 2021-07-11 09:48:01.727 [main] LogClass - Clicking on continue button
+[INFO ] 2021-07-11 09:48:02.537 [main] LogClass - Entering password: Login@123
+[INFO ] 2021-07-11 09:48:03.496 [main] LogClass - Clicking on Login button
+[INFO ] 2021-07-11 09:48:03.988 [main] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-11 09:48:04.289 [main] LogClass - mouse hovering on logout sub menu
+[INFO ] 2021-07-11 09:48:05.904 [main] LogClass - Clicking on sub menu logout
+[INFO ] 2021-07-11 09:48:07.511 [main] LogClass - LogInlogOutTest :take success screenshot in ITestlistner method
+[INFO ] 2021-07-11 09:48:07.999 [main] LogClass - ******************************* End Test Cases ****************************************
+[INFO ] 2021-07-11 09:49:29.262 [main] LogClass - ******************************* Starting test cases ****************************************
+[INFO ] 2021-07-11 09:49:29.746 [main] LogClass - launching the Chrome browser
+[INFO ] 2021-07-11 09:49:30.755 [main] LogClass - Navigate to url yatra 
+[INFO ] 2021-07-11 09:49:38.037 [main] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-11 09:49:38.342 [main] LogClass - Mouseover on sign in button menu
+[INFO ] 2021-07-11 09:49:39.076 [main] LogClass - Clicking on signIn Button
+[INFO ] 2021-07-11 09:49:43.491 [main] LogClass - Entering email id: diliprathod32@gmail.com
+[INFO ] 2021-07-11 09:49:43.940 [main] LogClass - Clicking on continue button
+[INFO ] 2021-07-11 09:49:44.763 [main] LogClass - Entering password: Login@123
+[INFO ] 2021-07-11 09:49:45.724 [main] LogClass - Clicking on Login button
+[INFO ] 2021-07-11 09:49:46.216 [main] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-11 09:49:46.517 [main] LogClass - mouse hovering on logout sub menu
+[ERROR] 2021-07-11 09:49:48.639 [main] LogClass - LogInlogOutTest :take failed screenshot in Ilistner method
+[INFO ] 2021-07-11 09:49:49.677 [main] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-11 09:49:49.978 [main] LogClass - Mouseover on sign in button menu
+[ERROR] 2021-07-11 09:49:50.512 [main] LogClass - loginUsingDataProviderFromExcelFileTest :take failed screenshot in Ilistner method
+[INFO ] 2021-07-11 09:49:51.317 [main] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-11 09:49:51.618 [main] LogClass - Mouseover on sign in button menu
+[ERROR] 2021-07-11 09:49:52.105 [main] LogClass - loginUsingDataProviderFromExcelFileTest :take failed screenshot in Ilistner method
+[INFO ] 2021-07-11 09:49:52.915 [main] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-11 09:49:53.216 [main] LogClass - Mouseover on sign in button menu
+[INFO ] 2021-07-11 09:49:54.128 [main] LogClass - ******************************* End Test Cases ****************************************
+[INFO ] 2021-07-11 09:50:44.837 [main] LogClass - ******************************* Starting test cases ****************************************
+[INFO ] 2021-07-11 09:50:45.342 [main] LogClass - launching the Chrome browser
+[INFO ] 2021-07-11 09:50:46.358 [main] LogClass - Navigate to url yatra 
+[INFO ] 2021-07-11 09:50:53.499 [main] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-11 09:50:53.807 [main] LogClass - Mouseover on sign in button menu
+[INFO ] 2021-07-11 09:50:54.665 [main] LogClass - Clicking on signIn Button
+[INFO ] 2021-07-11 09:50:58.560 [main] LogClass - Entering email id: diliprathod32@gmail.com
+[INFO ] 2021-07-11 09:50:59.056 [main] LogClass - Clicking on continue button
+[INFO ] 2021-07-11 09:50:59.888 [main] LogClass - Entering password: Login@123
+[INFO ] 2021-07-11 09:51:00.836 [main] LogClass - Clicking on Login button
+[INFO ] 2021-07-11 09:51:01.339 [main] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-11 09:51:01.641 [main] LogClass - mouse hovering on logout sub menu
+[INFO ] 2021-07-11 09:51:03.143 [main] LogClass - Clicking on sub menu logout
+[INFO ] 2021-07-11 09:51:04.833 [main] LogClass - LogInlogOutTest :take success screenshot in ITestlistner method
+[INFO ] 2021-07-11 09:51:05.759 [main] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-11 09:51:06.060 [main] LogClass - Mouseover on sign in button menu
+[INFO ] 2021-07-11 09:51:06.773 [main] LogClass - Clicking on signIn Button
+[INFO ] 2021-07-11 09:51:09.248 [main] LogClass - Entering email id: diliprathod32@gmail.com
+[INFO ] 2021-07-11 09:51:09.695 [main] LogClass - Clicking on continue button
+[INFO ] 2021-07-11 09:51:10.524 [main] LogClass - Entering password: Login@123
+[INFO ] 2021-07-11 09:51:11.460 [main] LogClass - Clicking on Login button
+[INFO ] 2021-07-11 09:51:11.950 [main] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-11 09:51:12.251 [main] LogClass - mouse hovering on logout sub menu
+[INFO ] 2021-07-11 09:51:13.845 [main] LogClass - Clicking on sub menu logout
+[INFO ] 2021-07-11 09:51:15.310 [main] LogClass - loginUsingDataProviderFromExcelFileTest :take success screenshot in ITestlistner method
+[INFO ] 2021-07-11 09:51:16.129 [main] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-11 09:51:16.431 [main] LogClass - Mouseover on sign in button menu
+[INFO ] 2021-07-11 09:51:17.126 [main] LogClass - Clicking on signIn Button
+[INFO ] 2021-07-11 09:51:20.082 [main] LogClass - Entering email id: diliprathod32@gmail.com
+[INFO ] 2021-07-11 09:51:20.514 [main] LogClass - Clicking on continue button
+[INFO ] 2021-07-11 09:51:21.343 [main] LogClass - Entering password: Login@123
+[INFO ] 2021-07-11 09:51:22.307 [main] LogClass - Clicking on Login button
+[INFO ] 2021-07-11 09:51:22.814 [main] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-11 09:51:23.115 [main] LogClass - mouse hovering on logout sub menu
+[INFO ] 2021-07-11 09:51:24.716 [main] LogClass - Clicking on sub menu logout
+[INFO ] 2021-07-11 09:51:26.849 [main] LogClass - loginUsingDataProviderFromExcelFileTest :take success screenshot in ITestlistner method
+[INFO ] 2021-07-11 09:51:27.747 [main] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-11 09:51:28.048 [main] LogClass - Mouseover on sign in button menu
+[INFO ] 2021-07-11 09:51:28.756 [main] LogClass - Clicking on signIn Button
+[INFO ] 2021-07-11 09:51:31.824 [main] LogClass - Entering email id: diliprathod32@gmail.com
+[INFO ] 2021-07-11 09:51:32.275 [main] LogClass - Clicking on continue button
+[INFO ] 2021-07-11 09:51:33.116 [main] LogClass - Entering password: Abc@123
+[INFO ] 2021-07-11 09:51:34.046 [main] LogClass - Clicking on Login button
+[INFO ] 2021-07-11 09:51:34.559 [main] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-11 09:51:34.860 [main] LogClass - mouse hovering on logout sub menu
+[INFO ] 2021-07-11 09:51:35.385 [main] LogClass - ******************************* End Test Cases ****************************************
+[INFO ] 2021-07-11 09:53:07.645 [main] LogClass - ******************************* Starting test cases ****************************************
+[INFO ] 2021-07-11 09:53:08.154 [main] LogClass - launching the Chrome browser
+[INFO ] 2021-07-11 09:53:09.353 [main] LogClass - Navigate to url yatra 
+[INFO ] 2021-07-11 09:53:18.741 [main] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-11 09:53:19.050 [main] LogClass - Mouseover on sign in button menu
+[INFO ] 2021-07-11 09:53:19.859 [main] LogClass - Clicking on signIn Button
+[INFO ] 2021-07-11 09:53:23.688 [main] LogClass - Entering email id: diliprathod32@gmail.com
+[INFO ] 2021-07-11 09:53:24.162 [main] LogClass - Clicking on continue button
+[INFO ] 2021-07-11 09:53:25.033 [main] LogClass - Entering password: Login@123
+[INFO ] 2021-07-11 09:53:25.977 [main] LogClass - Clicking on Login button
+[INFO ] 2021-07-11 09:53:26.444 [main] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-11 09:53:26.745 [main] LogClass - mouse hovering on logout sub menu
+[INFO ] 2021-07-11 09:53:28.164 [main] LogClass - Clicking on sub menu logout
+[INFO ] 2021-07-11 09:53:30.635 [main] LogClass - LogInlogOutTest :take success screenshot in ITestlistner method
+[INFO ] 2021-07-11 09:53:31.707 [main] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-11 09:53:32.008 [main] LogClass - Mouseover on sign in button menu
+[INFO ] 2021-07-11 09:53:32.727 [main] LogClass - Clicking on signIn Button
+[INFO ] 2021-07-11 09:53:35.236 [main] LogClass - Entering email id: diliprathod32@gmail.com
+[INFO ] 2021-07-11 09:53:35.687 [main] LogClass - Clicking on continue button
+[INFO ] 2021-07-11 09:53:36.528 [main] LogClass - Entering password: Login@123
+[INFO ] 2021-07-11 09:53:37.505 [main] LogClass - Clicking on Login button
+[INFO ] 2021-07-11 09:53:38.004 [main] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-11 09:53:38.305 [main] LogClass - mouse hovering on logout sub menu
+[INFO ] 2021-07-11 09:53:39.637 [main] LogClass - Clicking on sub menu logout
+[INFO ] 2021-07-11 09:53:41.940 [main] LogClass - loginUsingDataProviderFromExcelFileTest :take success screenshot in ITestlistner method
+[INFO ] 2021-07-11 09:53:42.724 [main] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-11 09:53:43.025 [main] LogClass - Mouseover on sign in button menu
+[INFO ] 2021-07-11 09:53:43.710 [main] LogClass - Clicking on signIn Button
+[INFO ] 2021-07-11 09:53:46.268 [main] LogClass - Entering email id: diliprathod32@gmail.com
+[INFO ] 2021-07-11 09:53:46.712 [main] LogClass - Clicking on continue button
+[INFO ] 2021-07-11 09:53:47.522 [main] LogClass - Entering password: Login@123
+[INFO ] 2021-07-11 09:53:48.455 [main] LogClass - Clicking on Login button
+[INFO ] 2021-07-11 09:53:48.948 [main] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-11 09:53:49.249 [main] LogClass - mouse hovering on logout sub menu
+[INFO ] 2021-07-11 09:53:50.889 [main] LogClass - Clicking on sub menu logout
+[INFO ] 2021-07-11 09:53:52.069 [main] LogClass - loginUsingDataProviderFromExcelFileTest :take success screenshot in ITestlistner method
+[INFO ] 2021-07-11 09:53:52.863 [main] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-11 09:53:53.164 [main] LogClass - Mouseover on sign in button menu
+[INFO ] 2021-07-11 09:53:53.861 [main] LogClass - Clicking on signIn Button
+[INFO ] 2021-07-11 09:53:56.494 [main] LogClass - Entering email id: diliprathod32@gmail.com
+[INFO ] 2021-07-11 09:53:56.961 [main] LogClass - Clicking on continue button
+[INFO ] 2021-07-11 09:53:57.804 [main] LogClass - Entering password: Abc@123
+[INFO ] 2021-07-11 09:53:58.749 [main] LogClass - Clicking on Login button
+[INFO ] 2021-07-11 09:53:59.261 [main] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-11 09:53:59.562 [main] LogClass - mouse hovering on logout sub menu
+[INFO ] 2021-07-11 09:54:00.102 [main] LogClass - ******************************* End Test Cases ****************************************
+[INFO ] 2021-07-11 09:55:24.345 [main] LogClass - ******************************* Starting test cases ****************************************
+[INFO ] 2021-07-11 09:55:24.869 [main] LogClass - launching the Chrome browser
+[INFO ] 2021-07-11 09:55:25.939 [main] LogClass - Navigate to url yatra 
+[INFO ] 2021-07-11 09:55:36.685 [main] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-11 09:55:36.991 [main] LogClass - Mouseover on sign in button menu
+[INFO ] 2021-07-11 09:55:37.694 [main] LogClass - Clicking on signIn Button
+[INFO ] 2021-07-11 09:55:41.606 [main] LogClass - Entering email id: diliprathod32@gmail.com
+[INFO ] 2021-07-11 09:55:42.097 [main] LogClass - Clicking on continue button
+[INFO ] 2021-07-11 09:55:42.985 [main] LogClass - Entering password: Login@123
+[INFO ] 2021-07-11 09:55:43.925 [main] LogClass - Clicking on Login button
+[INFO ] 2021-07-11 09:55:44.439 [main] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-11 09:55:44.741 [main] LogClass - mouse hovering on logout sub menu
+[ERROR] 2021-07-11 09:55:46.735 [main] LogClass - LogInlogOutTest :take failed screenshot in Ilistner method
+[INFO ] 2021-07-11 09:55:47.868 [main] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-11 09:55:48.170 [main] LogClass - Mouseover on sign in button menu
+[ERROR] 2021-07-11 09:55:48.701 [main] LogClass - loginUsingDataProviderFromExcelFileTest :take failed screenshot in Ilistner method
+[INFO ] 2021-07-11 09:55:49.507 [main] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-11 09:55:49.808 [main] LogClass - Mouseover on sign in button menu
+[ERROR] 2021-07-11 09:55:50.303 [main] LogClass - loginUsingDataProviderFromExcelFileTest :take failed screenshot in Ilistner method
+[INFO ] 2021-07-11 09:55:51.114 [main] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-11 09:55:51.414 [main] LogClass - Mouseover on sign in button menu
+[INFO ] 2021-07-11 09:55:52.418 [main] LogClass - ******************************* End Test Cases ****************************************
+[INFO ] 2021-07-11 09:56:14.729 [main] LogClass - ******************************* Starting test cases ****************************************
+[INFO ] 2021-07-11 09:56:15.250 [main] LogClass - launching the Chrome browser
+[INFO ] 2021-07-11 09:56:16.273 [main] LogClass - Navigate to url yatra 
+[INFO ] 2021-07-11 09:56:23.207 [main] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-11 09:56:23.514 [main] LogClass - Mouseover on sign in button menu
+[INFO ] 2021-07-11 09:56:24.202 [main] LogClass - Clicking on signIn Button
+[INFO ] 2021-07-11 09:56:27.603 [main] LogClass - Entering email id: diliprathod32@gmail.com
+[INFO ] 2021-07-11 09:56:28.053 [main] LogClass - Clicking on continue button
+[INFO ] 2021-07-11 09:56:28.881 [main] LogClass - Entering password: Login@123
+[INFO ] 2021-07-11 09:56:29.807 [main] LogClass - Clicking on Login button
+[INFO ] 2021-07-11 09:56:30.291 [main] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-11 09:56:30.592 [main] LogClass - mouse hovering on logout sub menu
+[INFO ] 2021-07-11 09:56:31.885 [main] LogClass - Clicking on sub menu logout
+[INFO ] 2021-07-11 09:56:34.450 [main] LogClass - LogInlogOutTest :take success screenshot in ITestlistner method
+[INFO ] 2021-07-11 09:56:35.391 [main] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-11 09:56:35.693 [main] LogClass - Mouseover on sign in button menu
+[INFO ] 2021-07-11 09:56:36.396 [main] LogClass - Clicking on signIn Button
+[INFO ] 2021-07-11 09:56:38.864 [main] LogClass - Entering email id: diliprathod32@gmail.com
+[INFO ] 2021-07-11 09:56:39.356 [main] LogClass - Clicking on continue button
+[INFO ] 2021-07-11 09:56:40.195 [main] LogClass - Entering password: Login@123
+[INFO ] 2021-07-11 09:56:41.147 [main] LogClass - Clicking on Login button
+[INFO ] 2021-07-11 09:56:41.673 [main] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-11 09:56:41.974 [main] LogClass - mouse hovering on logout sub menu
+[INFO ] 2021-07-11 09:56:43.248 [main] LogClass - Clicking on sub menu logout
+[INFO ] 2021-07-11 09:56:44.432 [main] LogClass - loginUsingDataProviderFromExcelFileTest :take success screenshot in ITestlistner method
+[INFO ] 2021-07-11 09:56:45.225 [main] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-11 09:56:45.527 [main] LogClass - Mouseover on sign in button menu
+[INFO ] 2021-07-11 09:56:46.208 [main] LogClass - Clicking on signIn Button
+[INFO ] 2021-07-11 09:56:48.468 [main] LogClass - Entering email id: diliprathod32@gmail.com
+[INFO ] 2021-07-11 09:56:48.921 [main] LogClass - Clicking on continue button
+[INFO ] 2021-07-11 09:56:49.749 [main] LogClass - Entering password: Login@123
+[INFO ] 2021-07-11 09:56:50.706 [main] LogClass - Clicking on Login button
+[INFO ] 2021-07-11 09:56:51.204 [main] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-11 09:56:51.504 [main] LogClass - mouse hovering on logout sub menu
+[INFO ] 2021-07-11 09:56:52.684 [main] LogClass - Clicking on sub menu logout
+[INFO ] 2021-07-11 09:56:54.492 [main] LogClass - loginUsingDataProviderFromExcelFileTest :take success screenshot in ITestlistner method
+[INFO ] 2021-07-11 09:56:55.257 [main] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-11 09:56:55.559 [main] LogClass - Mouseover on sign in button menu
+[INFO ] 2021-07-11 09:56:56.254 [main] LogClass - Clicking on signIn Button
+[INFO ] 2021-07-11 09:56:59.167 [main] LogClass - Entering email id: diliprathod32@gmail.com
+[INFO ] 2021-07-11 09:56:59.610 [main] LogClass - Clicking on continue button
+[INFO ] 2021-07-11 09:57:00.429 [main] LogClass - Entering password: Abc@123
+[INFO ] 2021-07-11 09:57:01.386 [main] LogClass - Clicking on Login button
+[INFO ] 2021-07-11 09:57:01.881 [main] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-11 09:57:02.182 [main] LogClass - mouse hovering on logout sub menu
+[INFO ] 2021-07-11 09:57:02.900 [main] LogClass - ******************************* End Test Cases ****************************************
+[INFO ] 2021-07-11 09:58:03.202 [main] LogClass - ******************************* Starting test cases ****************************************
+[INFO ] 2021-07-11 09:58:03.693 [main] LogClass - launching the Chrome browser
+[INFO ] 2021-07-11 09:58:04.756 [main] LogClass - Navigate to url yatra 
+[INFO ] 2021-07-11 09:58:11.661 [main] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-11 09:58:11.966 [main] LogClass - Mouseover on sign in button menu
+[INFO ] 2021-07-11 09:58:12.782 [main] LogClass - Clicking on signIn Button
+[INFO ] 2021-07-11 09:58:16.605 [main] LogClass - Entering email id: diliprathod32@gmail.com
+[INFO ] 2021-07-11 09:58:17.134 [main] LogClass - Clicking on continue button
+[INFO ] 2021-07-11 09:58:17.963 [main] LogClass - Entering password: Login@123
+[INFO ] 2021-07-11 09:58:18.903 [main] LogClass - Clicking on Login button
+[INFO ] 2021-07-11 09:58:19.384 [main] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-11 09:58:19.685 [main] LogClass - mouse hovering on logout sub menu
+[INFO ] 2021-07-11 09:58:21.012 [main] LogClass - Clicking on sub menu logout
+[INFO ] 2021-07-11 09:58:22.703 [main] LogClass - LogInlogOutTest :take success screenshot in ITestlistner method
+[INFO ] 2021-07-11 09:58:23.586 [main] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-11 09:58:23.888 [main] LogClass - Mouseover on sign in button menu
+[INFO ] 2021-07-11 09:58:24.589 [main] LogClass - Clicking on signIn Button
+[INFO ] 2021-07-11 09:58:27.077 [main] LogClass - Entering email id: diliprathod32@gmail.com
+[INFO ] 2021-07-11 09:58:27.519 [main] LogClass - Clicking on continue button
+[INFO ] 2021-07-11 09:58:28.355 [main] LogClass - Entering password: Login@123
+[INFO ] 2021-07-11 09:58:29.307 [main] LogClass - Clicking on Login button
+[INFO ] 2021-07-11 09:58:29.795 [main] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-11 09:58:30.096 [main] LogClass - mouse hovering on logout sub menu
+[INFO ] 2021-07-11 09:58:31.644 [main] LogClass - Clicking on sub menu logout
+[INFO ] 2021-07-11 09:58:33.547 [main] LogClass - loginUsingDataProviderFromExcelFileTest :take success screenshot in ITestlistner method
+[INFO ] 2021-07-11 09:58:34.311 [main] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-11 09:58:34.613 [main] LogClass - Mouseover on sign in button menu
+[INFO ] 2021-07-11 09:58:35.320 [main] LogClass - Clicking on signIn Button
+[INFO ] 2021-07-11 09:58:37.634 [main] LogClass - Entering email id: diliprathod32@gmail.com
+[INFO ] 2021-07-11 09:58:38.087 [main] LogClass - Clicking on continue button
+[INFO ] 2021-07-11 09:58:38.906 [main] LogClass - Entering password: Login@123
+[INFO ] 2021-07-11 09:58:39.789 [main] LogClass - Clicking on Login button
+[INFO ] 2021-07-11 09:58:40.298 [main] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-11 09:58:40.599 [main] LogClass - mouse hovering on logout sub menu
+[INFO ] 2021-07-11 09:58:41.904 [main] LogClass - Clicking on sub menu logout
+[INFO ] 2021-07-11 09:58:43.094 [main] LogClass - loginUsingDataProviderFromExcelFileTest :take success screenshot in ITestlistner method
+[INFO ] 2021-07-11 09:58:43.859 [main] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-11 09:58:44.160 [main] LogClass - Mouseover on sign in button menu
+[INFO ] 2021-07-11 09:58:44.845 [main] LogClass - Clicking on signIn Button
+[INFO ] 2021-07-11 09:58:47.174 [main] LogClass - Entering email id: diliprathod32@gmail.com
+[INFO ] 2021-07-11 09:58:47.644 [main] LogClass - Clicking on continue button
+[INFO ] 2021-07-11 09:58:48.457 [main] LogClass - Entering password: Abc@123
+[INFO ] 2021-07-11 09:58:49.434 [main] LogClass - Clicking on Login button
+[INFO ] 2021-07-11 09:58:49.939 [main] LogClass - Mouse hovering on my account menu
+[INFO ] 2021-07-11 09:58:50.240 [main] LogClass - mouse hovering on logout sub menu
+[INFO ] 2021-07-11 09:58:50.800 [main] LogClass - ******************************* End Test Cases ****************************************
